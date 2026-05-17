@@ -5,68 +5,26 @@
 				"json": "DA:GIC",
 				"abbreviation": "DA:GIC",
 				"full": "Devil's Advocate: A Guide to Infernal Contracts",
-				"url": "https://www.dmsguild.com/product/283699/Devils-Advocate-A-Guide-to-Infernal-Contracts",
-				"version": "1.0.0",
 				"authors": [
 					"Justice Arman"
 				],
 				"convertedBy": [
 					"cam443"
 				],
+				"version": "1.0.0",
 				"color": "771717",
+				"url": "https://www.dmsguild.com/product/283699/Devils-Advocate-A-Guide-to-Infernal-Contracts",
 				"targetSchema": "1.2"
 			}
 		],
 		"optionalFeatureTypes": {
 			"FO": "Fiendish Offering"
 		},
-		"edition": "classic",
 		"dateAdded": 1604991176,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "a2e0823ea4"
+		"dateLastModified": 1729630006,
+		"_dateLastModifiedHash": "69d026d24a",
+		"edition": "classic"
 	},
-	"optionalfeature": [
-		{
-			"name": "Infernal Ally",
-			"source": "DA:GIC",
-			"page": 22,
-			"featureType": [
-				"FO"
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang",
-					"items": [
-						{
-							"type": "item",
-							"name": "Signing time:",
-							"entry": "varies"
-						},
-						{
-							"type": "item",
-							"name": "Range:",
-							"entry": "60 feet"
-						},
-						{
-							"type": "item",
-							"name": "Components:",
-							"entry": "V, S, M (an infernal contract)"
-						},
-						{
-							"type": "item",
-							"name": "Duration:",
-							"entry": "varies, up to 6 days"
-						},
-						"{@i You summon an infernal ally to assist you in your time of need}.",
-						"Choose a devil from the {@table Infernal Allies|DA:GIC} table corresponding to your character level. The devil appears in an unoccupied space that you can see within range. It lasts for 6 days, 6 hours, or up to 6 minutes, depending on the strength of the chosen fiend. The devil is friendly to you and your companions. Roll initiative for the devil, which has its own turn. It does its best to obey any verbal commands that you issue it (no action required by you). If you don't issue any commands to the devil, it defends itself from hostile creatures, but otherwise takes no actions. The DM has the devil's statistics.",
-						"If summoning this devil results in your immediate death (i.e., surrendering your life as consideration), you can give your infernal ally a course of action to carry out in your absence, such as \"Seek out and destroy my enemies.\" Additionally, you can denote a living party member or NPC to which the devil reports for the remainder of the duration.",
-						"{@b {@i Elevated 1, 2, or 3.}} When you choose this offer at service tier II or higher, your sacrifice entitles you to more powerful assistance. You may choose a devil as if you were a higher level character. For example, a 10th level character who sells their soul (service tier V, infernal ally - elevated 3) may choose a devil from the Infernal Allies table as if they were 13th level."
-					]
-				}
-			]
-		}
-	],
 	"monster": [
 		{
 			"name": "Bagger",
@@ -173,6 +131,11 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Baggers are tall, gangly devils charged with transporting uncooperative signees to the Nine Hells. They get their name by stuffing writhing signees into claustrophobic, cursed sacks. Oftentimes, these bags contain nightmares - a taste of the horrors awaiting the signee at their destination."
+				]
+			},
 			"traitTags": [
 				"Devil's Sight",
 				"Magic Resistance"
@@ -188,8 +151,8 @@
 				"TP"
 			],
 			"damageTags": [
-				"B",
 				"P",
+				"B",
 				"Y"
 			],
 			"miscTags": [
@@ -202,12 +165,7 @@
 			],
 			"savingThrowForced": [
 				"wisdom"
-			],
-			"fluff": {
-				"entries": [
-					"Baggers are tall, gangly devils charged with transporting uncooperative signees to the Nine Hells. They get their name by stuffing writhing signees into claustrophobic, cursed sacks. Oftentimes, these bags contain nightmares - a taste of the horrors awaiting the signee at their destination."
-				]
-			}
+			]
 		},
 		{
 			"name": "Bloodhound",
@@ -322,6 +280,11 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Hellhounds are excellent trackers, but they're mediocre at sniffing out signees who can mask their trail with illusion magic or hide through a spell like Mordenkainen's private sanctum. Deep in the lorehouses of frigid Cania, servants of the archdevil Mephistopheles sought to remedy this problem by experimenting on hellhounds with ancient magic. The result was the bloodhound, a brutish tracker with a nose calibrated to arcane violators. When it's in range, the olfactory glands of a bloodhound's snout are capable of disrupting magical nondetection and illusions."
+				]
+			},
 			"traitTags": [
 				"Keen Senses",
 				"Pack Tactics"
@@ -338,8 +301,8 @@
 			],
 			"damageTags": [
 				"B",
-				"F",
-				"P"
+				"P",
+				"F"
 			],
 			"miscTags": [
 				"MW",
@@ -351,12 +314,7 @@
 			],
 			"savingThrowForced": [
 				"strength"
-			],
-			"fluff": {
-				"entries": [
-					"Hellhounds are excellent trackers, but they're mediocre at sniffing out signees who can mask their trail with illusion magic or hide through a spell like Mordenkainen's private sanctum. Deep in the lorehouses of frigid Cania, servants of the archdevil Mephistopheles sought to remedy this problem by experimenting on hellhounds with ancient magic. The result was the bloodhound, a brutish tracker with a nose calibrated to arcane violators. When it's in range, the olfactory glands of a bloodhound's snout are capable of disrupting magical nondetection and illusions."
-				]
-			}
+			]
 		},
 		{
 			"name": "Handler",
@@ -432,7 +390,6 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
-					"type": "spellcasting",
 					"headerEntries": [
 						"The handler's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -448,7 +405,8 @@
 							"{@spell dominate person}"
 						]
 					},
-					"ability": "cha"
+					"ability": "cha",
+					"type": "spellcasting"
 				}
 			],
 			"action": [
@@ -465,6 +423,11 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"While some high-profile collection efforts are led by an ice devil, amnizu, or even a pit fiend, the quintessential picture of a collection agent is the handler. A handler's appearance varies throughout its existence, taking on a form pleasing to the entity that hires it. Despite these changes, every handler features exaggerated forearms with claws that inflict infernal wounds. Most of the time, however, a handler never has to lay a finger on the signee thanks to their manipulative magic."
+				]
+			},
 			"senseTags": [
 				"SD"
 			],
@@ -490,102 +453,52 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Infernal Ally",
+			"source": "DA:GIC",
+			"page": 22,
+			"featureType": [
+				"FO"
 			],
-			"fluff": {
-				"entries": [
-					"While some high-profile collection efforts are led by an ice devil, amnizu, or even a pit fiend, the quintessential picture of a collection agent is the handler. A handler's appearance varies throughout its existence, taking on a form pleasing to the entity that hires it. Despite these changes, every handler features exaggerated forearms with claws that inflict infernal wounds. Most of the time, however, a handler never has to lay a finger on the signee thanks to their manipulative magic."
-				]
-			}
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang",
+					"items": [
+						{
+							"type": "item",
+							"name": "Signing time:",
+							"entry": "varies"
+						},
+						{
+							"type": "item",
+							"name": "Range:",
+							"entry": "60 feet"
+						},
+						{
+							"type": "item",
+							"name": "Components:",
+							"entry": "V, S, M (an infernal contract)"
+						},
+						{
+							"type": "item",
+							"name": "Duration:",
+							"entry": "varies, up to 6 days"
+						},
+						"{@i You summon an infernal ally to assist you in your time of need}.",
+						"Choose a devil from the {@table Infernal Allies|DA:GIC} table corresponding to your character level. The devil appears in an unoccupied space that you can see within range. It lasts for 6 days, 6 hours, or up to 6 minutes, depending on the strength of the chosen fiend. The devil is friendly to you and your companions. Roll initiative for the devil, which has its own turn. It does its best to obey any verbal commands that you issue it (no action required by you). If you don't issue any commands to the devil, it defends itself from hostile creatures, but otherwise takes no actions. The DM has the devil's statistics.",
+						"If summoning this devil results in your immediate death (i.e., surrendering your life as consideration), you can give your infernal ally a course of action to carry out in your absence, such as \"Seek out and destroy my enemies.\" Additionally, you can denote a living party member or NPC to which the devil reports for the remainder of the duration.",
+						"{@b {@i Elevated 1, 2, or 3.}} When you choose this offer at service tier II or higher, your sacrifice entitles you to more powerful assistance. You may choose a devil as if you were a higher level character. For example, a 10th level character who sells their soul (service tier V, infernal ally - elevated 3) may choose a devil from the Infernal Allies table as if they were 13th level."
+					]
+				}
+			]
 		}
 	],
 	"table": [
-		{
-			"name": "Character Outlook",
-			"source": "DA:GIC",
-			"page": 18,
-			"colLabels": [
-				"{@dice d8}",
-				"I traded my soul, now I'm..."
-			],
-			"colStyles": [
-				"col-1 text-center",
-				"col-11"
-			],
-			"rows": [
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 1
-						}
-					},
-					"{@i Reckless.} My soul is gone. What more do I have to lose?"
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 2
-						}
-					},
-					"{@i Carefree.} I disappointed my parents long before I lost my soul. I'll be really damned if I don't try to enjoy the rest of my life."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 3
-						}
-					},
-					"{@i Doomed.} My grim fate is sealed, and there's nothing I can do to stop it."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 4
-						}
-					},
-					"{@i Dutiful.} I paid my price. Now I have to see this through, one last time."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 5
-						}
-					},
-					"{@i Nonchalant.} So what? I was gonna end up here anyway. At least this way I got something out of it."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 6
-						}
-					},
-					"{@i Regretful.} I've made a terrible mistake. There must be some way to undo this."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 7
-						}
-					},
-					"{@i Defiant.} I may have signed away my soul, but I'm not delivering it to them. If they want it that badly, they're goint to have to come and take it."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 8
-						}
-					},
-					"{@i Denial.} This is a temporary setback. I'll get my soul back one day. How hard could it be?"
-				]
-			]
-		},
 		{
 			"name": "Contract Consideration",
 			"source": "DA:GIC",
@@ -782,340 +695,6 @@
 			]
 		},
 		{
-			"name": "Devil Clinches",
-			"source": "DA:GIC",
-			"page": 12,
-			"colLabels": [
-				"{@dice d6}",
-				"The deal is sealed..."
-			],
-			"colStyles": [
-				"col-1 text-center",
-				"col-11"
-			],
-			"rows": [
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 1
-						}
-					},
-					"leaving an infernal tatoo on the signee's skin."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 2
-						}
-					},
-					"with a toast."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 3
-						}
-					},
-					"through interpretive dance."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 4
-						}
-					},
-					"by reciting a devilish phrase, chant, or song."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 5
-						}
-					},
-					"by lighting a candle."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 6
-						}
-					},
-					"with a searing handshake that leaves a scar on the palm of the signee's hand."
-				]
-			]
-		},
-		{
-			"name": "Fine Print",
-			"source": "DA:GIC",
-			"page": 12,
-			"colLabels": [
-				"{@dice d10}",
-				"Fine Print"
-			],
-			"colStyles": [
-				"col-1 text-center",
-				"col-11"
-			],
-			"rows": [
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 1
-						}
-					},
-					"The deadline for collection of the signee's consideration is significantly sooner than the devil claims."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 2
-						}
-					},
-					"Excessive use of pronouns."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 3
-						}
-					},
-					"\"Buyer assumes all risks associated with a render of services at the time of delivery including, but not limited to enslavement, beheading, stretching, potentially-disturbing chants, deafness associated with screaming and/or laughter, and a mild burning sensation in sensitive areas.\""
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 4
-						}
-					},
-					"A line states, \"Delivery of offer will be arranged upon receipt of payment,\" though there is no elaboration on when the goods/services will actually be delivered."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 5
-						}
-					},
-					"The signature line or another embellishment within the document is actually a line of extremely small text that pledges the signee to a previously unspecified clause."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 6
-						}
-					},
-					"The benefit conferred upon the character is taken from someone else."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 7
-						}
-					},
-					"As part of the contract, the signee is required to do something \"bi-monthly.\" This could be interpreted as either twice a month or once every two months, whichever suits the devil drafting the contract."
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 8
-						}
-					},
-					"\"Consumption of the is contract results in the nullification of the terms contained therein.\""
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 9
-						}
-					},
-					"Something is misspelled, possibly changing its meaning. For example, a line may read. \"The signee will be granted the Ox of the Dwarvish Lords no less than three (3) days after sealing this agreement.\""
-				],
-				[
-					{
-						"type": "cell",
-						"roll": {
-							"exact": 10
-						}
-					},
-					"The contract references a nonexistent section."
-				]
-			]
-		},
-		{
-			"name": "Infernal Allies",
-			"source": "DA:GIC",
-			"page": 23,
-			"colLabels": [
-				"Character Level",
-				"6 days",
-				"6 hours",
-				"6 minutes or less*"
-			],
-			"colStyles": [
-				"col-3 text-center",
-				"col-3",
-				"col-3",
-				"col-3"
-			],
-			"rows": [
-				[
-					"1",
-					"\u2014",
-					"2 {@creature imp|MM|imps}",
-					"{@creature spined devil} (1 min)"
-				],
-				[
-					"2",
-					"2 {@creature imp|MM|imps}",
-					"{@creature spined devil}",
-					"{@creature bearded devil} (1 min)"
-				],
-				[
-					"3",
-					"2 {@creature imp|MM|imps}",
-					"{@creature spined devil}",
-					"{@creature bearded devil} (6 min)"
-				],
-				[
-					"4",
-					"2 {@creature imp|MM|imps}",
-					"{@creature bearded devil}",
-					"{@creature barbed devil} (1 min)"
-				],
-				[
-					"5",
-					"{@creature spined devil}",
-					"{@creature bearded devil}",
-					"{@creature barbed devil} (6 min)"
-				],
-				[
-					"6",
-					"{@creature spined devil}",
-					"{@creature barbed devil}",
-					"{@creature chain devil} (< 1 min)"
-				],
-				[
-					"7",
-					"{@creature bearded devil}",
-					"{@creature barbed devil}",
-					"{@creature chain devil} (1 min)"
-				],
-				[
-					"8",
-					"{@creature bearded devil}",
-					"{@creature barbed devil}",
-					"{@creature chain devil} (6 min)"
-				],
-				[
-					"9",
-					"{@creature barbed devil}",
-					"{@creature chain devil}",
-					"{@creature horned devil} (< 1 min)"
-				],
-				[
-					"10",
-					"{@creature barbed devil}",
-					"{@creature chain devil}",
-					"{@creature horned devil} (1 min)"
-				],
-				[
-					"11",
-					"{@creature barbed devil}",
-					"{@creature chain devil}",
-					"{@creature horned devil} (6 min)"
-				],
-				[
-					"12",
-					"{@creature chain devil}",
-					"{@creature horned devil}",
-					"{@creature ice devil} (< 1 min)"
-				],
-				[
-					"13",
-					"{@creature chain devil}",
-					"{@creature horned devil}",
-					"{@creature ice devil} (1 min)"
-				],
-				[
-					"14",
-					"{@creature chain devil}",
-					"{@creature horned devil}",
-					"{@creature ice devil} (6 min)"
-				],
-				[
-					"15",
-					"{@creature horned devil}",
-					"{@creature ice devil}",
-					"{@creature amnizu|MTF} (< 1 min)"
-				],
-				[
-					"16",
-					"{@creature horned devil}",
-					"{@creature ice devil}",
-					"{@creature amnizu|MTF} (1 min)"
-				],
-				[
-					"17",
-					"{@creature horned devil}",
-					"{@creature ice devil}",
-					"{@creature amnizu|MTF} (6 min)"
-				],
-				[
-					"18",
-					"{@creature ice devil}",
-					"{@creature amnizu|MTF}",
-					"{@creature pit fiend} (< 1 min)"
-				],
-				[
-					"19",
-					"{@creature ice devil}",
-					"{@creature amnizu|MTF}",
-					"{@creature pit fiend} (1 min)"
-				],
-				[
-					"20",
-					"{@creature ice devil}",
-					"{@creature amnizu|MTF}",
-					"{@creature pit fiend} (6 min)"
-				],
-				[
-					"21",
-					"{@creature amnizu|MTF}",
-					"{@creature pit fiend}",
-					"archdevil (< 1 min)"
-				],
-				[
-					"22",
-					"{@creature amnizu|MTF}",
-					"{@creature pit fiend}",
-					"archdevil (1 min)"
-				],
-				[
-					"23",
-					"{@creature amnizu|MTF}",
-					"{@creature pit fiend}",
-					"archdevil (6 min)"
-				]
-			],
-			"footnotes": [
-				"*A duration < 1 minute is at the DMs discretion. Some greater fiends may only stay for 2-3 rounds, while others may assist the party for 9."
-			]
-		},
-		{
 			"name": "Offers",
 			"source": "DA:GIC",
 			"page": 9,
@@ -1258,6 +837,427 @@
 					}
 				]
 			]
+		},
+		{
+			"name": "Fine Print",
+			"source": "DA:GIC",
+			"page": 12,
+			"colLabels": [
+				"{@dice d10}",
+				"Fine Print"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"The deadline for collection of the signee's consideration is significantly sooner than the devil claims."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"Excessive use of pronouns."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"\"Buyer assumes all risks associated with a render of services at the time of delivery including, but not limited to enslavement, beheading, stretching, potentially-disturbing chants, deafness associated with screaming and/or laughter, and a mild burning sensation in sensitive areas.\""
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"A line states, \"Delivery of offer will be arranged upon receipt of payment,\" though there is no elaboration on when the goods/services will actually be delivered."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"The signature line or another embellishment within the document is actually a line of extremely small text that pledges the signee to a previously unspecified clause."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"The benefit conferred upon the character is taken from someone else."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 7
+						}
+					},
+					"As part of the contract, the signee is required to do something \"bi-monthly.\" This could be interpreted as either twice a month or once every two months, whichever suits the devil drafting the contract."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 8
+						}
+					},
+					"\"Consumption of the is contract results in the nullification of the terms contained therein.\""
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 9
+						}
+					},
+					"Something is misspelled, possibly changing its meaning. For example, a line may read. \"The signee will be granted the Ox of the Dwarvish Lords no less than three (3) days after sealing this agreement.\""
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 10
+						}
+					},
+					"The contract references a nonexistent section."
+				]
+			]
+		},
+		{
+			"name": "Devil Clinches",
+			"source": "DA:GIC",
+			"page": 12,
+			"colLabels": [
+				"{@dice d6}",
+				"The deal is sealed..."
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"leaving an infernal tatoo on the signee's skin."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"with a toast."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"through interpretive dance."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"by reciting a devilish phrase, chant, or song."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"by lighting a candle."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"with a searing handshake that leaves a scar on the palm of the signee's hand."
+				]
+			]
+		},
+		{
+			"name": "Character Outlook",
+			"source": "DA:GIC",
+			"page": 18,
+			"colLabels": [
+				"{@dice d8}",
+				"I traded my soul, now I'm..."
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"{@i Reckless.} My soul is gone. What more do I have to lose?"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"{@i Carefree.} I disappointed my parents long before I lost my soul. I'll be really damned if I don't try to enjoy the rest of my life."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"{@i Doomed.} My grim fate is sealed, and there's nothing I can do to stop it."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"{@i Dutiful.} I paid my price. Now I have to see this through, one last time."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"{@i Nonchalant.} So what? I was gonna end up here anyway. At least this way I got something out of it."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"{@i Regretful.} I've made a terrible mistake. There must be some way to undo this."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 7
+						}
+					},
+					"{@i Defiant.} I may have signed away my soul, but I'm not delivering it to them. If they want it that badly, they're goint to have to come and take it."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 8
+						}
+					},
+					"{@i Denial.} This is a temporary setback. I'll get my soul back one day. How hard could it be?"
+				]
+			]
+		},
+		{
+			"name": "Infernal Allies",
+			"source": "DA:GIC",
+			"page": 23,
+			"colLabels": [
+				"Character Level",
+				"6 days",
+				"6 hours",
+				"6 minutes or less*"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-3",
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"1",
+					"\u2014",
+					"2 {@creature imp|MM|imps}",
+					"{@creature spined devil} (1 min)"
+				],
+				[
+					"2",
+					"2 {@creature imp|MM|imps}",
+					"{@creature spined devil}",
+					"{@creature bearded devil} (1 min)"
+				],
+				[
+					"3",
+					"2 {@creature imp|MM|imps}",
+					"{@creature spined devil}",
+					"{@creature bearded devil} (6 min)"
+				],
+				[
+					"4",
+					"2 {@creature imp|MM|imps}",
+					"{@creature bearded devil}",
+					"{@creature barbed devil} (1 min)"
+				],
+				[
+					"5",
+					"{@creature spined devil}",
+					"{@creature bearded devil}",
+					"{@creature barbed devil} (6 min)"
+				],
+				[
+					"6",
+					"{@creature spined devil}",
+					"{@creature barbed devil}",
+					"{@creature chain devil} (< 1 min)"
+				],
+				[
+					"7",
+					"{@creature bearded devil}",
+					"{@creature barbed devil}",
+					"{@creature chain devil} (1 min)"
+				],
+				[
+					"8",
+					"{@creature bearded devil}",
+					"{@creature barbed devil}",
+					"{@creature chain devil} (6 min)"
+				],
+				[
+					"9",
+					"{@creature barbed devil}",
+					"{@creature chain devil}",
+					"{@creature horned devil} (< 1 min)"
+				],
+				[
+					"10",
+					"{@creature barbed devil}",
+					"{@creature chain devil}",
+					"{@creature horned devil} (1 min)"
+				],
+				[
+					"11",
+					"{@creature barbed devil}",
+					"{@creature chain devil}",
+					"{@creature horned devil} (6 min)"
+				],
+				[
+					"12",
+					"{@creature chain devil}",
+					"{@creature horned devil}",
+					"{@creature ice devil} (< 1 min)"
+				],
+				[
+					"13",
+					"{@creature chain devil}",
+					"{@creature horned devil}",
+					"{@creature ice devil} (1 min)"
+				],
+				[
+					"14",
+					"{@creature chain devil}",
+					"{@creature horned devil}",
+					"{@creature ice devil} (6 min)"
+				],
+				[
+					"15",
+					"{@creature horned devil}",
+					"{@creature ice devil}",
+					"{@creature amnizu|MPMM} (< 1 min)"
+				],
+				[
+					"16",
+					"{@creature horned devil}",
+					"{@creature ice devil}",
+					"{@creature amnizu|MPMM} (1 min)"
+				],
+				[
+					"17",
+					"{@creature horned devil}",
+					"{@creature ice devil}",
+					"{@creature amnizu|MPMM} (6 min)"
+				],
+				[
+					"18",
+					"{@creature ice devil}",
+					"{@creature amnizu|MPMM}",
+					"{@creature pit fiend} (< 1 min)"
+				],
+				[
+					"19",
+					"{@creature ice devil}",
+					"{@creature amnizu|MPMM}",
+					"{@creature pit fiend} (1 min)"
+				],
+				[
+					"20",
+					"{@creature ice devil}",
+					"{@creature amnizu|MPMM}",
+					"{@creature pit fiend} (6 min)"
+				],
+				[
+					"21",
+					"{@creature amnizu|MPMM}",
+					"{@creature pit fiend}",
+					"archdevil (< 1 min)"
+				],
+				[
+					"22",
+					"{@creature amnizu|MPMM}",
+					"{@creature pit fiend}",
+					"archdevil (1 min)"
+				],
+				[
+					"23",
+					"{@creature amnizu|MPMM}",
+					"{@creature pit fiend}",
+					"archdevil (6 min)"
+				]
+			],
+			"footnotes": [
+				"*A duration < 1 minute is at the DMs discretion. Some greater fiends may only stay for 2-3 rounds, while others may assist the party for 9."
+			]
 		}
 	],
 	"book": [
@@ -1265,12 +1265,12 @@
 			"name": "Devil's Advocate: A Guide to Infernal Contracts",
 			"id": "DA:GIC",
 			"source": "DA:GIC",
-			"group": "homebrew",
 			"cover": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/cam443/JsonsDnD/master/DevilsAdvocate_Cover.png"
 			},
 			"published": "2020-08-21",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Preface"
@@ -1337,7 +1337,7 @@
 					"name": "Preface",
 					"page": 3,
 					"entries": [
-						"Devils have a long-running history in {@i Dungeons & Dragons}. They first appeared alongside their demonic counterparts in the original {@i Monster Manual} in 1977, possibly fueling the religious objections to D&D during the 1980s. Nevertheless, the world's greatest roleplaying game survived this moral panic, and fiends have been an important part of the hobby ever since. Just last year, {@book Mordenkainen's Tome of Foes|MTF} delved into the eternal struggle between devils and demons known as the Blood War, and this September will see the release of a hellscape-themed adventure, {@adventure Baldur's Gate: Descent into Avernus|BGDiA}.",
+						"Devils have a long-running history in {@i Dungeons & Dragons}. They first appeared alongside their demonic counterparts in the original {@i Monster Manual} in 1977, possibly fueling the religious objections to D&D during the 1980s. Nevertheless, the world's greatest roleplaying game survived this moral panic, and fiends have been an important part of the hobby ever since. Just last year, {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM} delved into the eternal struggle between devils and demons known as the Blood War, and this September will see the release of a hellscape-themed adventure, {@adventure Baldur's Gate: Descent into Avernus|BGDiA}.",
 						"Despite the pervasive history of devils in D&D, there is little in the way of official resources on the details of infernal contracts. There is a wealth of reference material surrounding the lore, hierarchy, and nature of devils, but there's not much information for DMs and players to create infernal contracts of their own. I wrote {@i Devil's Advocate: A Guide to Infernal Contracts} to remedy this discrepancy. I hope that once you've finished reading this document, you'll:",
 						{
 							"type": "list",
@@ -2332,7 +2332,7 @@
 									"name": "Collection Agents: The Enforcers",
 									"page": 14,
 									"entries": [
-										"Collection efforts are performed on behalf of the contract administrator. They are reimbursed by either the contract administrator or a higher-ranking devil to which the contract administrator reports, such as a duke or archdevil. These barbarous task forces may involve any number of devils outlined in the {@i Monster Manual} or {@i Mordenkainen's Tome of Foes}, but most collection efforts include {@creature bagger|DA:GIC|baggers}, {@creature bloodhound|DA:GIC|bloodhounds}, and {@creature handler|DA:GIC|handlers} (see Appendix A for monster stats). Regardless of the type of devils that compose the group, these enforcers are commonly referred to as collection agents.",
+										"Collection efforts are performed on behalf of the contract administrator. They are reimbursed by either the contract administrator or a higher-ranking devil to which the contract administrator reports, such as a duke or archdevil. These barbarous task forces may involve any number of devils outlined in the {@i Monster Manual} or {@i Mordenkainen Presents: Monsters of the Multiverse}, but most collection efforts include {@creature bagger|DA:GIC|baggers}, {@creature bloodhound|DA:GIC|bloodhounds}, and {@creature handler|DA:GIC|handlers} (see Appendix A for monster stats). Regardless of the type of devils that compose the group, these enforcers are commonly referred to as collection agents.",
 										{
 											"type": "entries",
 											"name": "Baggers",

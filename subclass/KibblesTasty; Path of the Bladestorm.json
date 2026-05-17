@@ -5,30 +5,30 @@
 				"json": "PathOfTheBladestorm",
 				"abbreviation": "PotB",
 				"full": "Path of the Bladestorm",
-				"url": "https://www.gmbinder.com/share/-LW4mTb4L8d-yYrzpyhS",
-				"version": "1.0",
 				"authors": [
 					"KibblesTasty"
 				],
 				"convertedBy": [
 					"knocknix"
 				],
-				"color": "750000"
+				"version": "1.0",
+				"color": "750000",
+				"url": "https://www.gmbinder.com/share/-LW4mTb4L8d-yYrzpyhS"
 			}
 		],
 		"edition": "classic",
 		"dateAdded": 1742159474,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "b051b94682"
+		"dateLastModified": 1742159474,
+		"_dateLastModifiedHash": "b4d8ef786b"
 	},
 	"subclass": [
 		{
 			"name": "Path of the Bladestorm",
-			"shortName": "Bladestorm",
 			"source": "PathOfTheBladestorm",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"page": 1,
+			"shortName": "Bladestorm",
 			"subclassFeatures": [
 				"Path of the Bladestorm|Barbarian||Bladestorm|PathOfTheBladestorm|3",
 				"Whirling Death|Barbarian||Bladestorm|PathOfTheBladestorm|6",
@@ -40,26 +40,11 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Furious Hurl",
-			"source": "PathOfTheBladestorm",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Bladestorm",
-			"subclassSource": "PathOfTheBladestorm",
-			"level": 3,
-			"entries": [
-				"{@i 3rd-level Path of the Bladestorm feature}",
-				"Additionally at 3rd level, you can add your Rage bonus damage with thrown weapons, as well as use your Reckless Attack feature when you make a ranged weapon attack with a light melee weapon. Additionally, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
-			],
-			"foundryImg": "icons/skills/melee/sword-twirl-orange.webp"
-		},
-		{
 			"name": "Path of the Bladestorm",
 			"source": "PathOfTheBladestorm",
-			"page": 1,
 			"className": "Barbarian",
 			"classSource": "PHB",
+			"page": 1,
 			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
 			"level": 3,
@@ -78,9 +63,9 @@
 		{
 			"name": "Walking Armory",
 			"source": "PathOfTheBladestorm",
-			"page": 1,
 			"className": "Barbarian",
 			"classSource": "PHB",
+			"page": 1,
 			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
 			"level": 3,
@@ -91,26 +76,26 @@
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow.webp"
 		},
 		{
-			"name": "Endless Blades",
+			"name": "Furious Hurl",
 			"source": "PathOfTheBladestorm",
-			"page": 1,
 			"className": "Barbarian",
 			"classSource": "PHB",
+			"page": 1,
 			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
-			"level": 6,
+			"level": 3,
 			"entries": [
-				"{@i 6th-level Path of the Bladestorm feature}",
-				"Additionally at 6th level, while raging your rage suffuses any weapon within 20 feet of you that is not being worn or carried. As a bonus action, you can call one or more such weapons to your open hands. Any blade you throw counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+				"{@i 3rd-level Path of the Bladestorm feature}",
+				"Additionally at 3rd level, you can add your Rage bonus damage with thrown weapons, as well as use your Reckless Attack feature when you make a ranged weapon attack with a light melee weapon. Additionally, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
 			],
-			"foundryImg": "icons/skills/melee/swords-triple-orange.webp"
+			"foundryImg": "icons/skills/melee/sword-twirl-orange.webp"
 		},
 		{
 			"name": "Whirling Death",
 			"source": "PathOfTheBladestorm",
-			"page": 1,
 			"className": "Barbarian",
 			"classSource": "PHB",
+			"page": 1,
 			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
 			"level": 6,
@@ -121,11 +106,26 @@
 			"foundryImg": "icons/skills/ranged/shuriken-thrown-sawblade-blue.webp"
 		},
 		{
-			"name": "Winds of Rage",
+			"name": "Endless Blades",
 			"source": "PathOfTheBladestorm",
-			"page": 1,
 			"className": "Barbarian",
 			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Bladestorm",
+			"subclassSource": "PathOfTheBladestorm",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Path of the Bladestorm feature}",
+				"Additionally at 6th level, while raging your rage suffuses any weapon within 20 feet of you that is not being worn or carried. As a bonus action, you can call one or more such weapons to your open hands. Any blade you throw counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			],
+			"foundryImg": "icons/skills/melee/swords-triple-orange.webp"
+		},
+		{
+			"name": "Winds of Rage",
+			"source": "PathOfTheBladestorm",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
 			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
 			"level": 10,
@@ -138,9 +138,9 @@
 		{
 			"name": "Bladestorm",
 			"source": "PathOfTheBladestorm",
-			"page": 1,
 			"className": "Barbarian",
 			"classSource": "PHB",
+			"page": 1,
 			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
 			"level": 14,
@@ -154,30 +154,39 @@
 	],
 	"foundrySubclassFeature": [
 		{
-			"name": "Furious Hurl",
-			"source": "PathOfTheBladestorm",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Bladestorm",
-			"subclassSource": "PathOfTheBladestorm",
-			"level": 3
-		},
-		{
 			"name": "Walking Armory",
 			"source": "PathOfTheBladestorm",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
+			"subclassShortName": "Bladestorm",
 			"level": 3
+		},
+		{
+			"name": "Furious Hurl",
+			"source": "PathOfTheBladestorm",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassSource": "PathOfTheBladestorm",
+			"subclassShortName": "Bladestorm",
+			"level": 3
+		},
+		{
+			"name": "Whirling Death",
+			"source": "PathOfTheBladestorm",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassSource": "PathOfTheBladestorm",
+			"subclassShortName": "Bladestorm",
+			"level": 6
 		},
 		{
 			"name": "Endless Blades",
 			"source": "PathOfTheBladestorm",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
+			"subclassShortName": "Bladestorm",
 			"level": 6,
 			"system": {
 				"activation": {
@@ -187,21 +196,12 @@
 			}
 		},
 		{
-			"name": "Whirling Death",
-			"source": "PathOfTheBladestorm",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Bladestorm",
-			"subclassSource": "PathOfTheBladestorm",
-			"level": 6
-		},
-		{
 			"name": "Winds of Rage",
 			"source": "PathOfTheBladestorm",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
+			"subclassShortName": "Bladestorm",
 			"level": 10
 		},
 		{
@@ -209,8 +209,8 @@
 			"source": "PathOfTheBladestorm",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Bladestorm",
 			"subclassSource": "PathOfTheBladestorm",
+			"subclassShortName": "Bladestorm",
 			"level": 14,
 			"system": {
 				"activation": {

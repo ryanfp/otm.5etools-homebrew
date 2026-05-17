@@ -5,16 +5,16 @@
 				"json": "IllriggerRevised",
 				"abbreviation": "IllR",
 				"full": "The Illrigger Revised",
-				"url": "https://marketplace.dndbeyond.com/category/DB0000155",
-				"version": "Revised 1.0",
-				"dateReleased": "2023-12-05",
 				"authors": [
 					"MCDM Productions"
 				],
 				"convertedBy": [
 					"Giddy"
 				],
+				"version": "Revised 1.0",
 				"partnered": true,
+				"url": "https://marketplace.dndbeyond.com/category/DB0000155",
+				"dateReleased": "2023-12-05",
 				"color": "933a4c"
 			}
 		],
@@ -27,13 +27,8 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1732652987,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "990bbb2afe"
-	},
-	"_test": {
-		"references": [
-			"FleeMortals"
-		]
+		"dateLastModified": 1762116098,
+		"_dateLastModifiedHash": "070fe5cf36"
 	},
 	"class": [
 		{
@@ -810,73 +805,6 @@
 						],
 						[
 							3
-						]
-					]
-				},
-				{
-					"colLabels": [
-						"{@filter Spells Known|spells|level=1;2;3;4|subclass=Illrigger: Architect of Ruin (IllR)}"
-					],
-					"rows": [
-						[
-							0
-						],
-						[
-							0
-						],
-						[
-							2
-						],
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							7
-						],
-						[
-							8
-						],
-						[
-							8
-						],
-						[
-							9
-						],
-						[
-							10
-						],
-						[
-							10
-						],
-						[
-							11
-						],
-						[
-							11
-						],
-						[
-							11
-						],
-						[
-							12
-						],
-						[
-							13
 						]
 					]
 				},
@@ -5402,7 +5330,7 @@
 							"name": "Retainers",
 							"id": "07d",
 							"entries": [
-								"Rules for retainers appear in the \"{@book Retainers|FleeMortals|0|Retainers}\" section of {@book Flee, Mortals!|FleeMortals}! Using those rules, you can add the following illrigger retainers to your game.",
+								"Rules for retainers appear in the \"{@book Retainers|FleeMortals|Retainers}\" section of {@book Flee, Mortals!|FleeMortals}! Using those rules, you can add the following illrigger retainers to your game.",
 								{
 									"type": "list",
 									"columns": 3,

@@ -5,18 +5,18 @@
 				"json": "SGttEH",
 				"abbreviation": "SGttEH",
 				"full": "Steinhardt's Guide to the Eldritch Hunt",
-				"url": "https://www.monkeydm.com/1-steinhardt",
-				"version": "17/11/2023",
-				"dateReleased": "2023-11-17",
 				"authors": [
-					"Evan \"MonkeyDM\" Mascaro",
-					"MonkeyDM"
+					"MonkeyDM",
+					"Evan \"MonkeyDM\" Mascaro"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
 				],
+				"version": "17/11/2023",
 				"color": "141220",
-				"colorNight": "bdc7c7"
+				"colorNight": "bdc7c7",
+				"url": "https://www.monkeydm.com/1-steinhardt",
+				"dateReleased": "2023-11-17"
 			}
 		],
 		"dependencies": {
@@ -49,8 +49,8 @@
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1711491440,
-		"dateLastModified": 1777136208,
-		"_dateLastModifiedHash": "a0625bff62"
+		"dateLastModified": 1752854763,
+		"_dateLastModifiedHash": "ac2c4006a3"
 	},
 	"class": [
 		{
@@ -8132,7 +8132,7 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A set of {@item common clothes|PHB}, a trophy from a beast you've slain, a {@item hunter's kit|SGttEH} (includes 20 {@item lead bullet|SGttEH|lead bullets}, a {@item silvered dagger|PHB}, a {@item flare|SGttEH}, and a {@item flask|PHB|silver flask}), a {@item healer's kit|PHB}, and a {@item pouch|PHB|belt pouch} containing 10 gp."
+							"entry": "A set of {@item common clothes|PHB}, a trophy from a beast you've slain, a {@item hunter's kit|SGttEH} (includes 20 {@item bullet|SGttEH|lead bullets}, a {@item silvered dagger|PHB}, a {@item flare|SGttEH}, and a {@item flask|PHB|silver flask}), a {@item healer's kit|PHB}, and a {@item pouch|PHB|belt pouch} containing 10 gp."
 						}
 					]
 				},
@@ -9060,7 +9060,7 @@
 							"type": "table",
 							"caption": "Bonds",
 							"colLabels": [
-								"d8",
+								"d6",
 								"Bond"
 							],
 							"colStyles": [
@@ -9429,7 +9429,7 @@
 							"item": "pouch|phb",
 							"containsValue": 1000
 						},
-						"Sacrificial Brand, Scarified|SGttEH"
+						"Sacrificial Brand (Scarified)|SGttEH"
 					]
 				}
 			],
@@ -9451,7 +9451,7 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A {@item flare|SGttEH} (used to indicate your position during hunts), a set of {@item common clothes|PHB}, a small knife for carving runes, a {@item book|PHB|journal} detailing your experiences since rebirth, and a {@item pouch|PHB} containing 10 gold pieces. The {@item Sacrificial Brand, Scarified|SGttEH|Sacrificial Brand Eldritch Carving is scarified} on your body."
+							"entry": "A {@item flare|SGttEH} (used to indicate your position during hunts), a set of {@item common clothes|PHB}, a small knife for carving runes, a {@item book|PHB|journal} detailing your experiences since rebirth, and a {@item pouch|PHB} containing 10 gold pieces. The {@item Sacrificial Brand (Scarified)|SGttEH|Sacrificial Brand Eldritch Carving is scarified} on your body."
 						}
 					]
 				},
@@ -16905,6 +16905,7 @@
 			"dmgType": "P",
 			"firearm": true,
 			"weapon": true,
+			"entries": [],
 			"ammoType": "lead bullet|SGttEH",
 			"customProperties": {
 				"barrel": 2,
@@ -16932,6 +16933,7 @@
 			"dmgType": "P",
 			"firearm": true,
 			"weapon": true,
+			"entries": [],
 			"ammoType": "cannonball|SGttEH",
 			"hasFluffImages": true
 		},
@@ -16964,7 +16966,8 @@
 			"dmgType": "S",
 			"dmg2": "1d12",
 			"dagger": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Explosive Bullet",
@@ -17012,6 +17015,7 @@
 			"dmgType": "P",
 			"firearm": true,
 			"weapon": true,
+			"entries": [],
 			"ammoType": "lead bullet|SGttEH",
 			"customProperties": {
 				"barrel": 1,
@@ -17052,6 +17056,7 @@
 			"dmgType": "P",
 			"firearm": true,
 			"weapon": true,
+			"entries": [],
 			"ammoType": "lead bullet|SGttEH",
 			"customProperties": {
 				"barrel": 6,
@@ -17082,6 +17087,7 @@
 			"dmgType": "P",
 			"firearm": true,
 			"weapon": true,
+			"entries": [],
 			"ammoType": "lead bullet|SGttEH",
 			"customProperties": {
 				"barrel": 2,
@@ -17120,7 +17126,8 @@
 			"dmg1": "1d10",
 			"dmgType": "S",
 			"polearm": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Shears",
@@ -17167,8 +17174,7 @@
 			"customProperties": {
 				"baseitems": "{@item longsword|PHB}, {@item battleaxe|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Awakened Abyss Warden's Axeblade",
@@ -17206,8 +17212,7 @@
 			"customProperties": {
 				"baseitems": "{@item longsword|PHB}, {@item battleaxe|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Bag of Cannonballs",
@@ -17412,8 +17417,7 @@
 			"customProperties": {
 				"baseitems": "{@item cannon|SGttEH}, {@item maul|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Caldera",
@@ -17465,8 +17469,7 @@
 			"customProperties": {
 				"baseitems": "{@item battleaxe|PHB}, two {@item pistol|SGttEH|pistols}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Cordyceps Sinensis",
@@ -17479,9 +17482,9 @@
 				"TK"
 			],
 			"entries": [
-				"To gain the benefits of the cordyceps sinensis, you must ingest it, or graft it underneath your skin. For 24 hours, the fungus will incubate within you; during that time, if you swallow liquid flames or light the grafted area ablaze, you will kill the parasite. After 24 hours have passed, the only way to remove the parasite is with a {@spell remove curse} spell cast at 6th level or higher. If you receive {@item Naw're's Blessing|SGttEH}, nothing short of a {@spell wish} spell will remove the fungus.",
+				"To gain the benefits of the cordyceps sinensis, you must ingest it, or graft it underneath your skin. For 24 hours, the fungus will incubate within you; during that time, if you swallow liquid flames or light the grafted area ablaze, you will kill the parasite. After 24 hours have passed, the only way to remove the parasite is with a {@spell remove curse} spell cast at 6th level or higher. If you receive {@item Nawre's Blessing|SGttEH}, nothing short of a {@spell wish} spell will remove the fungus.",
 				"While infected with the cordyceps sinensis, when you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once this property has been used, it can't be used again until the next dawn.",
-				"If you have {@item Naw're's Blessing|SGttEH} {@item Naw're's Blessing, Tattooed|SGttEH|tattooed} or {@item Naw're's Blessing, Scarified|SGttEH|carved} onto your body, the parasite becomes a trick weapon for you. You can use your choice of Intelligence, Wisdom, or Charisma, instead of Strength or Dexterity, for the attack and damage rolls made with this magic weapon.",
+				"If you have {@item Nawre's Blessing|SGttEH} {@item Nawre's Blessing, Tattooed|SGttEH|tattooed} or {@item Nawre's Blessing, Scarified|SGttEH|carved} onto your body, the parasite becomes a trick weapon for you. You can use your choice of Intelligence, Wisdom, or Charisma, instead of Strength or Dexterity, for the attack and damage rolls made with this magic weapon.",
 				{
 					"type": "entries",
 					"name": "Trick Weapon",
@@ -17515,8 +17518,7 @@
 			"customProperties": {
 				"baseitems": "special"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Curse of Moon-Blood, Drawn",
@@ -17774,8 +17776,7 @@
 			"customProperties": {
 				"baseitems": "{@item scythe|SGttEH}, {@item maul|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Electric Sawblade",
@@ -17814,8 +17815,7 @@
 			"customProperties": {
 				"baseitems": "{@item longsword|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Ethereal Moongold Equalizer",
@@ -17865,8 +17865,7 @@
 			"customProperties": {
 				"baseitems": "{@item flintlock|SGttEH}, {@item rifle|SGttEH}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Explosive Bullets (10)",
@@ -17935,8 +17934,7 @@
 				"baseitems": "{@item scythe|SGttEH}, {@item longbow|PHB}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "First Carving, Drawn",
@@ -18123,8 +18121,7 @@
 			"customProperties": {
 				"baseitems": "gauntlet, claw"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Gravitational Partisan",
@@ -18162,8 +18159,7 @@
 			"customProperties": {
 				"baseitems": "{@item shield|PHB} & {@item spear|PHB}, {@item glaive|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Greater Holy Tonic",
@@ -18247,8 +18243,7 @@
 			"customProperties": {
 				"baseitems": "{@item shortsword|PHB} & {@item longsword|PHB}, {@item shears|SGttEH}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Hand of Glory",
@@ -18354,7 +18349,7 @@
 				{
 					"type": "list",
 					"items": [
-						"20 {@item lead bullet|SGttEH|lead bullets}",
+						"20 {@item bullet|SGttEH|lead bullets}",
 						"a {@item silvered dagger|PHB}",
 						"a {@item flare|SGttEH}",
 						"a {@item flask|PHB|silver flask}"
@@ -18363,7 +18358,7 @@
 			],
 			"packContents": [
 				{
-					"item": "lead bullet|SGttEH",
+					"item": "bullet|SGttEH",
 					"quantity": 20
 				},
 				"silvered dagger|PHB",
@@ -18426,8 +18421,7 @@
 			"customProperties": {
 				"baseitems": "{@item shortsword|PHB} & {@item longsword|PHB}, {@item shears|SGttEH}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Improved Meat Hookshot",
@@ -18472,8 +18466,7 @@
 			"customProperties": {
 				"baseitems": "{@item blunderbuss|SGttEH} & {@item sickle|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Improved Phantom Limb",
@@ -18527,8 +18520,7 @@
 			"customProperties": {
 				"baseitems": "unarmed, {@item shortsword|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Improved Ravenous Gazer",
@@ -18574,8 +18566,7 @@
 				"baseitems": "{@item glaive|PHB}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Improved Rifling Cleaver",
@@ -18613,8 +18604,7 @@
 			"customProperties": {
 				"baseitems": "{@item cleaver|SGttEH}, {@item rifle|SGttEH}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Lead Bullets (10)",
@@ -18941,8 +18931,7 @@
 				"baseitems": "special"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Meat Hookshot",
@@ -18962,12 +18951,12 @@
 					"type": "entries",
 					"name": "Trick Weapon",
 					"entries": [
-						"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|PHB} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
+						"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|SGttEH} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
 						{
 							"type": "entries",
 							"name": "Untransformed",
 							"entries": [
-								"While untransformed, the {@item sickle|PHB} has the {@itemProperty F||finesse} property, and the {@item blunderbuss|SGttEH} doesn't have the {@itemProperty 2H||two-handed} property. Using this pair of weapons together requires the {@item sickle|PHB} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|PHB}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the {@itemProperty SGttEH:Bar|SGttEH|Barrel} property."
+								"While untransformed, the {@item sickle|SGttEH} has the {@itemProperty F||finesse} property, and the {@item blunderbuss|SGttEH} doesn't have the {@itemProperty 2H||two-handed} property. Using this pair of weapons together requires the {@item sickle|SGttEH} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|SGttEH}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the {@itemProperty SGttEH:Bar|SGttEH|Barrel} property."
 							]
 						},
 						{
@@ -18979,7 +18968,7 @@
 									"type": "entries",
 									"name": "Hookshot",
 									"entries": [
-										"As an action, you can launch the {@item sickle|PHB} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
+										"As an action, you can launch the {@item sickle|SGttEH} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
 									]
 								}
 							]
@@ -18988,10 +18977,9 @@
 				}
 			],
 			"customProperties": {
-				"baseitems": "{@item blunderbuss|SGttEH} & {@item sickle|PHB}"
+				"baseitems": "{@item blunderbuss|SGttEH} & {@item sickle|SGttEH}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Mephitic Seal, Drawn",
@@ -19346,8 +19334,7 @@
 				"baseitems": "{@item longbow|PHB}, {@item longsword|PHB}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Moongold Equalizer",
@@ -19386,11 +19373,10 @@
 			"customProperties": {
 				"baseitems": "{@item flintlock|SGttEH}, {@item rifle|SGttEH}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
-			"name": "Naw're's Blessing, Drawn",
+			"name": "Nawre's Blessing, Drawn",
 			"source": "SGttEH",
 			"page": 263,
 			"type": "EC",
@@ -19411,10 +19397,10 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Naw're's Blessing, Scarified",
+			"name": "Nawre's Blessing, Scarified",
 			"source": "SGttEH",
 			"_copy": {
-				"name": "Naw're's Blessing, Tattooed",
+				"name": "Nawre's Blessing, Tattooed",
 				"source": "SGttEH",
 				"_preserve": {
 					"hasFluff": true,
@@ -19453,10 +19439,10 @@
 			]
 		},
 		{
-			"name": "Naw're's Blessing, Tattooed",
+			"name": "Nawre's Blessing, Tattooed",
 			"source": "SGttEH",
 			"_copy": {
-				"name": "Naw're's Blessing, Drawn",
+				"name": "Nawre's Blessing, Drawn",
 				"source": "SGttEH",
 				"_preserve": {
 					"hasFluff": true,
@@ -19551,8 +19537,7 @@
 				"baseitems": "{@item morningstar|PHB}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Phantasmal Executioner",
@@ -19614,8 +19599,7 @@
 				"baseitems": "{@item scythe|SGttEH}, {@item maul|PHB}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Phantom Limb",
@@ -19671,8 +19655,7 @@
 				"baseitems": "unarmed, {@item shortsword|PHB}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Prophecy",
@@ -19741,8 +19724,7 @@
 			"customProperties": {
 				"baseitems": "{@item cleaver|SGttEH}, {@item whip|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Python Bladewhip",
@@ -19797,8 +19779,7 @@
 			"customProperties": {
 				"baseitems": "{@item whip|PHB}, {@item rapier|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Ravenous Gazer",
@@ -19837,8 +19818,7 @@
 			"customProperties": {
 				"baseitems": "{@item glaive|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Revelations",
@@ -19901,8 +19881,7 @@
 			"customProperties": {
 				"baseitems": "{@item cleaver|SGttEH}, {@item whip|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Rifling Cleaver",
@@ -19940,8 +19919,7 @@
 			"customProperties": {
 				"baseitems": "{@item cleaver|SGttEH}, {@item rifle|SGttEH}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Sacrificial Brand, Drawn",
@@ -20106,8 +20084,7 @@
 			"customProperties": {
 				"baseitems": "{@item shield|PHB} & {@item spear|PHB}, {@item glaive|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Scatter Bullets (10)",
@@ -20414,8 +20391,7 @@
 				"baseitems": "{@item whip|PHB}, {@item rapier|PHB}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Shard of Moonlight",
@@ -20512,8 +20488,7 @@
 			"customProperties": {
 				"baseitems": "{@item longsword|PHB}, {@item greatsword|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Stick",
@@ -20559,8 +20534,7 @@
 				"baseitems": "{@item stick|SGttEH}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Superior Holy Tonic",
@@ -20676,8 +20650,7 @@
 			"customProperties": {
 				"baseitems": "{@item longsword|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Third Carving, Drawn",
@@ -20985,8 +20958,7 @@
 			"customProperties": {
 				"baseitems": "{@item longsword|PHB}, {@item greatsword|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Torture Tools",
@@ -21114,8 +21086,7 @@
 			"customProperties": {
 				"baseitems": "{@item greatsword|PHB}, {@item shortsword|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Uncharged Claw",
@@ -21164,8 +21135,7 @@
 				"baseitems": "gauntlet, claw"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Unstable Crumbler",
@@ -21211,8 +21181,7 @@
 			"customProperties": {
 				"baseitems": "{@item cannon|SGttEH}, {@item maul|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "White Fungic Tea",
@@ -21360,8 +21329,7 @@
 			"customProperties": {
 				"baseitems": "{@item longsword|PHB}, {@item greatsword|PHB}"
 			},
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		},
 		{
 			"name": "Épée Solaire",
@@ -21428,8 +21396,7 @@
 				"baseitems": "{@item greatsword|PHB}, two {@item shortsword|PHB|shortswords}"
 			},
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"foundryType": "weapon"
+			"hasFluffImages": true
 		}
 	],
 	"itemGroup": [
@@ -21616,7 +21583,7 @@
 			"type": "P",
 			"rarity": "uncommon",
 			"entries": [
-				"{@note * This item group has the same name and source as the item {@item Holy Tonic|SGttEH}}.",
+				"{@note * This item group has the same name and source as the item {@item Holy Tonic}}.",
 				"The mostly-clear tonic in this vial is slightly milky and sparkles when light shines through. It was originally created by a secretive branch of the Radiant Church.",
 				"When you drink this tonic, you regain {@dice 4d4 + 4} hit points and are cured of all diseases you currently suffer from.",
 				{
@@ -21878,7 +21845,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Naw're's Blessing",
+			"name": "Nawre's Blessing",
 			"source": "SGttEH",
 			"page": 263,
 			"type": "EC",
@@ -21914,9 +21881,9 @@
 				}
 			],
 			"items": [
-				"Naw're's Blessing, Drawn|SGttEH",
-				"Naw're's Blessing, Tattooed|SGttEH",
-				"Naw're's Blessing, Scarified|SGttEH"
+				"Nawre's Blessing, Drawn|SGttEH",
+				"Nawre's Blessing, Tattooed|SGttEH",
+				"Nawre's Blessing, Scarified|SGttEH"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -22622,6 +22589,16 @@
 					"credit": "Roman Kuzmin",
 					"width": 794,
 					"height": 378
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/SGttEH/SGttEH/05768.webp"
+					},
+					"credit": "Roman Kuzmin",
+					"width": 563,
+					"height": 685
 				}
 			]
 		},
@@ -22629,6 +22606,16 @@
 			"name": "Caldera",
 			"source": "SGttEH",
 			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/SGttEH/SGttEH/05794.webp"
+					},
+					"credit": "Roman Kuzmin",
+					"width": 816,
+					"height": 422
+				},
 				{
 					"type": "image",
 					"href": {
@@ -23551,7 +23538,7 @@
 			]
 		},
 		{
-			"name": "Naw're's Blessing",
+			"name": "Nawre's Blessing",
 			"source": "SGttEH",
 			"entries": [
 				{
@@ -23576,10 +23563,10 @@
 			]
 		},
 		{
-			"name": "Naw're's Blessing, Drawn",
+			"name": "Nawre's Blessing, Drawn",
 			"source": "SGttEH",
 			"_copy": {
-				"name": "Naw're's Blessing",
+				"name": "Nawre's Blessing",
 				"source": "SGttEH",
 				"_mod": {
 					"images": {
@@ -23601,10 +23588,10 @@
 			}
 		},
 		{
-			"name": "Naw're's Blessing, Scarified",
+			"name": "Nawre's Blessing, Scarified",
 			"source": "SGttEH",
 			"_copy": {
-				"name": "Naw're's Blessing",
+				"name": "Nawre's Blessing",
 				"source": "SGttEH",
 				"_mod": {
 					"images": {
@@ -23626,10 +23613,10 @@
 			}
 		},
 		{
-			"name": "Naw're's Blessing, Tattooed",
+			"name": "Nawre's Blessing, Tattooed",
 			"source": "SGttEH",
 			"_copy": {
-				"name": "Naw're's Blessing",
+				"name": "Nawre's Blessing",
 				"source": "SGttEH",
 				"_mod": {
 					"images": {
@@ -24779,12 +24766,12 @@
 								"type": "entries",
 								"name": "Trick Weapon",
 								"entries": [
-									"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|PHB} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
+									"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|SGttEH} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
 									{
 										"type": "entries",
 										"name": "Untransformed",
 										"entries": [
-											"While untransformed, the {@item sickle|PHB} has the {@itemProperty F||finesse} property, and the {@item blunderbuss|SGttEH} doesn't have the {@itemProperty 2H||two-handed} property. Using this pair of weapons together requires the {@item sickle|PHB} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|PHB}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the {@itemProperty SGttEH:Bar|SGttEH|Barrel} property."
+											"While untransformed, the {@item sickle|SGttEH} has the {@itemProperty F||finesse} property, and the {@item blunderbuss|SGttEH} doesn't have the {@itemProperty 2H||two-handed} property. Using this pair of weapons together requires the {@item sickle|SGttEH} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|SGttEH}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the {@itemProperty SGttEH:Bar|SGttEH|Barrel} property."
 										]
 									},
 									{
@@ -24796,7 +24783,7 @@
 												"type": "entries",
 												"name": "Hookshot",
 												"entries": [
-													"As an action, you can launch the {@item sickle|PHB} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
+													"As an action, you can launch the {@item sickle|SGttEH} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
 												]
 											}
 										]
@@ -24850,12 +24837,12 @@
 								"type": "entries",
 								"name": "Trick Weapon",
 								"entries": [
-									"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|PHB} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
+									"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|SGttEH} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
 									{
 										"type": "entries",
 										"name": "Untransformed",
 										"entries": [
-											"While untransformed, the {@item sickle|PHB} has the {@itemProperty F||finesse} property, and the {@item blunderbuss|SGttEH} doesn't have the {@itemProperty 2H||two-handed} property. Using this pair of weapons together requires the {@item sickle|PHB} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|PHB}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the {@itemProperty SGttEH:Bar|SGttEH|Barrel} property."
+											"While untransformed, the {@item sickle|SGttEH} has the {@itemProperty F||finesse} property, and the {@item blunderbuss|SGttEH} doesn't have the {@itemProperty 2H||two-handed} property. Using this pair of weapons together requires the {@item sickle|SGttEH} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|SGttEH}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the {@itemProperty SGttEH:Bar|SGttEH|Barrel} property."
 										]
 									},
 									{
@@ -24867,7 +24854,7 @@
 												"type": "entries",
 												"name": "Hookshot",
 												"entries": [
-													"As an action, you can launch the {@item sickle|PHB} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
+													"As an action, you can launch the {@item sickle|SGttEH} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
 												]
 											}
 										]
@@ -24903,12 +24890,12 @@
 								"type": "entries",
 								"name": "Trick Weapon",
 								"entries": [
-									"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|PHB} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
+									"As a bonus action, you can switch between the transformed and untransformed states of this weapon. In its untransformed state, the hookshot is two one-handed weapons connected by a short length of chain; a {@item sickle|SGttEH} and a {@item blunderbuss|SGttEH}. In its transformed state, the weapon is a single two-handed weapon; a {@item blunderbuss|SGttEH} with a bladed attachment that can act as a {@item battleaxe|PHB}.",
 									{
 										"type": "entries",
 										"name": "Untransformed",
 										"entries": [
-											"While untransformed, the {@item sickle|PHB} has the finesse property, and the {@item blunderbuss|SGttEH} doesn't have the two-handed property. Using this pair of weapons together requires the {@item sickle|PHB} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|PHB}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the barrel property."
+											"While untransformed, the {@item sickle|SGttEH} has the finesse property, and the {@item blunderbuss|SGttEH} doesn't have the two-handed property. Using this pair of weapons together requires the {@item sickle|SGttEH} to be held in one hand and the {@item blunderbuss|SGttEH} in the other. When you take the {@action Attack} action with the {@item sickle|SGttEH}, you can make an attack with the {@item blunderbuss|SGttEH} as a bonus action, ignoring the barrel property."
 										]
 									},
 									{
@@ -24920,7 +24907,7 @@
 												"type": "entries",
 												"name": "Hookshot",
 												"entries": [
-													"As an action, you can launch the {@item sickle|PHB} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
+													"As an action, you can launch the {@item sickle|SGttEH} from the {@item blunderbuss|SGttEH}, to which it remains attached by a length of sturdy chain. Make a ranged weapon attack against a creature you can see within 30 feet of you. On a hit, the target takes slashing damage equal to {@damage 1d4} plus your Dexterity modifier. If the creature is of your size or smaller, it must succeed on a {@dc 13} Strength saving throw or be pulled in a straight line to the nearest unoccupied space adjacent to you. If the creature is of a size larger than yours, you are pulled in a straight line to the nearest unoccupied space adjacent to it. At the end of your turn, the hook detaches from the creature and reattaches itself to the {@item blunderbuss|SGttEH}."
 												]
 											}
 										]
@@ -25179,7 +25166,7 @@
 					"type": "entries",
 					"name": "Fan Fire",
 					"entries": [
-						"You can quickly fire this weapon by slamming the hammer repeatedly. As an action, you fire a number of bullets in a row equal to your Dexterity modifier (minimum of 2, up to the entirety of the barrel). Each attack after the first suffers a cumulative \u22123 penalty to the attack roll. You cannot add any modifier to the damage roll of these attacks beyond the first (such as the bonus from your Dexterity modifier, the {@feat Sharpshooter|SGttEH} feat, or a magic weapon's bonus to damage rolls). When you use this action, your speed becomes 0 until the end of your turn, and attacks you make using the long range of the weapon automatically miss.",
+						"You can quickly fire this weapon by slamming the hammer repeatedly. As an action, you fire a number of bullets in a row equal to your Dexterity modifier (minimum of 2, up to the entirety of the barrel). Each attack after the first suffers a cumulative \u22123 penalty to the attack roll. You cannot add any modifier to the damage roll of these attacks beyond the first (such as the bonus from your Dexterity modifier, the {@feat Sharp-shooter|SGttEH} feat, or a magic weapon's bonus to damage rolls). When you use this action, your speed becomes 0 until the end of your turn, and attacks you make using the long range of the weapon automatically miss.",
 						"If you roll a 1 on any of the attack rolls, the weapon jams and can't be used again until it is repaired. You can use an action to make a {@dc 15} {@skill Sleight of Hand} check, repairing the weapon on a success. Alternatively, you can spend 1 hour outside of combat to mend it, automatically succeeding on the check. If your check fails, the weapon is broken and must be mended in a specialist's store at a quarter of the cost of the firearm."
 					]
 				}
@@ -25449,12 +25436,12 @@
 				"Ethereal Moongold Equalizer|Trick Weapons Deck|SGttEH",
 				"Épée Sanguine|Trick Weapons Deck|SGttEH",
 				"Thirsting Épée Sanguine|Trick Weapons Deck|SGttEH",
-				"Scionic Armament, Melee|Trick Weapons Deck|SGttEH",
-				"Scionic Armament, Ranged|Trick Weapons Deck|SGttEH",
-				"Scionic Armament, Spellcasting Focus|Trick Weapons Deck|SGttEH",
-				"Roaring Scionic Armament, Melee|Trick Weapons Deck|SGttEH",
-				"Roaring Scionic Armament, Ranged|Trick Weapons Deck|SGttEH",
-				"Roaring Scionic Armament, Spellcasting Focus|Trick Weapons Deck|SGttEH",
+				"Scionic Armament: Melee|Trick Weapons Deck|SGttEH",
+				"Scionic Armament: Ranged|Trick Weapons Deck|SGttEH",
+				"Scionic Armament: Focus|Trick Weapons Deck|SGttEH",
+				"Roaring Scionic Armament: Melee|Trick Weapons Deck|SGttEH",
+				"Roaring Scionic Armament: Ranged|Trick Weapons Deck|SGttEH",
+				"Roaring Scionic Armament: Spellcasting|Trick Weapons Deck|SGttEH",
 				"Stick|Trick Weapons Deck|SGttEH",
 				"Shard of Moonlight|Trick Weapons Deck|SGttEH",
 				"Dream Executioner|Trick Weapons Deck|SGttEH",
@@ -27967,7 +27954,7 @@
 			]
 		},
 		{
-			"name": "Roaring Scionic Armament, Melee",
+			"name": "Roaring Scionic Armament: Melee",
 			"source": "SGttEH",
 			"set": "Trick Weapons Deck",
 			"page": 88,
@@ -28000,7 +27987,7 @@
 			]
 		},
 		{
-			"name": "Roaring Scionic Armament, Ranged",
+			"name": "Roaring Scionic Armament: Ranged",
 			"source": "SGttEH",
 			"set": "Trick Weapons Deck",
 			"page": 91,
@@ -28033,7 +28020,7 @@
 			]
 		},
 		{
-			"name": "Roaring Scionic Armament, Spellcasting Focus",
+			"name": "Roaring Scionic Armament: Spellcasting",
 			"source": "SGttEH",
 			"set": "Trick Weapons Deck",
 			"page": 94,
@@ -28132,7 +28119,40 @@
 			]
 		},
 		{
-			"name": "Scionic Armament, Melee",
+			"name": "Scionic Armament: Focus",
+			"source": "SGttEH",
+			"set": "Trick Weapons Deck",
+			"page": 85,
+			"face": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/SGttEH/TWD/TW-085.webp"
+				},
+				"width": 2014,
+				"height": 3359
+			},
+			"back": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/SGttEH/TWD/TW-086.webp"
+				},
+				"width": 2014,
+				"height": 3359
+			},
+			"entries": [
+				{
+					"type": "statblock",
+					"tag": "item",
+					"source": "SGttEH",
+					"name": "Scionic Armament, Spellcasting Focus",
+					"page": 87
+				}
+			]
+		},
+		{
+			"name": "Scionic Armament: Melee",
 			"source": "SGttEH",
 			"set": "Trick Weapons Deck",
 			"page": 79,
@@ -28165,7 +28185,7 @@
 			]
 		},
 		{
-			"name": "Scionic Armament, Ranged",
+			"name": "Scionic Armament: Ranged",
 			"source": "SGttEH",
 			"set": "Trick Weapons Deck",
 			"page": 82,
@@ -28194,39 +28214,6 @@
 					"source": "SGttEH",
 					"name": "Scionic Armament, Ranged",
 					"page": 84
-				}
-			]
-		},
-		{
-			"name": "Scionic Armament, Spellcasting Focus",
-			"source": "SGttEH",
-			"set": "Trick Weapons Deck",
-			"page": 85,
-			"face": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/SGttEH/TWD/TW-085.webp"
-				},
-				"width": 2014,
-				"height": 3359
-			},
-			"back": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/SGttEH/TWD/TW-086.webp"
-				},
-				"width": 2014,
-				"height": 3359
-			},
-			"entries": [
-				{
-					"type": "statblock",
-					"tag": "item",
-					"source": "SGttEH",
-					"name": "Scionic Armament, Spellcasting Focus",
-					"page": 87
 				}
 			]
 		},
@@ -28959,7 +28946,7 @@
 						"The abductor casts {@spell darkness} at 3rd-level, without material components, targeting its candle. While touching the candle, a creature can see through the darkness created by the spell."
 					],
 					"will": [
-						"{@spell darkness}"
+						"{@spell darkness#3}"
 					],
 					"displayAs": "action",
 					"hidden": [
@@ -31602,19 +31589,19 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell bludgeoning horror|SGttEH}{@font ♰|radiantcross} (5th level)",
-							"{@spell color spray} (5th level)",
-							"{@spell counterspell} (5th level)",
+							"{@spell bludgeoning horror|SGttEH#5}{@font ♰|radiantcross} (5th level)",
+							"{@spell color spray#5} (5th level)",
+							"{@spell counterspell#5} (5th level)",
 							"{@spell dominate person}",
 							"{@spell haste}",
 							"{@spell mass healing word}",
-							"{@spell sleep} (5th level)"
+							"{@spell sleep#5} (5th level)"
 						],
 						"1e": [
 							"{@spell hold monster}",
 							"{@spell hypnotic pattern}",
 							"{@spell mass cure wounds}",
-							"{@spell modify memory} (9th level)",
+							"{@spell modify memory#9} (9th level)",
 							"{@spell plane shift}",
 							"{@spell wall of force}"
 						]
@@ -35935,7 +35922,7 @@
 						"Orr's innate spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell counterspell}"
+						"{@spell counterspell#5}"
 					],
 					"daily": {
 						"3e": [
@@ -36252,7 +36239,7 @@
 						"Orr's innate spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell counterspell}"
+						"{@spell counterspell#5}"
 					],
 					"daily": {
 						"3e": [
@@ -49383,7 +49370,7 @@
 													"name": "Encounter: The Corrupted Child",
 													"page": 479,
 													"entries": [
-														"The corrupted child-god ({@creature Orr, the Grieving Rebirth (First Form)|SGttEH|Orr, the Grieving Rebirth}, Page 372) is in a constant state of madness and grief, unable to articulate or speak with the characters. Each time it opens its mouth, it releases a debilitating scream backed by its blend of eldritch and divine powers. It uses its screams to weaken the characters and uses the Eldritch Summoning lair action (see below) to mold creatures out of the darkness to overwhelm the party. The child-god knows only pain and is without fear, fighting to the death in its rage and utter despair."
+														"The corrupted child-god ({@creature Orr, the Grieving Rebirth|SGttEH}, Page 372) is in a constant state of madness and grief, unable to articulate or speak with the characters. Each time it opens its mouth, it releases a debilitating scream backed by its blend of eldritch and divine powers. It uses its screams to weaken the characters and uses the Eldritch Summoning lair action (see below) to mold creatures out of the darkness to overwhelm the party. The child-god knows only pain and is without fear, fighting to the death in its rage and utter despair."
 													],
 													"id": "064"
 												}
@@ -49712,7 +49699,7 @@
 									"name": "Scion Custodians",
 									"page": 450,
 									"entries": [
-										"The former main entrance to the temple was discovered by the arcane scientists known as the Scions. They attempted to clear the creatures inside using their {@creature blue-flame custodian|SGttEH|blue-flame custodians} {@homebrew |(page 352)}, but they failed. The custodians were ill-suited to this task, as their fleshy parts fell under the eldritch influences within the temple. The characters can attempt to convince the Scion Percival Stanway (see {@area area 8|EoM-1-8|x}) to lend them a custodian to assist in their exploration; those they come across in the depths have otherwise already gone feral."
+										"The former main entrance to the temple was discovered by the arcane scientists known as the Scions. They attempted to clear the creatures inside using their {@creature blue flame custodian|SGttEH|blue flame custodians} {@homebrew |(page 352)}, but they failed. The custodians were ill-suited to this task, as their fleshy parts fell under the eldritch influences within the temple. The characters can attempt to convince the Scion Percival Stanway (see {@area area 8|EoM-1-8|x}) to lend them a custodian to assist in their exploration; those they come across in the depths have otherwise already gone feral."
 									],
 									"id": "013"
 								},
@@ -50715,7 +50702,7 @@
 									"page": 455,
 									"id": "EoM-1-8",
 									"entries": [
-										"This location is the entrance the Scions excavated and can be used as the party's entry point into the temple (see \"{@adventure Bones of the Scions|SGttEH-EoM|0|Bones of the Scions}\" section, page 448). A Scion named Percival Stanway is repairing a {@creature blue-flame custodian|SGttEH|custodian} and can provide the party with limited information.",
+										"This location is the entrance the Scions excavated and can be used as the party's entry point into the temple (see \"{@adventure Bones of the Scions|SGttEH-EoM|0|Bones of the Scions}\" section, page 448). A Scion named Percival Stanway is repairing a {@creature blue flame custodian|SGttEH|custodian} and can provide the party with limited information.",
 										"When the party enters this area for the first time, read aloud the following:",
 										{
 											"type": "insetReadaloud",
@@ -50740,7 +50727,7 @@
 											],
 											"id": "039"
 										},
-										"Percival Stanway is finishing repairs on a {@creature blue-flame custodian|SGttEH} {@homebrew |(page 352)} and is surprised to see the party in the temple. If the Scions sent the characters here, he greets them warmly and answers any questions they might have. Otherwise, he treats them suspiciously at first, wondering how they got into the temple.",
+										"Percival Stanway is finishing repairs on a {@creature blue flame custodian|SGttEH} {@homebrew |(page 352)} and is surprised to see the party in the temple. If the Scions sent the characters here, he greets them warmly and answers any questions they might have. Otherwise, he treats them suspiciously at first, wondering how they got into the temple.",
 										"Percival knows the following useful information:",
 										{
 											"type": "list",
@@ -54873,7 +54860,7 @@
 											],
 											"id": "03c"
 										},
-										"A character inspecting the bones who is proficient with {@item alchemist's supplies|PHB|alchemist's tools} or who succeeds on a {@dc 12} Wisdom ({@skill Perception}) check notices the bones are smooth and unmarked, as if the flesh was melted off them. A successful {@dc 15} Intelligence ({@skill History}) check reveals the flower petals over the eyes are part of a local ritual to send the dead into the afterlife. These are the remains of the villagers killed by the acid flood. The {@creature Veiled Hunter|SGttEH} laid them here as a reminder of what the village had lost.",
+										"A character inspecting the bones who is proficient with {@item alchemist's tools|PHB} or who succeeds on a {@dc 12} Wisdom ({@skill Perception}) check notices the bones are smooth and unmarked, as if the flesh was melted off them. A successful {@dc 15} Intelligence ({@skill History}) check reveals the flower petals over the eyes are part of a local ritual to send the dead into the afterlife. These are the remains of the villagers killed by the acid flood. The {@creature Veiled Hunter|SGttEH} laid them here as a reminder of what the village had lost.",
 										{
 											"type": "entries",
 											"entries": [
@@ -54915,7 +54902,7 @@
 													"name": "Hazard: Toxic Fumes",
 													"page": 438,
 													"entries": [
-														"Creatures spending more than 1 minute breathing the fumes in this chamber must succeed on a {@dc 15} Constitution saving throw or become {@condition poisoned} for 1 hour."
+														"Creatures spending more than 1 minute breathing the fumes in this chamber must succeed on a {@dc 15} Constitution saving throw or become {@skill poisoned} for 1 hour."
 													],
 													"id": "041"
 												},
@@ -56719,7 +56706,7 @@
 						"Devouring Belua",
 						"Dullahan",
 						"Fallen",
-						"Galvanized Prowler",
+						"Galvanised Prowler",
 						"Geist",
 						"Heretical Statue (temporary)",
 						"Jaeger",
@@ -56850,12 +56837,12 @@
 						"Ethereal Moongold Equalizer",
 						"Épée Sanguine",
 						"Thirsting Épée Sanguine",
-						"Scionic Armament, Melee",
-						"Scionic Armament, Ranged",
-						"Scionic Armament, Spellcasting Focus",
-						"Roaring Scionic Armament, Melee",
-						"Roaring Scionic Armament, Ranged",
-						"Roaring Scionic Armament, Spellcasting Focus",
+						"Scionic Armament: Melee",
+						"Scionic Armament: Ranged",
+						"Scionic Armament: Focus",
+						"Roaring Scionic Armament: Melee",
+						"Roaring Scionic Armament: Ranged",
+						"Roaring Scionic Armament: Spellcasting",
 						"Stick",
 						"Shard of Moonlight",
 						"Dream Executioner",
@@ -62056,11 +62043,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Absolute Chapter",
+									"name": "Absolute",
 									"className": "Jaeger",
 									"classSource": "SGttEH",
-									"page": 118,
-									"shortName": "Absolute"
+									"page": 118
 								},
 								{
 									"type": "image",
@@ -62098,11 +62084,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Heretic Chapter",
+									"name": "Heretic",
 									"className": "Jaeger",
 									"classSource": "SGttEH",
-									"page": 119,
-									"shortName": "Heretic"
+									"page": 119
 								},
 								{
 									"type": "image",
@@ -62126,11 +62111,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Marauder Chapter",
+									"name": "Marauder",
 									"className": "Jaeger",
 									"classSource": "SGttEH",
-									"page": 121,
-									"shortName": "Marauder"
+									"page": 121
 								},
 								{
 									"type": "inset",
@@ -62172,11 +62156,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Salvation Chapter",
+									"name": "Salvation",
 									"className": "Jaeger",
 									"classSource": "SGttEH",
-									"page": 123,
-									"shortName": "Salvation"
+									"page": 123
 								},
 								{
 									"type": "image",
@@ -62213,11 +62196,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Sanguine Chapter",
+									"name": "Sanguine",
 									"className": "Jaeger",
 									"classSource": "SGttEH",
-									"page": 124,
-									"shortName": "Sanguine"
+									"page": 124
 								},
 								{
 									"type": "image",
@@ -62373,11 +62355,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Path of the Earthbreaker",
+									"name": "Earthbreaker",
 									"className": "Barbarian",
 									"classSource": "PHB",
-									"page": 128,
-									"shortName": "Earthbreaker"
+									"page": 128
 								},
 								{
 									"type": "inset",
@@ -62417,11 +62398,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Path of the Lightning Vessel",
+									"name": "Lightning Vessel",
 									"className": "Barbarian",
 									"classSource": "PHB",
-									"page": 130,
-									"shortName": "Lightning Vessel"
+									"page": 130
 								},
 								{
 									"type": "inset",
@@ -62469,11 +62449,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "College of the Apocalypse",
+									"name": "Apocalypse",
 									"className": "Bard",
 									"classSource": "PHB",
-									"page": 133,
-									"shortName": "Apocalypse"
+									"page": 133
 								},
 								{
 									"type": "entries",
@@ -62589,11 +62568,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Guardian Domain",
+									"name": "Guardian",
 									"className": "Cleric",
 									"classSource": "PHB",
-									"page": 136,
-									"shortName": "Guardian"
+									"page": 136
 								},
 								{
 									"type": "image",
@@ -62634,11 +62612,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Circle of Symbiosis",
+									"name": "Symbiosis",
 									"className": "Druid",
 									"classSource": "PHB",
-									"page": 140,
-									"shortName": "Symbiosis"
+									"page": 140
 								},
 								{
 									"type": "image",
@@ -62665,8 +62642,7 @@
 									"name": "Blood Archer",
 									"className": "Fighter",
 									"classSource": "PHB",
-									"page": 142,
-									"shortName": "Blood Archer"
+									"page": 142
 								},
 								{
 									"type": "image",
@@ -62781,8 +62757,7 @@
 									"name": "Living Nightmare",
 									"className": "Fighter",
 									"classSource": "PHB",
-									"page": 145,
-									"shortName": "Living Nightmare"
+									"page": 145
 								},
 								{
 									"type": "image",
@@ -62806,11 +62781,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Way of the Fire Dancer",
+									"name": "Fire Dancer",
 									"className": "Monk",
 									"classSource": "PHB",
-									"page": 147,
-									"shortName": "Fire Dancer"
+									"page": 147
 								},
 								{
 									"type": "inset",
@@ -62843,11 +62817,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Oath of the Eldritch Hunt",
+									"name": "Eldritch Hunt",
 									"className": "Paladin",
 									"classSource": "PHB",
-									"page": 149,
-									"shortName": "Eldritch Hunt"
+									"page": 149
 								},
 								{
 									"type": "image",
@@ -62874,8 +62847,7 @@
 									"name": "Lunar Warden",
 									"className": "Ranger",
 									"classSource": "PHB",
-									"page": 151,
-									"shortName": "Lunar Warden"
+									"page": 151
 								},
 								{
 									"type": "image",
@@ -62933,11 +62905,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Torturer Conclave",
+									"name": "Torturer",
 									"className": "Ranger",
 									"classSource": "PHB",
-									"page": 155,
-									"shortName": "Torturer"
+									"page": 155
 								},
 								{
 									"type": "image",
@@ -62961,11 +62932,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Blade of Radiance",
+									"name": "Radiance",
 									"className": "Rogue",
 									"classSource": "PHB",
-									"page": 155,
-									"shortName": "Radiance"
+									"page": 155
 								},
 								{
 									"type": "image",
@@ -62992,8 +62962,7 @@
 									"name": "Shadow",
 									"className": "Rogue",
 									"classSource": "PHB",
-									"page": 161,
-									"shortName": "Shadow"
+									"page": 161
 								},
 								{
 									"type": "image",
@@ -63017,11 +62986,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "Scion of Madness",
+									"name": "Madness",
 									"className": "Sorcerer",
 									"classSource": "PHB",
-									"page": 164,
-									"shortName": "Madness"
+									"page": 164
 								},
 								{
 									"type": "image",
@@ -63045,11 +63013,10 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "SGttEH",
-									"name": "The Void",
+									"name": "Void",
 									"className": "Warlock",
 									"classSource": "PHB",
-									"page": 165,
-									"shortName": "Void"
+									"page": 165
 								},
 								{
 									"type": "image",
@@ -63179,8 +63146,7 @@
 									"name": "Osteomancer",
 									"className": "Wizard",
 									"classSource": "PHB",
-									"page": 170,
-									"shortName": "Osteomancer"
+									"page": 170
 								},
 								{
 									"type": "image",
@@ -63290,7 +63256,7 @@
 									"type": "statblock",
 									"tag": "feat",
 									"source": "SGttEH",
-									"displayName": "Optional: Sharpshooter",
+									"displayName": "Optional: Sharp-shooter",
 									"name": "Sharpshooter",
 									"page": 173
 								},
@@ -64468,7 +64434,7 @@
 													"name": "Fan Fire",
 													"page": 209,
 													"entries": [
-														"You can quickly fire this weapon by slamming the hammer repeatedly. As an action, you fire a number of bullets in a row equal to your Dexterity modifier (minimum of 2, up to the entirety of the barrel). Each attack after the first suffers a cumulative \u22123 penalty to the attack roll. You cannot add any modifier to the damage roll of these attacks beyond the first (such as the bonus from your Dexterity modifier, the {@feat Sharpshooter|SGttEH} feat, or a magic weapon's bonus to damage rolls). When you use this action, your speed becomes 0 until the end of your turn, and attacks you make using the long range of the weapon automatically miss.",
+														"You can quickly fire this weapon by slamming the hammer repeatedly. As an action, you fire a number of bullets in a row equal to your Dexterity modifier (minimum of 2, up to the entirety of the barrel). Each attack after the first suffers a cumulative \u22123 penalty to the attack roll. You cannot add any modifier to the damage roll of these attacks beyond the first (such as the bonus from your Dexterity modifier, the {@feat Sharp-shooter|SGttEH} feat, or a magic weapon's bonus to damage rolls). When you use this action, your speed becomes 0 until the end of your turn, and attacks you make using the long range of the weapon automatically miss.",
 														"If you roll a 1 on any of the attack rolls, the weapon jams and can't be used again until it is repaired. You can use an action to make a {@dc 15} {@skill Sleight of Hand} check, repairing the weapon on a success. Alternatively, you can spend 1 hour outside of combat to mend it, automatically succeeding on the check. If your check fails, the weapon is broken and must be mended in a specialist's store at a quarter of the cost of the firearm."
 													],
 													"id": "14b"
@@ -65240,7 +65206,7 @@
 											"type": "statblock",
 											"tag": "item",
 											"source": "SGttEH",
-											"name": "Scionic Armament, Melee",
+											"name": "Scionic Armament; Melee",
 											"page": 230
 										},
 										{
@@ -65256,14 +65222,14 @@
 											"type": "statblock",
 											"tag": "item",
 											"source": "SGttEH",
-											"name": "Scionic Armament, Ranged",
+											"name": "Scionic Armament; Ranged",
 											"page": 230
 										},
 										{
 											"type": "statblock",
 											"tag": "item",
 											"source": "SGttEH",
-											"name": "Scionic Armament, Spellcasting Focus",
+											"name": "Scionic Armament; Spellcasting Focus",
 											"page": 231
 										},
 										{
@@ -65466,6 +65432,16 @@
 								{
 									"type": "gallery",
 									"images": [
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/SGttEH/SGttEH/05794.webp"
+											},
+											"credit": "Roman Kuzmin",
+											"width": 816,
+											"height": 422
+										},
 										{
 											"type": "image",
 											"href": {
@@ -65935,21 +65911,21 @@
 											"type": "statblock",
 											"tag": "item",
 											"source": "SGttEH",
-											"name": "Roaring Scionic Armament, Melee",
+											"name": "Roaring Scionic Armament; Melee",
 											"page": 251
 										},
 										{
 											"type": "statblock",
 											"tag": "item",
 											"source": "SGttEH",
-											"name": "Roaring Scionic Armament, Ranged",
+											"name": "Roaring Scionic Armament; Ranged",
 											"page": 251
 										},
 										{
 											"type": "statblock",
 											"tag": "item",
 											"source": "SGttEH",
-											"name": "Roaring Scionic Armament, Spellcasting Focus",
+											"name": "Roaring Scionic Armament; Spellcasting Focus",
 											"page": 251
 										},
 										{
@@ -66264,7 +66240,7 @@
 									"type": "statblock",
 									"tag": "item",
 									"source": "SGttEH",
-									"name": "Naw're's Blessing",
+									"name": "Nawre's Blessing",
 									"page": 263
 								},
 								{
@@ -76654,7 +76630,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Galvanized Prowler",
+							"name": "Galvanised Prowler",
 							"page": 7,
 							"entries": [
 								{
@@ -76698,7 +76674,7 @@
 											],
 											"id": "018"
 										},
-										"{@creature Galvanized Prowler|SGttEH}"
+										"{@creature Galvanised Prowler|SGttEH}"
 									],
 									"id": "016"
 								}
@@ -77968,7 +77944,7 @@
 													"name": "Fan Fire",
 													"page": 124,
 													"entries": [
-														"You can quickly fire this weapon by slamming the hammer repeatedly. As an action, you fire a number of bullets in a row equal to your Dexterity modifier (minimum of 2, up to the entirety of the barrel). Each attack after the first suffers a cumulative \u22123 penalty to the attack roll. You cannot add any modifier to the damage roll of these attacks beyond the first (such as the bonus from your Dexterity modifier, the {@feat Sharpshooter|SGttEH} feat, or a magic weapon's bonus to damage rolls). When you use this action, your speed becomes 0 until the end of your turn, and attacks you make using the long range of the weapon automatically miss.",
+														"You can quickly fire this weapon by slamming the hammer repeatedly. As an action, you fire a number of bullets in a row equal to your Dexterity modifier (minimum of 2, up to the entirety of the barrel). Each attack after the first suffers a cumulative \u22123 penalty to the attack roll. You cannot add any modifier to the damage roll of these attacks beyond the first (such as the bonus from your Dexterity modifier, the {@feat Sharp-shooter|SGttEH} feat, or a magic weapon's bonus to damage rolls). When you use this action, your speed becomes 0 until the end of your turn, and attacks you make using the long range of the weapon automatically miss.",
 														"If you roll a 1 on any of the attack rolls, the weapon jams and can't be used again until it is repaired. You can use an action to make a {@dc 15} {@skill Sleight of Hand} check, repairing the weapon on a success. Alternatively, you can spend 1 hour outside of combat to mend it, automatically succeeding on the check. If your check fails, the weapon is broken and must be mended in a specialist's store at a quarter of the cost of the firearm."
 													],
 													"id": "01c"
@@ -79583,7 +79559,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Scionic Armament, Melee",
+							"name": "Scionic Armament: Melee",
 							"page": 79,
 							"entries": [
 								{
@@ -79622,7 +79598,7 @@
 									"type": "statblock",
 									"tag": "item",
 									"source": "SGttEH",
-									"name": "Scionic Armament, Melee",
+									"name": "Scionic Armament: Melee",
 									"page": 81
 								}
 							],
@@ -79630,7 +79606,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Scionic Armament, Ranged",
+							"name": "Scionic Armament: Ranged",
 							"page": 82,
 							"entries": [
 								{
@@ -79669,7 +79645,7 @@
 									"type": "statblock",
 									"tag": "item",
 									"source": "SGttEH",
-									"name": "Scionic Armament, Ranged",
+									"name": "Scionic Armament: Ranged",
 									"page": 84
 								}
 							],
@@ -79677,7 +79653,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Scionic Armament, Spellcasting Focus",
+							"name": "Scionic Armament: Focus",
 							"page": 85,
 							"entries": [
 								{
@@ -79716,7 +79692,7 @@
 									"type": "statblock",
 									"tag": "item",
 									"source": "SGttEH",
-									"name": "Scionic Armament, Spellcasting Focus",
+									"name": "Scionic Armament: Focus",
 									"page": 87
 								}
 							],
@@ -79724,7 +79700,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Roaring Scionic Armament, Melee",
+							"name": "Roaring Scionic Armament: Melee",
 							"page": 88,
 							"entries": [
 								{
@@ -79763,7 +79739,7 @@
 									"type": "statblock",
 									"tag": "item",
 									"source": "SGttEH",
-									"name": "Roaring Scionic Armament, Melee",
+									"name": "Roaring Scionic Armament: Melee",
 									"page": 90
 								}
 							],
@@ -79771,7 +79747,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Roaring Scionic Armament, Ranged",
+							"name": "Roaring Scionic Armament: Ranged",
 							"page": 91,
 							"entries": [
 								{
@@ -79810,7 +79786,7 @@
 									"type": "statblock",
 									"tag": "item",
 									"source": "SGttEH",
-									"name": "Roaring Scionic Armament, Ranged",
+									"name": "Roaring Scionic Armament: Ranged",
 									"page": 93
 								}
 							],
@@ -79818,7 +79794,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Roaring Scionic Armament, Spellcasting Focus",
+							"name": "Roaring Scionic Armament: Spellcasting",
 							"page": 94,
 							"entries": [
 								{
@@ -79857,7 +79833,7 @@
 									"type": "statblock",
 									"tag": "item",
 									"source": "SGttEH",
-									"name": "Roaring Scionic Armament, Spellcasting Focus",
+									"name": "Roaring Scionic Armament: Spellcasting",
 									"page": 96
 								}
 							],

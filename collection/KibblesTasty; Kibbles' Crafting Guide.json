@@ -5,32 +5,24 @@
 				"json": "KTKCG",
 				"abbreviation": "KT: KCG",
 				"full": "KibblesTasty: Kibbles' Crafting Guide",
-				"url": "https://www.reddit.com/r/UnearthedArcana/comments/u2mmzz/kibbles_crafting_system_a_comprehensive_system_of/",
-				"version": "v1.0.6a",
-				"dateReleased": "2022-01-08",
 				"authors": [
 					"KibblesTasty"
 				],
 				"convertedBy": [
-					"cadowtin [he/him]",
-					"Lyra [he/him]"
+					"Lyra [he/him]",
+					"cadowtin [he/him]"
 				],
-				"color": "856844"
+				"version": "v1.0.6a",
+				"color": "856844",
+				"url": "https://www.reddit.com/r/UnearthedArcana/comments/u2mmzz/kibbles_crafting_system_a_comprehensive_system_of/",
+				"dateReleased": "2022-01-08"
 			}
 		],
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1665517025,
-		"dateLastModified": 1777136208,
-		"_dateLastModifiedHash": "4704d402ba"
-	},
-	"_test": {
-		"references": [
-			"KibbleInventor",
-			"KibblesTasty:cc",
-			"KT:O",
-			"ktp"
-		]
+		"dateLastModified": 1746523369,
+		"_dateLastModifiedHash": "aa7b82ed6b"
 	},
 	"spell": [
 		{
@@ -86,7 +78,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Inventor",
+						"name": "KibbleTasty's Inventor",
 						"source": "KibbleInventor"
 					}
 				]
@@ -142,7 +134,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Inventor",
+						"name": "KibbleTasty's Inventor",
 						"source": "KibbleInventor"
 					}
 				]
@@ -206,7 +198,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Inventor",
+						"name": "KibbleTasty's Inventor",
 						"source": "KibbleInventor"
 					}
 				]
@@ -268,7 +260,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Inventor",
+						"name": "KibbleTasty's Inventor",
 						"source": "KibbleInventor"
 					}
 				]
@@ -324,7 +316,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Inventor",
+						"name": "KibbleTasty's Inventor",
 						"source": "KibbleInventor"
 					}
 				]
@@ -370,7 +362,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"You work magic into a {@item hide|KTKCG}, turning it into processed {@item leather|KTKCG}. If you concentrate for the duration, you can turn a single {@item hide|KTKCG} into a {@item rawhide leather|KTKCG}, {@item boiled leather|KTKCG}, or {@item tanned leather|KTKCG}. Alternatively, you can turn {@item hide scraps|KTKCG} into {@item leather scraps|KTKCG}."
+				"You work magic into a {@item hide|KTKCG}, turning it into {@item processed leather|KTKCG}. If you concentrate for the duration, you can turn a single {@item hide|KTKCG} into a {@item rawhide leather|KTKCG}, {@item boiled leather|KTKCG}, or {@item tanned leather|KTKCG}. Alternatively, you can turn {@item hide scraps|KTKCG} into {@item leather scraps|KTKCG}."
 			],
 			"classes": {
 				"fromClassList": [
@@ -379,7 +371,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Inventor",
+						"name": "KibbleTasty's Inventor",
 						"source": "KibbleInventor"
 					}
 				]
@@ -446,7 +438,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Inventor",
+						"name": "KibbleTasty's Inventor",
 						"source": "KibbleInventor"
 					}
 				]
@@ -511,7 +503,8 @@
 			"page": 105,
 			"type": "G",
 			"rarity": "common",
-			"value": 200
+			"value": 200,
+			"entries": []
 		},
 		{
 			"name": "Ballgown",
@@ -519,7 +512,8 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 13000
+			"value": 13000,
+			"entries": []
 		},
 		{
 			"name": "Barrel",
@@ -527,7 +521,8 @@
 			"page": 130,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 10
+			"value": 10,
+			"entries": []
 		},
 		{
 			"name": "Barrel of Beer",
@@ -535,7 +530,8 @@
 			"page": 130,
 			"type": "FD",
 			"rarity": "none",
-			"value": 1000
+			"value": 1000,
+			"entries": []
 		},
 		{
 			"name": "Barrel of Mead",
@@ -543,7 +539,8 @@
 			"page": 130,
 			"type": "FD",
 			"rarity": "none",
-			"value": 5000
+			"value": 5000,
+			"entries": []
 		},
 		{
 			"name": "Barrel of Swill",
@@ -551,7 +548,8 @@
 			"page": 130,
 			"type": "FD",
 			"rarity": "none",
-			"value": 120
+			"value": 120,
+			"entries": []
 		},
 		{
 			"name": "Basic Glasses",
@@ -559,7 +557,8 @@
 			"page": 131,
 			"type": "G",
 			"rarity": "none",
-			"value": 1000
+			"value": 1000,
+			"entries": []
 		},
 		{
 			"name": "Belt",
@@ -567,7 +566,8 @@
 			"page": 104,
 			"type": "G",
 			"rarity": "common",
-			"value": 100
+			"value": 100,
+			"entries": []
 		},
 		{
 			"name": "Boiled Leather",
@@ -586,7 +586,8 @@
 			"page": 129,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 10
+			"value": 10,
+			"entries": []
 		},
 		{
 			"name": "Bolt of Silk",
@@ -594,7 +595,8 @@
 			"page": 129,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 200
+			"value": 200,
+			"entries": []
 		},
 		{
 			"name": "Boots",
@@ -602,7 +604,8 @@
 			"page": 129,
 			"type": "G",
 			"rarity": "none",
-			"value": 500
+			"value": 500,
+			"entries": []
 		},
 		{
 			"name": "Brass Knuckles",
@@ -619,7 +622,8 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Broadsword",
@@ -636,7 +640,8 @@
 			"dmg1": "2d4",
 			"dmgType": "S",
 			"sword": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Bucket of Cement",
@@ -644,7 +649,8 @@
 			"page": 124,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 10
+			"value": 10,
+			"entries": []
 		},
 		{
 			"name": "Buckle",
@@ -663,7 +669,8 @@
 			"page": 130,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 1
+			"value": 1,
+			"entries": []
 		},
 		{
 			"name": "Cape",
@@ -671,7 +678,8 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 30
+			"value": 30,
+			"entries": []
 		},
 		{
 			"name": "Carapace Breastplate",
@@ -716,7 +724,8 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Chain",
@@ -733,7 +742,8 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Chair",
@@ -741,7 +751,8 @@
 			"page": 131,
 			"type": "OTH",
 			"rarity": "none",
-			"value": 25
+			"value": 25,
+			"entries": []
 		},
 		{
 			"name": "Cloak",
@@ -749,7 +760,8 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 40
+			"value": 40,
+			"entries": []
 		},
 		{
 			"name": "Cloth Scraps",
@@ -757,7 +769,8 @@
 			"page": 132,
 			"type": "TG",
 			"rarity": "none",
-			"value": 1
+			"value": 1,
+			"entries": []
 		},
 		{
 			"name": "Clothes",
@@ -765,7 +778,8 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 600
+			"value": 600,
+			"entries": []
 		},
 		{
 			"name": "Common Amulet",
@@ -773,7 +787,8 @@
 			"page": 131,
 			"type": "$|DMG",
 			"rarity": "none",
-			"value": 15000
+			"value": 15000,
+			"entries": []
 		},
 		{
 			"name": "Common Branch",
@@ -865,7 +880,8 @@
 			"page": 131,
 			"type": "RG|DMG",
 			"rarity": "none",
-			"value": 2000
+			"value": 2000,
+			"entries": []
 		},
 		{
 			"name": "Common Supplies",
@@ -941,7 +957,8 @@
 			"page": 105,
 			"type": "G",
 			"rarity": "common",
-			"value": 100
+			"value": 100,
+			"entries": []
 		},
 		{
 			"name": "Door",
@@ -949,7 +966,8 @@
 			"page": 131,
 			"type": "OTH",
 			"rarity": "none",
-			"value": 600
+			"value": 600,
+			"entries": []
 		},
 		{
 			"name": "Esoteric Parts",
@@ -968,7 +986,8 @@
 			"page": 129,
 			"type": "G",
 			"rarity": "none",
-			"value": 24000
+			"value": 24000,
+			"entries": []
 		},
 		{
 			"name": "Fancy Painting",
@@ -976,7 +995,8 @@
 			"page": 130,
 			"type": "$A|DMG",
 			"rarity": "none",
-			"value": 15000
+			"value": 15000,
+			"entries": []
 		},
 		{
 			"name": "Fancy Parts",
@@ -1007,7 +1027,8 @@
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"dmg2": "1d6",
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Finesse Spear",
@@ -1027,7 +1048,8 @@
 			"dmgType": "P",
 			"dmg2": "1d6",
 			"spear": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Firearm Ammunition",
@@ -1035,7 +1057,8 @@
 			"page": 47,
 			"type": "AF|DMG",
 			"rarity": "uncommon",
-			"value": 400
+			"value": 400,
+			"entries": []
 		},
 		{
 			"name": "Firesteel Ingot",
@@ -1075,7 +1098,8 @@
 			"page": 130,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 10
+			"value": 10,
+			"entries": []
 		},
 		{
 			"name": "Flask of Distilled Alcohol",
@@ -1083,7 +1107,8 @@
 			"page": 130,
 			"type": "FD",
 			"rarity": "none",
-			"value": 2
+			"value": 2,
+			"entries": []
 		},
 		{
 			"name": "Fletching",
@@ -1147,7 +1172,8 @@
 			"type": "INS",
 			"rarity": "common",
 			"weight": 5,
-			"value": 3500
+			"value": 3500,
+			"entries": []
 		},
 		{
 			"name": "Hat/Cap",
@@ -1155,7 +1181,8 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 20
+			"value": 20,
+			"entries": []
 		},
 		{
 			"name": "Heavy Greatclub",
@@ -1174,7 +1201,8 @@
 			"dmg1": "1d10",
 			"dmgType": "B",
 			"club": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Helmet",
@@ -1215,7 +1243,8 @@
 			"page": 104,
 			"type": "G",
 			"rarity": "common",
-			"value": 50
+			"value": 50,
+			"entries": []
 		},
 		{
 			"name": "Horseshoe",
@@ -1295,7 +1324,8 @@
 			"dmgType": "S",
 			"dmg2": "2d4",
 			"sword": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Large Carapace",
@@ -1451,7 +1481,8 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Long Haft",
@@ -1470,7 +1501,8 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 20
+			"value": 20,
+			"entries": []
 		},
 		{
 			"name": "Masterwork Amulet",
@@ -1478,7 +1510,8 @@
 			"page": 131,
 			"type": "$|DMG",
 			"rarity": "none",
-			"value": 65000
+			"value": 65000,
+			"entries": []
 		},
 		{
 			"name": "Masterwork Ring",
@@ -1486,7 +1519,8 @@
 			"page": 131,
 			"type": "RG|DMG",
 			"rarity": "none",
-			"value": 42000
+			"value": 42000,
+			"entries": []
 		},
 		{
 			"name": "Masterwork Statue",
@@ -1494,7 +1528,8 @@
 			"page": 129,
 			"type": "$A|DMG",
 			"rarity": "none",
-			"value": 67000
+			"value": 67000,
+			"entries": []
 		},
 		{
 			"name": "Medium Carapace",
@@ -1556,7 +1591,8 @@
 			"page": 129,
 			"type": "G",
 			"rarity": "none",
-			"value": 10000
+			"value": 10000,
+			"entries": []
 		},
 		{
 			"name": "Noble Garb",
@@ -1564,7 +1600,8 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 13000
+			"value": 13000,
+			"entries": []
 		},
 		{
 			"name": "Noise Trap",
@@ -1572,7 +1609,8 @@
 			"page": 109,
 			"type": "G",
 			"rarity": "common",
-			"value": 1000
+			"value": 1000,
+			"entries": []
 		},
 		{
 			"name": "Normal Ink",
@@ -1580,7 +1618,8 @@
 			"page": 13,
 			"type": "Comp",
 			"rarity": "common",
-			"value": 500
+			"value": 500,
+			"entries": []
 		},
 		{
 			"name": "Oak Barrel",
@@ -1588,7 +1627,8 @@
 			"page": 130,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 50
+			"value": 50,
+			"entries": []
 		},
 		{
 			"name": "Paint",
@@ -1596,7 +1636,8 @@
 			"page": 130,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 1
+			"value": 1,
+			"entries": []
 		},
 		{
 			"name": "Painting",
@@ -1604,7 +1645,8 @@
 			"page": 130,
 			"type": "$A|DMG",
 			"rarity": "none",
-			"value": 40
+			"value": 40,
+			"entries": []
 		},
 		{
 			"name": "Parts",
@@ -1634,7 +1676,8 @@
 			"page": 131,
 			"type": "G",
 			"rarity": "none",
-			"value": 5000
+			"value": 5000,
+			"entries": []
 		},
 		{
 			"name": "Rare Branch",
@@ -1738,7 +1781,8 @@
 			"page": 129,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 1
+			"value": 1,
+			"entries": []
 		},
 		{
 			"name": "Raw Silk",
@@ -1746,7 +1790,8 @@
 			"page": 129,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 10
+			"value": 10,
+			"entries": []
 		},
 		{
 			"name": "Raw Wool",
@@ -1754,7 +1799,8 @@
 			"page": 129,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 1
+			"value": 1,
+			"entries": []
 		},
 		{
 			"name": "Rawhide Leather",
@@ -1795,14 +1841,16 @@
 			"page": 132,
 			"type": "G",
 			"rarity": "none",
-			"value": 600
+			"value": 600,
+			"entries": []
 		},
 		{
 			"name": "Rough Gem",
 			"source": "KTKCG",
 			"page": 130,
 			"type": "Comp",
-			"rarity": "unknown"
+			"rarity": "unknown",
+			"entries": []
 		},
 		{
 			"name": "Saber",
@@ -1820,7 +1868,8 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"sword": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Scales",
@@ -1858,7 +1907,8 @@
 			"page": 104,
 			"type": "G",
 			"rarity": "common",
-			"value": 60
+			"value": 60,
+			"entries": []
 		},
 		{
 			"name": "Shoes",
@@ -1866,7 +1916,8 @@
 			"page": 129,
 			"type": "G",
 			"rarity": "none",
-			"value": 200
+			"value": 200,
+			"entries": []
 		},
 		{
 			"name": "Short Haft",
@@ -1907,7 +1958,8 @@
 			"page": 129,
 			"type": "$A|DMG",
 			"rarity": "none",
-			"value": 3500
+			"value": 3500,
+			"entries": []
 		},
 		{
 			"name": "Socketed Ring",
@@ -1915,7 +1967,8 @@
 			"page": 131,
 			"type": "RG|DMG",
 			"rarity": "none",
-			"value": 4500
+			"value": 4500,
+			"entries": []
 		},
 		{
 			"name": "Spool of Thread",
@@ -1923,7 +1976,8 @@
 			"page": 129,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 1
+			"value": 1,
+			"entries": []
 		},
 		{
 			"name": "Steel Chain (2ft)",
@@ -1963,7 +2017,8 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Table",
@@ -1971,7 +2026,8 @@
 			"page": 131,
 			"type": "OTH",
 			"rarity": "none",
-			"value": 300
+			"value": 300,
+			"entries": []
 		},
 		{
 			"name": "Tanned Leather",
@@ -2049,7 +2105,8 @@
 			"page": 109,
 			"type": "G",
 			"rarity": "common",
-			"value": 500
+			"value": 500,
+			"entries": []
 		},
 		{
 			"name": "Uncommon Branch",
@@ -2153,7 +2210,8 @@
 			"page": 130,
 			"type": "Comp",
 			"rarity": "none",
-			"value": 10
+			"value": 10,
+			"entries": []
 		},
 		{
 			"name": "Unit of Lumber",
@@ -2185,7 +2243,8 @@
 			"page": 131,
 			"type": "$|DMG",
 			"rarity": "none",
-			"value": 25000
+			"value": 25000,
+			"entries": []
 		},
 		{
 			"name": "Valuable Ring",
@@ -2193,7 +2252,8 @@
 			"page": 131,
 			"type": "RG|DMG",
 			"rarity": "none",
-			"value": 20000
+			"value": 20000,
+			"entries": []
 		},
 		{
 			"name": "Very Rare Branch",
@@ -2296,7 +2356,8 @@
 			"dmgType": "P",
 			"dmg2": "1d10",
 			"spear": true,
-			"weapon": true
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Water",
@@ -3100,7 +3161,8 @@
 			"page": 117,
 			"type": "G",
 			"rarity": "common",
-			"value": 40
+			"value": 40,
+			"entries": []
 		},
 		{
 			"name": "Cascade Catalyst",
@@ -3466,7 +3528,7 @@
 					"type": "entries",
 					"name": "Passive Effect",
 					"entries": [
-						"While marked on armor or any item, the attuned wearer can't die unless the rune is removed from the possession. They are still {@condition incapacitated} and {@condition unconscious} when reduced to 0 hit points, but reaching 3 death saving throws has no effect while the rune is being worn or carried on their person. While attuned to this rune, undead of CR 5 or lower treat you as another undead, and only attack you if otherwise commanded to by a controlling entity or attacked by you."
+						"While marked on armor or any item, the attuned wearer can't die unless the rune is removed from the possession. They are still {@condition incapacitated} and {@condition unconcious} when reduced to 0 hit points, but reaching 3 death saving throws has no effect while the rune is being worn or carried on their person. While attuned to this rune, undead of CR 5 or lower treat you as another undead, and only attack you if otherwise commanded to by a controlling entity or attacked by you."
 					]
 				},
 				{
@@ -3898,7 +3960,8 @@
 			"type": "G",
 			"rarity": "common",
 			"weight": 4,
-			"value": 500
+			"value": 500,
+			"entries": []
 		},
 		{
 			"name": "Flame Breathing Jerky",
@@ -4868,7 +4931,7 @@
 			],
 			"attachedSpells": {
 				"will": [
-					"Force Bolt|KibblesTasty:cc"
+					"Force Bolt|KibblesTasty:cc#c"
 				]
 			}
 		},
@@ -5401,7 +5464,8 @@
 			"page": 117,
 			"type": "G",
 			"rarity": "common",
-			"value": 5000
+			"value": 5000,
+			"entries": []
 		},
 		{
 			"name": "Quantum Chaos Box",
@@ -6246,7 +6310,8 @@
 			"page": 117,
 			"type": "G",
 			"rarity": "common",
-			"value": 40000
+			"value": 40000,
+			"entries": []
 		},
 		{
 			"name": "Superb Meat Feast",
@@ -6940,32 +7005,6 @@
 			]
 		},
 		{
-			"name": "Explosive (*)",
-			"source": "KTKCG",
-			"page": 36,
-			"type": "EXP|DMG",
-			"rarity": "varies",
-			"range": "20",
-			"dmg1": "1d8",
-			"dmgType": "F",
-			"dmg2": "1d8",
-			"entries": [
-				"A bundled explosive alchemical preparation. It can be detonated by dealing 1 fire or lightning damage to it. As an action, a packet of this explosive can be accurately thrown 20 feet, but will not detonate on impact (usually). When it detonates, all creatures within 10 feet (for common) of the target point must make a Dexterity saving throw with a DC equal to the crafter's Alchemy DC. On failure, they take {@damage 1d8} fire + {@damage 1d8} thunder damage, or half as much on a success. Creatures in range of more than one explosive take damage only from the highest damage effect.",
-				{
-					"type": "statblock",
-					"tag": "table",
-					"source": "KTKCG",
-					"name": "Explosive Damage",
-					"page": 36
-				}
-			],
-			"items": [
-				"Common Explosive|KTKCG",
-				"Potent Explosive|KTKCG",
-				"Powerful Explosive|KTKCG"
-			]
-		},
-		{
 			"name": "Fresh Ingredient",
 			"source": "KTKCG",
 			"page": 55,
@@ -7158,7 +7197,7 @@
 			],
 			"items": [
 				"+1 Psi Blade Crystal|KTKCG",
-				"+2 Psi Blade Crystal|KTKCG",
+				"+2 Blade Crystal|KTKCG",
 				"+3 Psi Blade Crystal|KTKCG"
 			]
 		},
@@ -7204,6 +7243,32 @@
 				"7th-Level Spell Scroll|KTKCG",
 				"8th-Level Spell Scroll|KTKCG",
 				"9th-Level Spell Scroll|KTKCG"
+			]
+		},
+		{
+			"name": "Simple Explosive",
+			"source": "KTKCG",
+			"page": 36,
+			"type": "EXP|DMG",
+			"rarity": "varies",
+			"range": "20",
+			"dmg1": "1d8",
+			"dmgType": "F",
+			"dmg2": "1d8",
+			"entries": [
+				"A bundled explosive alchemical preparation. It can be detonated by dealing 1 fire or lightning damage to it. As an action, a packet of this explosive can be accurately thrown 20 feet, but will not detonate on impact (usually). When it detonates, all creatures within 10 feet (for common) of the target point must make a Dexterity saving throw with a DC equal to the crafter's Alchemy DC. On failure, they take {@damage 1d8} fire + {@damage 1d8} thunder damage, or half as much on a success. Creatures in range of more than one explosive take damage only from the highest damage effect.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "KTKCG",
+					"name": "Simple Explosive Damage",
+					"page": 36
+				}
+			],
+			"items": [
+				"Common Explosive|KTKCG",
+				"Potent Explosive|KTKCG",
+				"Powerful Explosive|KTKCG"
 			]
 		},
 		{
@@ -7671,25 +7736,29 @@
 			"name": "Concoction",
 			"abbreviation": "Conc",
 			"source": "KTKCG",
-			"page": 34
+			"page": 34,
+			"entries": []
 		},
 		{
 			"name": "Gemstone",
 			"abbreviation": "Gem",
 			"source": "KTKCG",
-			"page": 93
+			"page": 93,
+			"entries": []
 		},
 		{
 			"name": "Oil",
 			"abbreviation": "Oil",
 			"source": "KTKCG",
-			"page": 35
+			"page": 35,
+			"entries": []
 		},
 		{
 			"name": "Rune",
 			"abbreviation": "Rune",
 			"source": "KTKCG",
-			"page": 121
+			"page": 121,
+			"entries": []
 		}
 	],
 	"variantrule": [
@@ -9144,7 +9213,7 @@
 			],
 			"rows": [
 				[
-					"{@class Inventor|KibbleInventor|Inventor} {@sup K}",
+					"{@class KibbleTasty's Inventor|KibbleInventor|Inventor} {@sup K}",
 					"Arcane"
 				],
 				[
@@ -9233,7 +9302,7 @@
 								},
 								{
 									"type": "item",
-									"name": "{@class Inventor|KibbleInventor}",
+									"name": "{@class KibbleTasty's Inventor|KibbleInventor|Inventor}",
 									"nameDot": false,
 									"entries": [
 										"can stand in for any half-arcane caster of a similar theme."
@@ -11405,7 +11474,7 @@
 			"rows": [
 				[
 					"Arcane",
-					"{@class Artificer|TCE}, {@class Inventor|KibbleInventor}, {@class Bard|PHB}, {@class Occultist|KT:O}, {@class Sorcerer|PHB}, {@class Warlock|PHB}, {@class Wizard|PHB}"
+					"{@class Artificer|TCE}, {@class KibbleTasty's Inventor|KibbleInventor|Inventor}, {@class Bard|PHB}, {@class Occultist|KT:O}, {@class Sorcerer|PHB}, {@class Warlock|PHB}, {@class Wizard|PHB}"
 				],
 				[
 					"Divine",
@@ -11474,7 +11543,7 @@
 								"type": "list",
 								"style": "list-no-bullets",
 								"items": [
-									"1 extra {@item long haft|KTKCG}"
+									"1 {@item extra long haft|KTKCG}"
 								]
 							},
 							"0 hours",
@@ -12449,38 +12518,6 @@
 			]
 		},
 		{
-			"name": "Explosive Damage",
-			"source": "KTKCG",
-			"page": 36,
-			"colLabels": [
-				"Name",
-				"Radius",
-				"Damage"
-			],
-			"colStyles": [
-				"text-center",
-				"text-center",
-				"text-center"
-			],
-			"rows": [
-				[
-					"Common",
-					"10 feet",
-					"{@damage 1d8} fire + {@damage 1d8} thunder."
-				],
-				[
-					"Potent",
-					"15 feet",
-					"{@damage 2d8} fire + {@damage 2d8} thunder."
-				],
-				[
-					"Powerful",
-					"20 feet",
-					"{@damage 4d8} fire + {@damage 4d8} thunder."
-				]
-			]
-		},
-		{
 			"name": "Explosives",
 			"source": "KTKCG",
 			"page": 30,
@@ -12551,7 +12588,7 @@
 					"40 gp"
 				],
 				[
-					"{@item Common Explosive|KTKCG|Simple Explosive}",
+					"{@item Simple Explosive|KTKCG}",
 					{
 						"type": "list",
 						"style": "list-no-bullets",
@@ -18196,10 +18233,10 @@
 					"While you're wearing it, any critical hit against you becomes a normal hit."
 				],
 				[
-					"Mithril",
+					"Mithral",
 					"+5",
 					"A weapon with the {@itemProperty H||heavy} property forged from it loses the {@itemProperty H||heavy} property. If the weapon didn't have the {@itemProperty H||heavy} property, it gains the {@itemProperty L||light} property. The DC of an Enchanter applying an Enchantment to it is reduced by 4, and it always counts has having 1 {@item common essence|KTKCG} of any type as part of the craft.",
-					"If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithril version of the armor doesn't. Easier for Enchanters to Enchant."
+					"If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't. Easier for Enchanters to Enchant."
 				],
 				[
 					"Dark Steel",
@@ -20072,7 +20109,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 crystal worth at least 10 gp",
-							"1 {@item common psionic essence|KTKCG}"
+							"1 {@item common psion essence|KTKCG}"
 						]
 					},
 					"4 hours",
@@ -20592,9 +20629,9 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 ring worth at least 20 gp",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell protection from evil and good|PHB}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell detect evil and good|PHB}",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell detect thoughts|PHB}",
+							"1 {@item th-Level Spell Scroll|KTKCG|scroll} of {@spell protection from good and evil|PHB}",
+							"1 {@item th-Level Spell Scroll|KTKCG|scroll} of {@spell detect good and evil|PHB}",
+							"1 {@item th-Level Spell Scroll|KTKCG|scroll} of {@spell detect thoughts|PHB}",
 							"1 {@item common psionic essence|KTKCG}"
 						]
 					},
@@ -20663,7 +20700,7 @@
 						"type": "list",
 						"style": "list-no-bullets",
 						"items": [
-							"1 {@item common ring|KTKCG|ring}",
+							"1 {@item ring|KTKCG}",
 							"1 gem worth 50 gp",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell protection from energy|PHB}",
 							"1 {@item common primal essence|KTKCG}",
@@ -20909,7 +20946,7 @@
 						"type": "list",
 						"style": "list-no-bullets",
 						"items": [
-							"1 {@item common ring|KTKCG|ring}",
+							"1 {@item ring|KTKCG}",
 							"3 {@item 9th-Level Spell Scroll|KTKCG|scrolls} of {@spell wish|PHB}"
 						]
 					},
@@ -21044,7 +21081,7 @@
 							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell command|PHB}",
 							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell charm person|PHB}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell suggestion|PHB}",
-							"1 {@item 4th-Level Spell Scroll|KTKCG|scroll} of {@spell charm monster|XGE}",
+							"1 {@item 4th-Level Spell Scroll|KTKCG|scroll} of {@spell charm monster|PHB}",
 							"2 {@item rare arcane essence|KTKCG}"
 						]
 					},
@@ -21436,6 +21473,38 @@
 					"{@dc 20}",
 					"Legendary",
 					"40,000 gp"
+				]
+			]
+		},
+		{
+			"name": "Simple Explosive Damage",
+			"source": "KTKCG",
+			"page": 36,
+			"colLabels": [
+				"Name",
+				"Radius",
+				"Damage"
+			],
+			"colStyles": [
+				"text-center",
+				"text-center",
+				"text-center"
+			],
+			"rows": [
+				[
+					"Common",
+					"10 feet",
+					"{@damage 1d8} fire + {@damage 1d8} thunder."
+				],
+				[
+					"Potent",
+					"15 feet",
+					"{@damage 2d8} fire + {@damage 2d8} thunder."
+				],
+				[
+					"Powerful",
+					"20 feet",
+					"{@damage 4d8} fire + {@damage 4d8} thunder."
 				]
 			]
 		},
@@ -22637,7 +22706,7 @@
 			],
 			"footnotes": [
 				"* Supplemental Materials are doubled for weapons with the {@itemProperty 2H||two-handed} property or armor",
-				"{@sup Magic} Magic: Difficulty modifier is reduced to +3 if combined with Mithril or Adamantine material modifiers."
+				"{@sup Magic} Magic: Difficulty modifier is reduced to +3 if combined with Mithral or Adamantine material modifiers."
 			]
 		},
 		{
@@ -25435,9 +25504,9 @@
 						"type": "list",
 						"style": "list-no-bullets",
 						"items": [
-							"1 weapon",
+							"1 {@item weapon|KTKCG}",
 							"1 {@item scroll|KTKCG} of {@spell prismatic weapon|KibbleInventor}{@sup K}",
-							"1 freezing oil",
+							"1 {@item freezing oil|KTKCG}",
 							"1 {@item very rare primal essence|KTKCG}",
 							"3 {@item rare primal essence|KTKCG}",
 							"1 {@item rare arcane essence|KTKCG}"
@@ -25852,7 +25921,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 set of {@item bracers|KTKCG}",
-							"1 {@item scroll|KTKCG} of {@i seeking shot} {@sup K}",
+							"1 {@item scroll|KTKCG} of {@spell seeking shot|kibblestasty:cc} {@sup K}",
 							"1 {@item uncommon primal essence|KTKCG}",
 							"1 {@item uncommon arcane essence|KTKCG}"
 						]
@@ -25872,7 +25941,7 @@
 							"1 broom",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell levitate}",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell fly}",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell Dancing Objects (Animate Object)|kibblestasty:cc|animate object} {@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell animate object|kibblestasty:cc} {@sup K}",
 							"2 {@item uncommon primal essence|KTKCG}"
 						]
 					},
@@ -26052,7 +26121,7 @@
 						"type": "list",
 						"style": "list-no-bullets",
 						"items": [
-							"1 {@item quiver|PHB} worth 25 gp",
+							"1 {@item quiver|DMG} worth 25 gp",
 							"1 {@item 4th-Level Spell Scroll|KTKCG|scroll} of {@spell Leomund's Secret Chest}",
 							"1 {@item common arcane essence|KTKCG}"
 						]
@@ -26123,7 +26192,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 crystal {@item esoteric parts|KTKCG|lenses}",
-							"1 {@item scroll|KTKCG} of {@i far sight} {@sup K}",
+							"1 {@item scroll|KTKCG} of {@spell far sight|kibblestasty:cc} {@sup K}",
 							"1 {@item common primal essence|KTKCG}"
 						]
 					},
@@ -26264,7 +26333,7 @@
 					"540 gp"
 				],
 				[
-					"{@item Helm of Comprehending Languages|DMG}",
+					"{@item Helm of Comprehending Language|DMG}",
 					{
 						"type": "list",
 						"style": "list-no-bullets",
@@ -26344,7 +26413,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 pipes worth at least 25 gp",
-							"1 {@item scroll|KTKCG} of {@i frighten} {@sup K}",
+							"1 {@item scroll|KTKCG} of {@spell frighten|kibblestasty:cc} {@sup K}",
 							"1 {@item uncommon arcane essence|KTKCG}",
 							"1 {@item uncommon divine essence|KTKCG}"
 						]
@@ -26387,8 +26456,8 @@
 							"1 {@item Ladder (10-foot)|PHB|wooden ladder}",
 							"1 picture of a {@creature riding horse|MM|horse} worth 75 gp",
 							"1 saddle bag",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell Create Pit|KibblesTasty:CC|create hole} {@sup K}",
-							"4 {@item potion of healing|DMG||potions of healing}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell create hole} {@sup K}",
+							"4 {@item potion of healing||potions of healing}",
 							"1 {@item Rowboat}",
 							"1 {@item 1st-Level Spell Scroll|KTKCG}",
 							"1 picture of {@creature mastiff||mastiffs} worth at least 25 gp",
@@ -26410,7 +26479,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 60-foot long {@item Hempen Rope (50 feet)|PHB|rope}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell awaken rope|kibblestasty:cc} {@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell awaken rope} {@sup K}",
 							"1 {@item uncommon arcane essence|KTKCG}",
 							"1 {@item common arcane essence|KTKCG}"
 						]
@@ -26593,7 +26662,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 boots worth at least 200 gp",
-							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell haste}",
+							"1 {@item 4rd-Level Spell Scroll|KTKCG|scroll} of {@spell haste}",
 							"1 {@item rare primal essence|KTKCG}",
 							"2 {@item rare arcane essence|KTKCG}",
 							"2 {@item uncommon arcane essence|KTKCG}"
@@ -26633,7 +26702,7 @@
 							"1 brazier worth 200 gp",
 							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell conjure elemental}",
 							"2 {@item rare primal essence|KTKCG}",
-							"2 {@item rare reactive reagent|KTKCG|rare reactive reagents}"
+							"2 {@item rare reactive reagents|KTKCG}"
 						]
 					},
 					"16 hours (2 days)",
@@ -26661,12 +26730,11 @@
 					"2,400 gp"
 				],
 				[
-					"{@item Censer of Controlling Air Elementals|DMG}",
+					"{@item Censer of Controlling Air Elementals 1 censer worth 200 gp|DMG}",
 					{
 						"type": "list",
 						"style": "list-no-bullets",
 						"items": [
-							"1 censer worth 200 gp",
 							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell conjure elemental}",
 							"2 {@item rare primal essence|KTKCG|rare primal essences}",
 							"1 {@item rare reactive reagent|KTKCG}",
@@ -26687,7 +26755,7 @@
 						"items": [
 							"1 {@item cape|KTKCG} worth at least 200 gp",
 							"1 {@item 4th-Level Spell Scroll|KTKCG|scroll} of {@spell dimension door}",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell pyrotechnics|XGE}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell pyrotechnics}",
 							"1 {@item rare arcane essence|KTKCG}",
 							"1 {@item uncommon primal essence|KTKCG}"
 						]
@@ -26754,7 +26822,7 @@
 					"1,500 gp"
 				],
 				[
-					"{@item Dimensional Shackles|DMG}",
+					"{@item Dimension Shackles|DMG}",
 					{
 						"type": "list",
 						"style": "list-no-bullets",
@@ -26817,7 +26885,7 @@
 						"items": [
 							"1 {@item fletching|KTKCG}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell gust of wind}",
-							"1 {@item scroll|KTKCG} of {@spell Dancing Objects (Animate Object)|kibblestasty:cc|animate object} {@sup K}",
+							"1 {@item scroll|KTKCG} of {@spell animate object|kibblestasty:cc} {@sup K}",
 							"1 {@item uncommon arcane essence|KTKCG}",
 							"1 {@item uncommon primal essence|KTKCG}"
 						]
@@ -27122,7 +27190,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 brass {@item horn|PHB} worth at least 50 gp",
-							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell spirit guardians}",
+							"1 {@item 3th-Level Spell Scroll|KTKCG|scroll} of {@spell spirit guardians}",
 							"1 {@item 4th-Level Spell Scroll|KTKCG|scroll} of {@spell guardian of faith}",
 							"1 {@item rare primal essence|KTKCG}",
 							"1 {@item rare divine essence|KTKCG}"
@@ -27617,7 +27685,7 @@
 						"type": "list",
 						"style": "list-no-bullets",
 						"items": [
-							"1 adamantine cube",
+							"1 {@item adamantine cube|KTKCG}",
 							"100 {@item adamantine ingot|KTKCG|adamantine ingots}",
 							"1 {@item 7th-Level Spell Scroll|KTKCG|scroll} of {@spell Mordenkainen's Magnificent Mansion}",
 							"2 {@item very rare arcane essence|KTKCG}",
@@ -27719,7 +27787,7 @@
 						"items": [
 							"1 belt",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell enhance ability}",
-							"1 {@item scroll|KTKCG} of {@i transformation}",
+							"1 {@item scroll|KTKCG} of {@spell transformation}",
 							"1 {@item very rare arcane essence|KTKCG}",
 							"3 {@item very rare primal essence|KTKCG}"
 						]
@@ -27738,7 +27806,7 @@
 						"items": [
 							"1 iron {@item flask|KTKCG} worth at least 200 gp",
 							"1 {@item 9th-Level Spell Scroll|KTKCG|scroll} of {@spell imprisonment}",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell planar binding}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell planar blinding}",
 							"1 {@item legendary arcane essence|KTKCG}",
 							"1 {@item very rare divine essence|KTKCG}"
 						]
@@ -27791,7 +27859,7 @@
 						"items": [
 							"1 {@item belt|KTKCG}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell enhance ability}",
-							"1 {@item scroll|KTKCG} of {@spell Tenser's Transformation|XGE|transformation}",
+							"1 {@item scroll|KTKCG} of {@spell transformation}",
 							"1 {@item 6th-Level Spell Scroll|KTKCG|scroll} of {@spell investiture of wind|XGE}",
 							"1 {@item very rare arcane essence|KTKCG}",
 							"3 {@item very rare primal essence|KTKCG}",
@@ -27812,7 +27880,7 @@
 						"items": [
 							"1 belt",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell enhance ability}",
-							"1 {@item scroll|KTKCG} of {@spell Tenser's Transformation|XGE|transformation}",
+							"1 {@item scroll|KTKCG} of {@spell transformation}",
 							"1 {@item 9th-Level Spell Scroll|KTKCG|scroll} of {@spell invulnerability|XGE}",
 							"1 {@item very rare arcane essence|KTKCG}",
 							"3 {@item very rare primal essence|KTKCG}",
@@ -29603,7 +29671,7 @@
 							"name": "Who Can Craft?",
 							"page": 4,
 							"entries": [
-								"Anyone! Who can succeed in making something useful? Perhaps a bit of a different story. Crafting is not inherently tied to class, though in some cases some classes may give benefits to it (like {@class Inventor|KibbleInventor}); crafting may come from your background in the form of a tool proficiency, or it may be something you learn during your adventures following the old adage of necessity being the mother of invention.",
+								"Anyone! Who can succeed in making something useful? Perhaps a bit of a different story. Crafting is not inherently tied to class, though in some cases some classes may give benefits to it (like {@class KibbleTasty's Inventor|KibbleInventor|Inventor}); crafting may come from your background in the form of a tool proficiency, or it may be something you learn during your adventures following the old adage of necessity being the mother of invention.",
 								"Crafting is mostly about the time, effort, knowledge and materials. As such, most of crafting is knowing the recipe and having the time and materials needed... but a skilled craftsman works quicker and is more successful, and in this business practice makes perfect, so there are various progression modifiers that apply. Your GM can determine if your background would merit starting your adventure with any, otherwise guidelines for how to gain them are included."
 							],
 							"id": "004"
@@ -30171,7 +30239,7 @@
 							"name": "Ingots",
 							"page": 10,
 							"entries": [
-								"Ingots are chunks of metal that can be used to craft things. They are assumed to be relatively pure and weigh 2 pounds each. The default ingot listed in all the crafting tables is an {@item Steel ingot|KTKCG|ingot of Steel}. These cost 2 gp per ingot. There are cheaper metals (such as {@item Iron Ingot|KTKCG|Iron}); pure Iron can't be used to craft weapons and armor, but can be used for other items, resulting in a cheaper item. On the other end of the spectrum, more advanced metals such as {@item Mithril Ingot|KTKCG|Mithril} and {@item Adamantine Ingot|KTKCG|Adamantine} can be used conferring special properties, but being far more difficult to work with and costing more.",
+								"Ingots are chunks of metal that can be used to craft things. They are assumed to be relatively pure and weigh 2 pounds each. The default ingot listed in all the crafting tables is an {@item Steel ingot|KTKCG|ingot of Steel}. These cost 2 gp per ingot. There are cheaper metals (such as {@item Iron Ingot|KTKCG|Iron}); pure Iron can't be used to craft weapons and armor, but can be used for other items, resulting in a cheaper item. On the other end of the spectrum, more advanced metals such as {@item Mithral Ingot|KTKCG|Mithral} and {@item Adamantine Ingot|KTKCG|Adamantine} can be used conferring special properties, but being far more difficult to work with and costing more.",
 								"Ingots can be assumed to weight 2 pounds each.",
 								{
 									"type": "entries",
@@ -30978,12 +31046,12 @@
 								"It was just a CR 4 monster, so the GM consults the table and asks for a {@dc 8} {@skill Nature} Check. Fortunately Caius the Wizard has a {@d20 +3}, so only needs a 5, and rolls an 8. Harvesting successful and now he has 1 {@item common curative reagent|KTKCG}.",
 								"Knowing that he's going to need some healing potions to survive the next plant monster, he consults the table and realizes that with just 2 more curative reagents and a {@item glass vial|KTKCG} he'd have enough materials.",
 								"Next time they walk through a forest, Caius the Wizard asks the GM if there are any reagents about. Slowing down to a slow pass, he can make a gathering check with disadvantage, and attempts to gather reagents. Rolls the {@dice d100}, and comes up with a 73. The GM asks for a {@dc 10} gathering check using {@item herbalism kit|PHB}, with disadvantage as they were travelling. Caius doesn't have proficiency, but has {@d20 +1} wisdom, so needs a 9 or higher. He rolls a 14!",
-								"The results in {@dice 1d4} {@item common curative reagent|KTKCG|common curative reagents}. He rolls a 2. That's all the curative reagents he needed! He cleans out the remains of an old {@item potion of healing|DMG|healing potion} to get a {@item glass vial|KTKCG}, and next time they camp, he spends his {@action craft|KTKCG|camp action (2 hours)} trying to make a {@item potion of healing|DMG|healing potion}.",
+								"The results in {@dice 1d4} {@item common curative reagent|KTKCG|common curative reagents}. He rolls a 2. That's all the curative reagents he needed! He cleans out the remains of an old {@item potion of healing|PHB|healing potion} to get a {@item glass vial|KTKCG}, and next time they camp, he spends his {@action craft|KTKCG|camp action (2 hours)} trying to make a {@item potion of healing|PHB|healing potion}.",
 								"He needs to succeed only once, {@dc 13}. Fortunately he has proficiency in {@item alchemist's supplies|PHB}, and a +3 Intelligence, meaning his check is at {@d20 +5}. He needs an 8 or higher.",
 								"...He rolls a 3. This a failure! But all is not lost, he can keep trying until he fails 3 times in a row... but he's already spent his 2 hours, and alchemy checks must be made consecutively.",
-								"Not wanting to lose his precious hard won reagents, he stays up late making another check. He rolls a 10! This results in a 15! He's successfully made a {@item potion of healing|DMG|Healing Potion}!",
+								"Not wanting to lose his precious hard won reagents, he stays up late making another check. He rolls a 10! This results in a 15! He's successfully made a {@item potion of healing|PHB|Healing Potion}!",
 								"Unfortunately he's stayed up too late, but the next morning the party lets him sleep in to avoid the level of {@condition exhaustion}.",
-								"Two days later, Vandrin the Cleric, the groups only healer, is on death's door! A quick swig of the {@item potion of healing|DMG|healing potion} gets him back on his feet, and the day is won thanks to the hard work of making a potion, and adventurers keep a keen eye out for more of those curative reagents!"
+								"Two days later, Vandrin the Cleric, the groups only healer, is on death's door! A quick swig of the {@item potion of healing|PHB|healing potion} gets him back on his feet, and the day is won thanks to the hard work of making a potion, and adventurers keep a keen eye out for more of those curative reagents!"
 							],
 							"id": "053"
 						},
@@ -32767,7 +32835,7 @@
 									"page": 96,
 									"items": [
 										"Have it in your spellbook as a {@class Wizard|PHB}.",
-										"Have it in your spell manual as an {@class Inventor|KibbleInventor|Infusionsmith Inventor|Infusionsmith|KibbleInventor}.",
+										"Have it in your spell manual as an {@class KibbleTasty's Inventor|KibbleInventor|Infusionsmith Inventor|Infusionsmith|KibbleInventor}.",
 										"Have it in your ritual book as a ritual caster.",
 										"Have a spell scroll of it (DC +2).",
 										"Study its magical formula and record it. To learn a spell in this way requires proficiency in {@skill arcana} and 1 day (8 hours per day) of study per level of the spell, as well as access to a teacher or book that records the spell. Once learned, you can record it in a Magical Formula book and can subsequently make scrolls of it."
@@ -32994,7 +33062,7 @@
 									"page": 99,
 									"items": [
 										"Have it in your spellbook as a {@class Wizard|PHB}.",
-										"Have it in your spell manual as an {@class Inventor|KibbleInventor|Infusionsmith Inventor|Infusionsmith|KibbleInventor}.",
+										"Have it in your spell manual as an {@class KibbleTasty's Inventor|KibbleInventor|Infusionsmith Inventor|Infusionsmith|KibbleInventor}.",
 										"Have it in your ritual book as a ritual caster.",
 										"Have a spell scroll of it (DC +2).",
 										"Study its magical formula and record it. To learn a spell in this way requires proficiency in {@skill arcana} and 1 day (8 hours per day) of study per level of the spell, as well as access to a teacher or book that records the spell. Once learned, you can record it in a Magical Formula book and can subsequently make scrolls of it."
@@ -34875,6 +34943,7 @@
 									"columns": 3,
 									"page": 145,
 									"items": [
+										"{@item Forge Fire|KTKCG}",
 										"{@item Tanning Bag|KTKCG}",
 										"{@item Boundless Toolbelt|KTKCG}",
 										"{@item Potion Fridgebox|KTKCG}",

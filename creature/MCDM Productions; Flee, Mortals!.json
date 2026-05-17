@@ -6,7 +6,6 @@
 				"abbreviation": "FM!",
 				"full": "Flee, Mortals!",
 				"url": "https://shop.mcdmproductions.com/collections/front-page-feature/products/flee-mortals-hardcover-book",
-				"version": "1.1",
 				"authors": [
 					"MCDM Productions"
 				],
@@ -14,6 +13,7 @@
 					"ForeverAlwaysGM",
 					"Giddy"
 				],
+				"version": "1.1",
 				"partnered": true,
 				"color": "9B0000"
 			}
@@ -71,16 +71,8 @@
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1692310105,
-		"dateLastModified": 1772404109,
-		"_dateLastModifiedHash": "5dddf320da"
-	},
-	"_test": {
-		"references": [
-			"BST",
-			"KaW",
-			"SaF",
-			"TalPsi"
-		]
+		"dateLastModified": 1762116098,
+		"_dateLastModifiedHash": "10aaa38896"
 	},
 	"optionalfeature": [
 		{
@@ -1320,7 +1312,7 @@
 				}
 			],
 			"entries": [
-				"The wildcat has advantage on an attack roll against a creature if at least one of the wildcat's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
+				"The wildcat has advantage on an attack roll against a creature if at least one of the wildcat's allies is within 5 feet of the target and the ally isn't {@creature incapacitated}."
 			]
 		},
 		{
@@ -4023,7 +4015,11 @@
 						"{@spell dancing lights} {@sup {@cite Casting Times|FleeMortals|A}}",
 						"{@spell mage hand} {@sup {@cite Casting Times|FleeMortals|A}}",
 						"{@spell message} {@sup {@cite Casting Times|FleeMortals|A}}",
-						"{@spell prestidigitation} {@sup {@cite Casting Times|FleeMortals|A}}"
+						"{@spell prestidigitation} {@sup {@cite Casting Times|FleeMortals|A}}",
+						{
+							"entry": "{@spell Arcane Lance}",
+							"hidden": true
+						}
 					],
 					"daily": {
 						"2e": [
@@ -4892,7 +4888,7 @@
 				{
 					"name": "Reborn From War",
 					"entries": [
-						"When Atæshia is reduced to 0 hit points, she disintegrates into ash on a solemn wind. For the next 100 years, if a Celestial, an Elemental, or a Humanoid whose challenge rating or level is 5 or higher dies within 60 feet of where Atæshia died, Atæshia returns to life where she died with 25 hit points."
+						"When Atæshia is reduced to 0 hit points, she disintegrates into ash on a solemn wind. For the next 100 years, if a Celestial, a Elemental, or a Humanoid whose challenge rating or level is 5 or higher dies within 60 feet of where Atæshia died, Atæshia returns to life where she died with 25 hit points."
 					]
 				}
 			],
@@ -27053,7 +27049,11 @@
 					"will": [
 						"{@spell light} {@sup {@cite Casting Times|FleeMortals|A}}",
 						"{@spell mage hand} {@sup {@cite Casting Times|FleeMortals|A}}",
-						"{@spell message} {@sup {@cite Casting Times|FleeMortals|A}}"
+						"{@spell message} {@sup {@cite Casting Times|FleeMortals|A}}",
+						{
+							"entry": "{@spell Lightning Lash}",
+							"hidden": true
+						}
 					],
 					"daily": {
 						"3e": [
@@ -27669,7 +27669,11 @@
 					"will": [
 						"{@spell mage hand} {@sup {@cite Casting Times|FleeMortals|A}}",
 						"{@spell message} {@sup {@cite Casting Times|FleeMortals|A}}",
-						"{@spell minor illusion} {@sup {@cite Casting Times|FleeMortals|A}}"
+						"{@spell minor illusion} {@sup {@cite Casting Times|FleeMortals|A}}",
+						{
+							"entry": "{@spell Grave Grasp}",
+							"hidden": true
+						}
 					],
 					"daily": {
 						"3e": [
@@ -28095,7 +28099,7 @@
 					"daily": {
 						"3e": [
 							"{@spell arcane eye}{@sup {@cite Casting Times|FleeMortals|A}}",
-							"{@spell Nystul's magic aura}{@sup {@cite Casting Times|FleeMortals|A}}",
+							"{@spell arcanist's magic aura}{@sup {@cite Casting Times|FleeMortals|A}}",
 							"{@spell contact other plane}{@sup {@cite Casting Times|FleeMortals|+}}",
 							"{@spell legend lore}{@sup {@cite Casting Times|FleeMortals|+}}",
 							"{@spell scrying}{@sup {@cite Casting Times|FleeMortals|+}}"
@@ -54831,7 +54835,7 @@
 									"type": "inset",
 									"name": "Hobgoblin Magic Items",
 									"entries": [
-										"Hobgoblins already use blood-infused weapons, so they tend to seek out items that can improve their defensive capabilities, such as {@item adamantine armor} or an {@item animated shield}. They value loyalty and employ items that can conjure obedient allies, like a {@item figurine of wondrous power} or a {@item spell scroll} of {@spell conjure elemental}. Many hobgoblin captains understand the strategic importance of taking prisoners, so they might employ {@item iron bands of Bilarro} or even an {@item iron flask} for those particularly powerful and extraplanar foes."
+										"Hobgoblins already use blood-infused weapons, so they tend to seek out items that can improve their defensive capabilities, such as {@item adamantine armor} or an {@item animated shield}. They value loyalty and employ items that can conjure obedient allies, like a {@item figurine of wondrous power} or a {@item spell scroll} of {@spell conjure elemental}. Many hobgoblin captains understand the strategic importance of taking prisoners, so they might employ {@item iron bands of binding} or even an {@item iron flask} for those particularly powerful and extraplanar foes."
 									],
 									"id": "130"
 								},
@@ -54844,7 +54848,7 @@
 									"type": "inset",
 									"name": "Soul-Devouring Demons",
 									"entries": [
-										"The slaughter demon has special features, like {@sense soulsight|FleeMortals} and the Lethe and Soul Devourer traits, which are detailed in the \"{@book Demons|FleeMortals|1|Demons}.\" entry."
+										"The slaughter demon has special features, like {@sense soulsight} and the Lethe and Soul Devourer traits, which are detailed in the \"{@book Demons|FleeMortals|1|Demons}.\" entry."
 									],
 									"id": "131"
 								},

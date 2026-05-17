@@ -5,14 +5,14 @@
 				"json": "GrimHollowPlayerPack",
 				"abbreviation": "GH:PP",
 				"full": "Grim Hollow: Player Pack",
-				"url": "https://marketplace.dndbeyond.com/category/SRC-00150",
-				"version": "1.0",
 				"authors": [
 					"Ghostfire Gaming"
 				],
 				"convertedBy": [
 					"Giddy"
 				],
+				"version": "1.0",
+				"url": "https://marketplace.dndbeyond.com/category/SRC-00150",
 				"partnered": true,
 				"color": "80a374"
 			}
@@ -24,13 +24,8 @@
 		},
 		"edition": "classic",
 		"dateAdded": 1720212483,
-		"dateLastModified": 1777136208,
-		"_dateLastModifiedHash": "667414d700"
-	},
-	"_test": {
-		"references": [
-			"GrimHollowPG24"
-		]
+		"dateLastModified": 1760874333,
+		"_dateLastModifiedHash": "15dfaded7f"
 	},
 	"subclass": [
 		{
@@ -2756,9 +2751,6 @@
 					}
 				]
 			},
-			"damageInflict": [
-				"psychic"
-			],
 			"conditionInflict": [
 				"blinded",
 				"deafened"
