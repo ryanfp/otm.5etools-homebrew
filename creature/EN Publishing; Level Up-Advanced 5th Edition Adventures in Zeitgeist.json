@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "LevelUp",
-                "abbreviation": "A5E",
-                "full": "Level Up (A5E)",
+                "json": "LUA5E:AiZ",
+                "abbreviation": "A5E:AiZ",
+                "full": "Level Up: Advanced 5th Edition Adventures in Zeitgeist",
                 "authors": [
                     "Ryan Nock",
                     "EN Publishing"
@@ -15,11 +15,13 @@
 					"nega_ryan"
 				],
 				"color": "#9a3013",
-                "version": "0.0.1",
+                "version": "1",
                 "dateReleased": "2022-02-16",
                 "url": "https://a5e.tools/rules/zeitgeist"
             }
         ],
+		"edition": "classic",
+		"status": "ready",
         "dateAdded": 1780016349,
         "dateLastModified": 1780016349
     },

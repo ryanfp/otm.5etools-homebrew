@@ -8,7 +8,7 @@
 	],
 	"toImport": [
 		"adventure/Arcanum Worlds; Odyssey of the Dragonlords.json",
-		"adventure/Ghostfire Gaming; Dungeons of Drakkenheim In Search of the Smuggler’s Secrets.json",
+		"adventure/Ghostfire Gaming; Dungeons of Drakkenheim In Search of the Smuggler's Secrets.json",
 		"adventure/Kobold Press; Book of Lairs.json",
 		"adventure/Kobold Press; Tome of Beasts 2 Lairs.json",
 		"adventure/Kobold Press; Tome of Beasts 3 Lairs.json",
@@ -133,6 +133,7 @@
 		"creature/Anthony Turco; Korranberg Chronicle's Threat Dispatch.json",
 		"creature/Anthony Turco; Nightmare on the Mournland Express.json",
 		"creature/badooga; Better Greatwyrms.json",
+		"creature/EN Publishing; Level Up-Advanced 5th Edition Adventures in Zeitgeist",
 		"creature/Glen Cooper; Monsters of the Guild.json",
 		"creature/Kobold Press; Creature Codex.json",
 		"creature/Kobold Press; Gem Dragons of Faerun.json",
