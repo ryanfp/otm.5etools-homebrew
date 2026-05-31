@@ -28,7 +28,7 @@
     "monster": [
         {
             "name": "Template Monster",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -93,7 +93,7 @@
                 "charmed",
                 "exhaustion",
                 "frightened",
-                "staggered|LevelUp",
+                "staggered|LUA5E:AG",
                 "petrified",
                 "poisoned"
             ],
@@ -113,13 +113,13 @@
                         "The aboleth's spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
                     ],
                     "will": [
-                        "{@spell detect evil and good|LevelUp}"
+                        "{@spell detect evil and good|LUA5E:AiZ}"
                     ],
                     "daily": {
                         "3e": [
-                            "{@spell detect thoughts|LevelUp}",
-                            "{@spell major image|LevelUp}",
-                            "{@spell project image|LevelUp}"
+                            "{@spell detect thoughts|LUA5E:AiZ}",
+                            "{@spell major image|LUA5E:AiZ}",
+                            "{@spell project image|LUA5E:AiZ}"
                         ]
                     },
                     "ability": "cha"
@@ -175,7 +175,7 @@
         },
         {
             "name": "BEAR",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -229,9 +229,9 @@
             ],
             "conditionImmune": [
                 "charmed",
-                "fatigue|LevelUp",
+                "fatigue|LUA5E:AG",
                 "frightened",
-                "staggered|LevelUp",
+                "staggered|LUA5E:AG",
                 "petrified",
                 "poisoned",
                 "prone"
@@ -331,7 +331,7 @@
         },
         {
             "name": "Brass Man",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -376,8 +376,8 @@
                 "poison"
             ],
             "conditionImmune": [
-                "fatigue|LevelUp",
-                "staggered|LevelUp",
+                "fatigue|LUA5E:AG",
+                "staggered|LUA5E:AG",
                 "petrified",
                 "poisoned"
             ],
@@ -438,7 +438,7 @@
         },
         {
             "name": "Ran's Cachean Elephant",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "H"
             ],
@@ -540,7 +540,7 @@
         },
         {
             "name": "Family Bravura",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -604,7 +604,7 @@
         },
         {
             "name": "Kuchnost Strangler",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -661,14 +661,14 @@
                 {
                     "name": "Strangle",
                     "entries": [
-                        "The strangler uses the {@spell Grapple|LevelUp} maneuver on a creature. If it succeeds, the target takes 3 ({@damage 1d4 + 1}) bludgeoning damage. While {@condition grappled}, the creature has disadvantage on attack rolls against the strangler."
+                        "The strangler uses the {@optfeature grapple|LUA5E:AG|Grapple} maneuver on a creature. If it succeeds, the target takes 3 ({@damage 1d4 + 1}) bludgeoning damage. While {@condition grappled}, the creature has disadvantage on attack rolls against the strangler."
                     ]
                 }
             ]
         },
         {
             "name": "Family Capodecina",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -755,7 +755,7 @@
         },
         {
             "name": "Kuchnost Negotiator",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -831,7 +831,7 @@
         },
         {
             "name": "Last Raven Fetch",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -893,7 +893,7 @@
         },
         {
             "name": "Last Raven Rooker",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -964,7 +964,7 @@
         },
         {
             "name": "Police Officer",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -1027,7 +1027,7 @@
         },
         {
             "name": "Police Squad",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "L"
             ],
@@ -1068,7 +1068,7 @@
                 {
                     "name": "Fighting Unit",
                     "entries": [
-                        "The squad consists of 10 {@creature police officer|LevelUp|officers} working in tandem, filling the space of a single Large creature. Enemies treat spaces within 5 feet of the squad as difficult terrain. The squad can make up to four opportunity attacks per round without using its reaction.",
+                        "The squad consists of 10 {@creature police officer|LUA5E:AiZ|officers} working in tandem, filling the space of a single Large creature. Enemies treat spaces within 5 feet of the squad as difficult terrain. The squad can make up to four opportunity attacks per round without using its reaction.",
                         "Effects that affect an area deal double damage to the squad if they include 2 spaces of the unit, or triple if they include the squad's entire space.",
                         "Non-damaging effects that target only a single creature usually have no effect on the squad. The DM should use their best judgment when adjudicating such effects.",
                         "Damage to the squad wounds individuals and weakens squad cohesion. Defeated individuals typically are back in fighting shape after a long rest."
@@ -1098,7 +1098,7 @@
         },
         {
             "name": "Military Troop",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "H"
             ],
@@ -1139,7 +1139,7 @@
                 {
                     "name": "Fighting Unit",
                     "entries": [
-                        "The troop consists of 25 {@creature police officer|LevelUp|officers} working in tandem, filling the space of a single Huge creature. Enemies treat spaces within 5 feet of the troop as difficult terrain. The troop can make up to four opportunity attacks per round without using its reaction.",
+                        "The troop consists of 25 {@creature police officer|LUA5E:AiZ|officers} working in tandem, filling the space of a single Huge creature. Enemies treat spaces within 5 feet of the troop as difficult terrain. The troop can make up to four opportunity attacks per round without using its reaction.",
                         "Effects that affect an area deal double damage to the troop if they include 2 spaces of the unit, or triple if they include the troop's entire space.",
                         "Non-damaging effects that target only a single creature usually have no effect on the troop. The DM should use their best judgment when adjudicating such effects.",
                         "Damage to the troop wounds individuals and weakens troop cohesion. Defeated individuals typically are back in fighting shape after a long rest."
@@ -1169,7 +1169,7 @@
         },
         {
             "name": "Rangale",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "L"
             ],
@@ -1269,7 +1269,7 @@
         },
         {
             "name": "The Dread Borenbog",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -1404,7 +1404,7 @@
         },
         {
             "name": "Serpent-Maned Lion",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "L"
             ],
@@ -1467,7 +1467,7 @@
                 {
                     "name": "Crown of Asps",
                     "entries": [
-                        "The lion has advantage on Perception checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition debilitated|LevelUp}, or knocked {@condition unconscious}."
+                        "The lion has advantage on Perception checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition debilitated|LUA5E:AG}, or knocked {@condition unconscious}."
                     ]
                 },
                 {
@@ -1507,14 +1507,14 @@
                 {
                     "name": "Cacophonous Roar (1/Encounter)",
                     "entries": [
-                        "Each creature of the lion's choice that is within 500 feet and able to hear it must succeed on a {@dc 12} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature that fails its saving throw by 5 or more is also {@condition staggered|LevelUp} for the same duration. Creatures in darkness have disadvantage on this saving throw. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                        "Each creature of the lion's choice that is within 500 feet and able to hear it must succeed on a {@dc 12} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature that fails its saving throw by 5 or more is also {@condition staggered|LUA5E:AG} for the same duration. Creatures in darkness have disadvantage on this saving throw. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                     ]
                 }
             ]
         },
         {
             "name": "Shadowlisk",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "L"
             ],
@@ -1623,7 +1623,7 @@
                 {
                     "name": "Beak",
                     "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}38 ({@damage 6d10 + 5}) piercing damage. It then uses the {@spell trip|LevelUp} maneuver on the target."
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}38 ({@damage 6d10 + 5}) piercing damage. It then uses the {{@optfeature wounding strike|LUA5E:AG} maneuver on the target."
                     ]
                 },
                 {
@@ -1635,7 +1635,7 @@
                 {
                     "name": "Umbrafying Gaze",
                     "entries": [
-                        "The shadowlisk magically focuses the light from its eyes in a path that is 25 feet long and 5 feet wide. Creatures in the path must succeed on a {@dc 18} Charisma saving throw, taking 38 ({@damage 5d12 + 6}) radiant damage on a failed save, or half as much on a successful one. A creature reduced to 0 hit points by this damage is annihilated as its body burns away and its mind and soul are imprinted on the closest surface as a shadowy silhouette, suitable for consumption by shadowlisks. While it is annihilated in this way, a creature can perceive its immediate surroundings, but is {@condition incapacitated} and {@condition debilitated|LevelUp} and cannot communicate.",
+                        "The shadowlisk magically focuses the light from its eyes in a path that is 25 feet long and 5 feet wide. Creatures in the path must succeed on a {@dc 18} Charisma saving throw, taking 38 ({@damage 5d12 + 6}) radiant damage on a failed save, or half as much on a successful one. A creature reduced to 0 hit points by this damage is annihilated as its body burns away and its mind and soul are imprinted on the closest surface as a shadowy silhouette, suitable for consumption by shadowlisks. While it is annihilated in this way, a creature can perceive its immediate surroundings, but is {@condition incapacitated} and {@condition debilitated|LUA5E:AG} and cannot communicate.",
                         "If a different creature coats its hands with the blood of a shadowlisk, it can touch the mind and soul of a creature that has been annihilated within the last day and restore its body as an action. A creature restored in this way is alive and stable, with 0 hit points."
                     ]
                 }
@@ -1651,7 +1651,7 @@
         },
         {
             "name": "Ten-Headed Lion",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "L"
             ],
@@ -1714,7 +1714,7 @@
                     "name": "Mandala Mane",
                     "entries": [
                         "The lion's regal poise is glorified by an additional nine heads, whirling around the catlike creature in a maned mandala. These additional heads can fly freely within 150 feet of the body. If a head starts its turn farther away from the body than 150 feet, it teleports adjacent to the body, or is destroyed if it cannot teleport. Each head is a Small creature with 25 hit points. It has the same AC, saves, and immunities as the body, and can take its own reaction. However, if a damaging source with an area of effect would strike multilpe heads simultaneously, the damage is only dealt once and is divided equally amongst them. The heads can make the body's Bite attack.",
-                        "The lion has advantage on Perception checks and saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition debilitated|LevelUp}, or knocked {@condition unconscious}.",
+                        "The lion has advantage on Perception checks and saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition debilitated|LUA5E:AG}, or knocked {@condition unconscious}.",
                         "If the lion has at least 1 hit point and starts its turn under any of the above conditions, it can destroy a head of its choice and end all those conditions.",
                         "Whenever a head is destroyed, the lion's maximum hit points are reduced by 25. The lion restores all of its heads as part of a long rest.",
                         "The body can attach itself to one of its heads without an action, at any time, simply by sharing a space. The body can also detach its current head without an action, at any time. It can operate just fine without a head."
@@ -1795,7 +1795,7 @@
                                     "type": "item",
                                     "name": "6. Staggering Hunger",
                                     "entries": [
-                                        "The head licks its lips at a creature it can see within 10 feet of it, which must succeed on a {@dc 19} Wisdom saving throw or become {@condition staggered|LevelUp} at the start of its next turn. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                                        "The head licks its lips at a creature it can see within 10 feet of it, which must succeed on a {@dc 19} Wisdom saving throw or become {@condition staggered|LUA5E:AG} at the start of its next turn. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                                     ]
                                 },
                                 {
@@ -1850,7 +1850,7 @@
         },
         {
             "name": "Notturna",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "T"
             ],
@@ -1923,7 +1923,7 @@
         },
         {
             "name": "Witchoil Automaton",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "L"
             ],
@@ -1966,9 +1966,9 @@
             ],
             "conditionImmune": [
                 "charmed",
-                "fatigue|LevelUp",
+                "fatigue|LUA5E:AG",
                 "frightened",
-                "staggered|LevelUp",
+                "staggered|LUA5E:AG",
                 "petrified",
                 "poisoned"
             ],
@@ -2041,7 +2041,7 @@
         },
         {
             "name": "Flayed Jaguar",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -2168,7 +2168,7 @@
         },
         {
             "name": "Shadow Hound Killer",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -2272,7 +2272,7 @@
         },
         {
             "name": "Malice Rager",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "L"
             ],
@@ -2354,7 +2354,7 @@
         },
         {
             "name": "Screaming Malice",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "H"
             ],
@@ -2438,7 +2438,7 @@
                 {
                     "name": "Cephalic Quincunx",
                     "entries": [
-                        "The screaming malice has five Medium heads which can share the body's space and which each have a reach of 5 feet. Whenever the sreaming malice moves, only its body moves unless otherwise stipulated. When it starts its turn, it can reposition its heads to spaces of its choice within 30 feet of its body, which does not provoke opportunity attacks. If a head is ever more than 30 feet away, it falls off and dies harmlessly, and a replacement head grows at the end of the screaming malice's next turn, sharing its space. Each head can be dealt damage by attacking it, but the heads and body share a single hit point pool. Individuals heads cannot be destroyed this way. While it has more than one head, the screaming malice cannot be {@condition blinded}, {@condition deafened}, {@condition debilitated|LevelUp}, or knocked {@condition unconscious}.",
+                        "The screaming malice has five Medium heads which can share the body's space and which each have a reach of 5 feet. Whenever the sreaming malice moves, only its body moves unless otherwise stipulated. When it starts its turn, it can reposition its heads to spaces of its choice within 30 feet of its body, which does not provoke opportunity attacks. If a head is ever more than 30 feet away, it falls off and dies harmlessly, and a replacement head grows at the end of the screaming malice's next turn, sharing its space. Each head can be dealt damage by attacking it, but the heads and body share a single hit point pool. Individuals heads cannot be destroyed this way. While it has more than one head, the screaming malice cannot be {@condition blinded}, {@condition deafened}, {@condition debilitated|LUA5E:AG}, or knocked {@condition unconscious}.",
                         "The screaming malice can take four reactions per round, but the extra three can only be used to make opportunity attack bites with heads, and each head can only make one opportunity attack per round."
                     ]
                 },
@@ -2510,7 +2510,7 @@
                 {
                     "name": "Cranial Biogenesis",
                     "entries": [
-                        "The screaming malice moves one of its heads up to 30 feet and detaches and trasnforms that head into a {@creature malice spawn|LevelUp}. The spawn acts immediately after each of the screaming malice's turns, including the turn in which the spawn was created. A new head regrows at the end of the screaming malice's next turn. The creature cannot use this ability if it already has three active spawn."
+                        "The screaming malice moves one of its heads up to 30 feet and detaches and trasnforms that head into a {@creature malice spawn|LUA5E:AiZ}. The spawn acts immediately after each of the screaming malice's turns, including the turn in which the spawn was created. A new head regrows at the end of the screaming malice's next turn. The creature cannot use this ability if it already has three active spawn."
                     ]
                 }
             ],
@@ -2538,14 +2538,14 @@
                 {
                     "name": "Lure",
                     "entries": [
-                        "One {@condition charmed} creature within 120 feet moves a distance equal to its speed, its path chosen by the screaming malice. The creature is then {@condition dazed|LevelUp} for as long as it remains {@condition charmed} by the screaming malice."
+                        "One {@condition charmed} creature within 120 feet moves a distance equal to its speed, its path chosen by the screaming malice. The creature is then {@condition dazed|LUA5E:AG} for as long as it remains {@condition charmed} by the screaming malice."
                     ]
                 }
             ]
         },
         {
             "name": "Malice Spawn",
-            "source": "LevelUp",
+            "source": "LUA5E:AiZ",
             "size": [
                 "M"
             ],
@@ -2614,7 +2614,7 @@
                 {
                     "name": "Fueled by Malice",
                     "entries": [
-                        "Killing a malice spawn deals 10 necrotic damage to the {@creature screaming malice|LevelUp} that created it. The malice spawn automatically dies if it strays more than three miles from the {@creature screaming malice|LevelUp} that created it."
+                        "Killing a malice spawn deals 10 necrotic damage to the {@creature screaming malice|LUA5E:AiZ} that created it. The malice spawn automatically dies if it strays more than three miles from the {@creature screaming malice|LUA5E:AiZ} that created it."
                     ]
                 },
                 {
@@ -2634,7 +2634,7 @@
                 {
                     "name": "Claw",
                     "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage. If the target is {@condition charmed}, {@condition frightened}, or experiencing intense magical emotions (such as from {@spell hideous laughter|LevelUp}, a berserker's rage, or a {@creature screaming malice|LevelUp|screaming malice's} Emotive Wail), it must succeed on a {@dc 18} Wisdom saving throw or fall {@condition prone}."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage. If the target is {@condition charmed}, {@condition frightened}, or experiencing intense magical emotions (such as from {@spell hideous laughter|LUA5E:AiZ}, a berserker's rage, or a {@creature screaming malice|LUA5E:AiZ|screaming malice's} Emotive Wail), it must succeed on a {@dc 18} Wisdom saving throw or fall {@condition prone}."
 
                     ]
                 }
