@@ -797,10 +797,6 @@
 						"source": "TCE"
 					},
 					{
-						"name": "Artificer (Revised)",
-						"source": "ArtificerRevised-modnar"
-					},
-					{
 						"name": "Inventor",
 						"source": "KibbleInventor"
 					},
@@ -1003,10 +999,6 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
-					},
-					{
-						"name": "Artificer (Revised)",
-						"source": "ArtificerRevised-modnar"
 					},
 					{
 						"name": "Inventor",
@@ -1347,10 +1339,6 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
-					},
-					{
-						"name": "Artificer (Revised)",
-						"source": "ArtificerRevised-modnar"
 					},
 					{
 						"name": "Inventor",
@@ -2310,10 +2298,6 @@
 						"source": "TCE"
 					},
 					{
-						"name": "Artificer (Revised)",
-						"source": "ArtificerRevised-modnar"
-					},
-					{
 						"name": "Inventor",
 						"source": "KibbleInventor"
 					}
@@ -2874,10 +2858,6 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
-					},
-					{
-						"name": "Artificer (Revised)",
-						"source": "ArtificerRevised-modnar"
 					},
 					{
 						"name": "Inventor",
@@ -3683,10 +3663,6 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
-					},
-					{
-						"name": "Artificer (Revised)",
-						"source": "ArtificerRevised-modnar"
 					},
 					{
 						"name": "Inventor",

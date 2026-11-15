@@ -1,0 +1,23 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SongsoftheSpellboundSea",
+				"abbreviation": "SotSBS",
+				"full": "Songs of the Spellbound Sea",
+				"version": "1.0",
+				"url": "https://www.somanyrobots.com/store/p/spellbound-sea",
+				"authors": [
+					"somanyrobots"
+				],
+				"convertedBy": [
+					"nega_ryan"
+				],
+				"color": "069770",
+				"colorNight": "07cb95"
+			}
+		],
+		"dateAdded": 1794730392,
+		"dateLastModified": 1794730392
+	}
+}
