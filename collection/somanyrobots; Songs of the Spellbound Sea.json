@@ -17,6 +17,7 @@
 				"colorNight": "07cb95"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1794730392,
 		"dateLastModified": 1794730392
 	},
@@ -2578,7 +2579,7 @@
 				}
 			],
 			"entries": [
-				"You touch a creature and grant it the ability to move over liquid surfaces as if they were solid ground. The target must move at least 30 feet on each of its turns to stay above the liquid—otherwise, it sinks below the surface. While the target is moving over a liquid surface, it can move 10 feet for every 5 feet of movement it spends. It also gains advantage on saving throws to avoid being {@condition restrained} or knocked {@condition prone}."
+				"You touch a creature and grant it the ability to move over liquid surfaces as if they were solid ground. The target must move at least 30 feet on each of its turns to stay above the liquid\u2014otherwise, it sinks below the surface. While the target is moving over a liquid surface, it can move 10 feet for every 5 feet of movement it spends. It also gains advantage on saving throws to avoid being {@condition restrained} or knocked {@condition prone}."
 			],
 			"classes": {
 				"fromClassList": [
