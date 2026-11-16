@@ -26,7 +26,7 @@
 	},
 	"_test": {
 		"references": [
-			"KibblesTasty:CC"
+			"KT-CLL"
 		]
 	},
 	"subclass": [
@@ -58,7 +58,7 @@
 						],
 						"s5": [
 							"Control Winds|XGE",
-							"Summon Dragon|KibblesTasty:CC"
+							"Summon Dragon|KT-CLL"
 						]
 					}
 				}
@@ -73,7 +73,7 @@
 				"fire shield",
 				"Leomund's Secret Chest",
 				"control winds|xge",
-				"summon dragon|kibblestasty:cc"
+				"summon dragon|KT-CLL"
 			],
 			"subclassFeatures": [
 				"The Dragon|Warlock|PHB|Dragon|KibDragonPatron|1|KibDragonPatron",
@@ -179,7 +179,7 @@
 						],
 						[
 							"5th",
-							"{@spell control winds|XGE}, {@spell summon dragon|KibblesTasty:CC}"
+							"{@spell control winds|XGE}, {@spell summon dragon|KT-CLL}"
 						]
 					]
 				}
@@ -386,7 +386,7 @@
 						],
 						[
 							"5th",
-							"{@spell erode|KibblesTasty:CC}"
+							"{@spell erode|KT-CLL}"
 						],
 						[
 							"7th",
@@ -394,7 +394,7 @@
 						],
 						[
 							"9th",
-							"{@spell acid rain|KibblesTasty:CC}"
+							"{@spell acid rain|KT-CLL}"
 						]
 					]
 				},
@@ -412,11 +412,11 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell lightning tendril|KibblesTasty:CC}"
+							"{@spell lightning tendril|KT-CLL}"
 						],
 						[
 							"3rd",
-							"{@spell crackle|KibblesTasty:CC}"
+							"{@spell crackle|KT-CLL}"
 						],
 						[
 							"5th",
@@ -424,11 +424,11 @@
 						],
 						[
 							"7th",
-							"{@spell jumping jolt|KibblesTasty:CC}"
+							"{@spell jumping jolt|KT-CLL}"
 						],
 						[
 							"9th",
-							"{@spell sky burst|KibblesTasty:CC}"
+							"{@spell sky burst|KT-CLL}"
 						]
 					]
 				},
@@ -480,11 +480,11 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell bad blood|KibblesTasty:CC}"
+							"{@spell bad blood|KT-CLL}"
 						],
 						[
 							"3rd",
-							"{@spell poison dart|KibblesTasty:CC}"
+							"{@spell poison dart|KT-CLL}"
 						],
 						[
 							"5th",
@@ -492,7 +492,7 @@
 						],
 						[
 							"7th",
-							"{@spell poison puff|KibblesTasty:CC}"
+							"{@spell poison puff|KT-CLL}"
 						],
 						[
 							"9th",
@@ -514,15 +514,15 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell arctic breath|KibblesTasty:CC}"
+							"{@spell arctic breath|KT-CLL}"
 						],
 						[
 							"3rd",
-							"{@spell cold snap|KibblesTasty:CC}"
+							"{@spell cold snap|KT-CLL}"
 						],
 						[
 							"5th",
-							"{@spell flash freeze|KibblesTasty:CC}"
+							"{@spell flash freeze|KT-CLL}"
 						],
 						[
 							"7th",

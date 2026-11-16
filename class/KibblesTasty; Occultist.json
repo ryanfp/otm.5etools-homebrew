@@ -25,7 +25,7 @@
 		},
 		"dependencies": {
 			"spell": [
-				"KibblesTasty:CC"
+				"KT-CLL"
 			]
 		},
 		"status": "ready",
@@ -528,21 +528,21 @@
 			"subclassTitle": "Occult Tradition",
 			"classSpells": [
 				"Acid Splash",
-				"burn|kibblestasty:cc",
+				"burn|KT-CLL",
 				"Chill Touch",
 				"create bonfire|xge",
-				"decaying touch|kibblestasty:cc",
+				"decaying touch|KT-CLL",
 				"Dancing Lights",
 				"Druidcraft",
-				"fists of fire|kibblestasty:cc",
-				"freeze|kibblestasty:cc",
+				"fists of fire|KT-CLL",
+				"freeze|KT-CLL",
 				"frostbite|xge",
 				"Guidance",
 				"gust|xge",
-				"ice weapon|kibblestasty:cc",
-				"illusionary dart|kibblestasty:cc",
+				"ice weapon|KT-CLL",
+				"illusionary dart|KT-CLL",
 				"infestation|xge",
-				"impact|kibblestasty:cc",
+				"impact|KT-CLL",
 				"Light",
 				"lightning lure|tce",
 				"magic stone|xge",
@@ -554,91 +554,91 @@
 				"primal savagery|xge",
 				"Produce Flame",
 				"Resistance",
-				"rock slam|kibblestasty:cc",
+				"rock slam|KT-CLL",
 				"shape water|xge",
 				"shocking grasp",
 				"Thorn Whip",
 				"absorb elements|xge",
 				"Animal Friendship",
-				"awaken rope|kibblestasty:cc",
-				"bad blood|kibblestasty:cc",
+				"awaken rope|KT-CLL",
+				"bad blood|KT-CLL",
 				"Bane",
 				"beast bond|xge",
-				"blade mirage|kibblestasty:cc",
-				"bramble binding|kibblestasty:cc",
+				"blade mirage|KT-CLL",
+				"bramble binding|KT-CLL",
 				"Burning Hands",
 				"cause fear|xge",
 				"ceremony|xge",
 				"Comprehend Languages",
 				"Cure Wounds",
-				"crippling agony|kibblestasty:cc",
+				"crippling agony|KT-CLL",
 				"Detect Magic",
 				"Detect Poison and Disease",
 				"Disguise Self",
 				"Dissonant Whispers",
-				"electrify|kibblestasty:cc",
+				"electrify|KT-CLL",
 				"Feather Fall",
 				"Fog Cloud",
-				"gale bolt|kibblestasty:cc",
-				"grip of the dead|kibblestasty:cc",
+				"gale bolt|KT-CLL",
+				"grip of the dead|KT-CLL",
 				"Hail of Thorns",
 				"hex",
 				"ice knife|xge",
 				"Identify",
 				"Illusory Script",
-				"illusory pit|kibblestasty:cc",
+				"illusory pit|KT-CLL",
 				"Inflict Wounds",
-				"induce headache|kibblestasty:cc",
-				"karmic reflection|kibblestasty:cc",
-				"lightning tendril|kibblestasty:cc",
-				"nauseating poison|kibblestasty:cc",
-				"prismatic flash|kibblestasty:cc",
+				"induce headache|KT-CLL",
+				"karmic reflection|KT-CLL",
+				"lightning tendril|KT-CLL",
+				"nauseating poison|KT-CLL",
+				"prismatic flash|KT-CLL",
 				"Ray of Sickness",
 				"Speak with Animals",
-				"spiritual consultation|kibblestasty:cc",
-				"stone fist|kibblestasty:cc",
+				"spiritual consultation|KT-CLL",
+				"stone fist|KT-CLL",
 				"tasha's caustic brew|tce",
 				"Tasha's Hideous Laughter",
 				"Unseen Servant",
-				"water blast|kibblestasty:cc",
+				"water blast|KT-CLL",
 				"Alter Self",
-				"alacrity|kibblestasty:cc",
+				"alacrity|KT-CLL",
 				"Animal Messenger",
-				"dancing objects (animate object)|kibblestasty:cc",
+				"Dancing Object|KT-CLL",
 				"Augury",
 				"Barkskin",
-				"become fire|kibblestasty:cc",
-				"become stone|kibblestasty:cc",
-				"become water|kibblestasty:cc",
-				"become wind|kibblestasty:cc",
+				"become fire|KT-CLL",
+				"become stone|KT-CLL",
+				"become water|KT-CLL",
+				"become wind|KT-CLL",
 				"Blindness/Deafness",
-				"boil blood|kibblestasty:cc",
-				"bramble barrier|kibblestasty:cc",
+				"boil blood|KT-CLL",
+				"bramble barrier|KT-CLL",
 				"Calm Emotions",
-				"clay touch|kibblestasty:cc",
-				"crackle|kibblestasty:cc",
-				"dancing wave|kibblestasty:cc",
+				"clay touch|KT-CLL",
+				"crackle|KT-CLL",
+				"dancing wave|KT-CLL",
 				"Darkness",
 				"Darkvision",
 				"Detect Thoughts",
-				"disorient|kibblestasty:cc",
-				"earth ripple|kibblestasty:cc",
-				"form of familiar|kibblestasty:cc",
+				"disorient|KT-CLL",
+				"earth ripple|KT-CLL",
+				"form of familiar|KT-CLL",
 				"Enhance Ability",
 				"Enlarge/Reduce",
 				"Gentle Repose",
 				"healing spirit|xge",
 				"Heat Metal",
 				"Hold Person",
-				"hurricane slash|kibblestasty:cc",
+				"hurricane slash|KT-CLL",
 				"Invisibility",
-				"imbue luck|kibblestasty:cc",
+				"imbue luck|KT-CLL",
 				"Lesser Restoration",
 				"Locate Object",
 				"Melf's Acid Arrow",
 				"Mirror Image",
 				"Misty Step",
-				"poison dart|kibblestasty:cc",
+				"poison dart|KT-CLL",
 				"Protection from Poison",
 				"Scorching Ray",
 				"See Invisibility",
@@ -648,49 +648,49 @@
 				"Spike Growth",
 				"Suggestion",
 				"summon beast|tce",
-				"summon swarm|kibblestasty:cc",
+				"summon swarm|KT-CLL",
 				"Web",
-				"vacuum pull|kibblestasty:cc",
+				"vacuum pull|KT-CLL",
 				"vicious hound|kt:o",
-				"vicious vapors|kibblestasty:cc",
-				"animate shadow|kibblestasty:cc",
+				"vicious vapors|KT-CLL",
+				"animate shadow|KT-CLL",
 				"Bestow Curse",
 				"Blink",
 				"catnap|xge",
 				"Clairvoyance",
 				"Counterspell",
-				"cruel puppetry|kibblestasty:cc",
+				"cruel puppetry|KT-CLL",
 				"Dispel Magic",
-				"erode|kibblestasty:cc",
+				"erode|KT-CLL",
 				"Fear",
 				"Fly",
 				"Gaseous Form",
 				"Haste",
-				"hungering void|kibblestasty:cc",
+				"hungering void|KT-CLL",
 				"Hypnotic Pattern",
-				"illusionary fireball|kibblestasty:cc",
+				"illusionary fireball|KT-CLL",
 				"life transference|xge",
 				"Magic Circle",
-				"mutate|kibblestasty:cc",
+				"mutate|KT-CLL",
 				"Nondetection",
 				"Plant Growth",
-				"quick sand|kibblestasty:cc",
-				"rain of spiders|kibblestasty:cc",
+				"Quicksand|KT-CLL",
+				"rain of spiders|KT-CLL",
 				"Remove Curse",
 				"Sending",
 				"Sleet Storm",
 				"Slow",
-				"spider bite|kibblestasty:cc",
+				"spider bite|KT-CLL",
 				"Spirit Guardians",
-				"summon monstrosity|kibblestasty:cc",
+				"summon monstrosity|KT-CLL",
 				"summon undead|tce",
 				"Vampiric Touch",
-				"vortex blast|kibblestasty:cc",
+				"vortex blast|KT-CLL",
 				"wall of water|xge",
 				"Water Breathing",
 				"Water Walk",
 				"Wind Wall",
-				"wither|kibblestasty:cc",
+				"wither|KT-CLL",
 				"Arcane Eye",
 				"Banishment",
 				"Blight",
@@ -700,9 +700,9 @@
 				"Conjure Minor Elementals",
 				"Conjure Woodland Beings",
 				"Control Water",
-				"devour shadow|kibblestasty:cc",
+				"devour shadow|KT-CLL",
 				"Divination",
-				"echoing lance|kibblestasty:cc",
+				"echoing lance|KT-CLL",
 				"elemental bane|xge",
 				"Evard's Black Tentacles",
 				"Giant Insect",
@@ -712,16 +712,16 @@
 				"Leomund's Secret Chest",
 				"Locate Creature",
 				"Polymorph",
-				"poison puff|kibblestasty:cc",
+				"poison puff|KT-CLL",
 				"shadow of moil|xge",
-				"stinging swarm|kibblestasty:cc",
-				"stone coffin|kibblestasty:cc",
-				"suffocate|kibblestasty:cc",
+				"stinging swarm|KT-CLL",
+				"stone coffin|KT-CLL",
+				"suffocate|KT-CLL",
 				"summon elemental|tce",
 				"vitriolic sphere|xge",
 				"Wall of Fire",
 				"watery sphere|xge",
-				"acid rain|kibblestasty:cc",
+				"acid rain|KT-CLL",
 				"Animate Objects",
 				"Awaken",
 				"Cloudkill",
@@ -730,11 +730,11 @@
 				"Contact Other Plane",
 				"Contagion",
 				"danse macabre|xge",
-				"deglove creature|kibblestasty:cc",
+				"deglove creature|KT-CLL",
 				"Dominate Person",
 				"Dream",
 				"enervation|xge",
-				"field of stars|kibblestasty:cc",
+				"field of stars|KT-CLL",
 				"Geas",
 				"Greater Restoration",
 				"Hold Monster",
@@ -746,12 +746,12 @@
 				"Reincarnate",
 				"Scrying",
 				"Seeming",
-				"sonic shriek|kibblestasty:cc",
+				"sonic shriek|KT-CLL",
 				"skill empowerment|xge",
-				"sudden hazards|kibblestasty:cc",
+				"sudden hazards|KT-CLL",
 				"transmute rock|xge",
 				"Wall of Stone",
-				"baba's walking hut|kibblestasty:cc",
+				"baba's walking hut|KT-CLL",
 				"bones of the earth|xge",
 				"Conjure Fey",
 				"Contingency",
@@ -786,7 +786,7 @@
 				"Resurrection",
 				"Sequester",
 				"Teleport",
-				"twisting eruption|kibblestasty:cc",
+				"twisting eruption|KT-CLL",
 				"whirlwind|xge",
 				"abi-dalzim's horrid wilting|xge",
 				"Animal Shapes",
@@ -807,7 +807,7 @@
 				"Foresight",
 				"Imprisonment",
 				"invulnerability|xge",
-				"manipulate fate|kibblestasty:cc",
+				"manipulate fate|KT-CLL",
 				"Power Word Heal",
 				"Power Word Kill",
 				"psychic scream|xge",
@@ -1504,7 +1504,7 @@
 				}
 			],
 			"entries": [
-				"You learn the {@spell form of familiar|KibblesTasty:CC} spell, and gain the ability to cast it once without expending a spell slot as an action. You regain the ability to cast it in this way again after completing a short or long rest. You can also cast the spell using any spell slots you have."
+				"You learn the {@spell form of familiar|KT-CLL} spell, and gain the ability to cast it once without expending a spell slot as an action. You regain the ability to cast it in this way again after completing a short or long rest. You can also cast the spell using any spell slots you have."
 			],
 			"additionalSpells": [
 				{
@@ -1512,14 +1512,14 @@
 						"_": {
 							"rest": {
 								"1e": [
-									"form of familiar|KibblesTasty:CC"
+									"form of familiar|KT-CLL"
 								]
 							}
 						}
 					},
 					"known": {
 						"_": [
-							"form of familiar|KibblesTasty:CC"
+							"form of familiar|KT-CLL"
 						]
 					}
 				}
@@ -2282,7 +2282,7 @@
 						],
 						[
 							"5th",
-							"{@spell wither|KibblesTasty:CC}"
+							"{@spell wither|KT-CLL}"
 						],
 						[
 							"7th",
@@ -2290,7 +2290,7 @@
 						],
 						[
 							"9th",
-							"{@spell killing curse|KibblesTasty:CC}"
+							"{@spell killing curse|KT-CLL}"
 						]
 					]
 				}
@@ -2305,13 +2305,13 @@
 							"gentle repose"
 						],
 						"5": [
-							"wither|KibblesTasty:CC"
+							"wither|KT-CLL"
 						],
 						"7": [
 							"blight"
 						],
 						"9": [
-							"killing curse|KibblesTasty:CC"
+							"killing curse|KT-CLL"
 						]
 					}
 				}
@@ -2534,15 +2534,15 @@
 						],
 						[
 							"3rd",
-							"{@spell iron wind strike|KibblesTasty:CC}"
+							"{@spell iron wind strike|KT-CLL}"
 						],
 						[
 							"5th",
-							"{@spell whirling conflagration|KibblesTasty:CC}"
+							"{@spell whirling conflagration|KT-CLL}"
 						],
 						[
 							"7th",
-							"{@spell dimension cutter|KibblesTasty:CC}"
+							"{@spell dimension cutter|KT-CLL}"
 						],
 						[
 							"9th",
@@ -2558,13 +2558,13 @@
 							"bless"
 						],
 						"3": [
-							"iron wind strike|KibblesTasty:CC"
+							"iron wind strike|KT-CLL"
 						],
 						"5": [
-							"whirling conflagration|KibblesTasty:CC"
+							"whirling conflagration|KT-CLL"
 						],
 						"7": [
-							"dimension cutter|KibblesTasty:CC"
+							"dimension cutter|KT-CLL"
 						],
 						"9": [
 							"steel wind strike|xge"
@@ -2700,7 +2700,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell prismatic flash|KibblesTasty:CC}"
+							"{@spell prismatic flash|KT-CLL}"
 						],
 						[
 							"3rd",
@@ -2725,7 +2725,7 @@
 				{
 					"known": {
 						"1": [
-							"prismatic flash|KibblesTasty:CC"
+							"prismatic flash|KT-CLL"
 						],
 						"3": [
 							"moonbeam"
@@ -2785,7 +2785,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell illusory pit|kibblestasty:CC}"
+							"{@spell illusory pit|KT-CLL}"
 						],
 						[
 							"3rd",
@@ -2793,7 +2793,7 @@
 						],
 						[
 							"5th",
-							"{@spell hungering void|kibblestasty:cc}"
+							"{@spell hungering void|KT-CLL}"
 						],
 						[
 							"7th",
@@ -2801,7 +2801,7 @@
 						],
 						[
 							"9th",
-							"{@spell devouring darkness|kibblestasty:cc}"
+							"{@spell devouring darkness|KT-CLL}"
 						]
 					]
 				}
@@ -2810,19 +2810,19 @@
 				{
 					"known": {
 						"1": [
-							"illusory pit|kibblestasty:CC"
+							"illusory pit|KT-CLL"
 						],
 						"3": [
 							"darkness"
 						],
 						"5": [
-							"hungering void|kibblestasty:cc"
+							"hungering void|KT-CLL"
 						],
 						"7": [
 							"shadow of moil|xge"
 						],
 						"9": [
-							"devouring darkness|kibblestasty:cc"
+							"devouring darkness|KT-CLL"
 						]
 					}
 				}
@@ -3176,7 +3176,7 @@
 				}
 			],
 			"entries": [
-				"You grasp that looking into the light blinds as surely as looking away from it. When you cast {@spell prismatic flash|kibblestasty:cc} or a 1st level spell or higher spell that shreds 5 feet or more or bright light, as a bonus action you can force one creature within 30 feet of the light to make a Dexterity saving throw, or become {@condition blinded} until the start of your next turn.",
+				"You grasp that looking into the light blinds as surely as looking away from it. When you cast {@spell prismatic flash|KT-CLL} or a 1st level spell or higher spell that shreds 5 feet or more or bright light, as a bonus action you can force one creature within 30 feet of the light to make a Dexterity saving throw, or become {@condition blinded} until the start of your next turn.",
 				"A creature is unaffected by this effect if it can't see, if it relies on senses other than sight, such as {@sense blindsight}, or if it can perceive illusions as false, as with {@sense truesight}."
 			]
 		},
@@ -3299,13 +3299,13 @@
 				}
 			],
 			"entries": [
-				"You learn the cantrip {@spell burn|KibblesTasty:CC}. Additionally, as a bonus action you can take 1 fire damage and can cause a weapon you are carrying to burst into flames for 1 minute or until you let go of it. For the duration, it sheds bright light for 10 feet and dim light for an additional 10 feet. Attacks made with the weapon while it burns deal an additional {@damage 1d6} fire damage."
+				"You learn the cantrip {@spell burn|KT-CLL}. Additionally, as a bonus action you can take 1 fire damage and can cause a weapon you are carrying to burst into flames for 1 minute or until you let go of it. For the duration, it sheds bright light for 10 feet and dim light for an additional 10 feet. Attacks made with the weapon while it burns deal an additional {@damage 1d6} fire damage."
 			],
 			"additionalSpells": [
 				{
 					"known": {
 						"_": [
-							"burn|KibblesTasty:CC"
+							"burn|KT-CLL"
 						]
 					}
 				}
@@ -3790,8 +3790,8 @@
 			"prerequisite": [
 				{
 					"spell": [
-						"fists of fire|KibblesTasty:CC#c",
-						"ice weapon|KibblesTasty:CC#c"
+						"fists of fire|KT-CLL#c",
+						"ice weapon|KT-CLL#c"
 					],
 					"level": {
 						"level": 1,
@@ -3812,7 +3812,7 @@
 				}
 			],
 			"entries": [
-				"When you create a weapon with {@spell fists of fire|KibblesTasty:CC} or {@spell ice weapon|KibblesTasty:CC} the damage die of the weapon is increased by one size (for example, from a d6 to a d8)."
+				"When you create a weapon with {@spell fists of fire|KT-CLL} or {@spell ice weapon|KT-CLL} the damage die of the weapon is increased by one size (for example, from a d6 to a d8)."
 			]
 		},
 		{
@@ -3998,7 +3998,7 @@
 						],
 						[
 							"7th",
-							"{@spell orbital stones|KibblesTasty:cc}"
+							"{@spell orbital stones|KT-CLL}"
 						],
 						[
 							"9th",
@@ -4020,7 +4020,7 @@
 							"erupting earth|xge"
 						],
 						"7": [
-							"orbital stones|KibblesTasty:cc"
+							"orbital stones|KT-CLL"
 						],
 						"9": [
 							"wall of stone"
@@ -4071,11 +4071,11 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell arctic breath|kibblestasty:cc}"
+							"{@spell arctic breath|KT-CLL}"
 						],
 						[
 							"3rd",
-							"{@spell cold snap|kibblestasty:cc}"
+							"{@spell cold snap|KT-CLL}"
 						],
 						[
 							"5th",
@@ -4096,10 +4096,10 @@
 				{
 					"known": {
 						"1": [
-							"arctic breath|kibblestasty:cc"
+							"arctic breath|KT-CLL"
 						],
 						"3": [
-							"cold snap|kibblestasty:cc"
+							"cold snap|KT-CLL"
 						],
 						"5": [
 							"sleet storm"
@@ -4253,11 +4253,11 @@
 						],
 						[
 							"7th",
-							"{@spell jumping jolt|KibblesTasty:cc}"
+							"{@spell jumping jolt|KT-CLL}"
 						],
 						[
 							"9th",
-							"{@spell sky burst|KibblesTasty:cc}"
+							"{@spell sky burst|KT-CLL}"
 						]
 					]
 				}
@@ -4275,10 +4275,10 @@
 							"lightning bolt"
 						],
 						"7": [
-							"jumping jolt|KibblesTasty:cc"
+							"jumping jolt|KT-CLL"
 						],
 						"9": [
-							"sky burst|KibblesTasty:cc"
+							"sky burst|KT-CLL"
 						]
 					}
 				}
@@ -5115,7 +5115,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell rotting curse|KibblesTasty:CC}, {@spell arms of hadar}"
+							"{@spell rotting curse|KT-CLL}, {@spell arms of hadar}"
 						],
 						[
 							"3rd",
@@ -5123,15 +5123,15 @@
 						],
 						[
 							"5th",
-							"{@spell animate shadow|KibblesTasty:CC}, {@spell summon shadowspawn|TCE}"
+							"{@spell animate shadow|KT-CLL}, {@spell summon shadowspawn|TCE}"
 						],
 						[
 							"7th",
-							"{@spell devour shadow|KibblesTasty:CC}, {@spell evard's black tentacles}"
+							"{@spell devour shadow|KT-CLL}, {@spell evard's black tentacles}"
 						],
 						[
 							"9th",
-							"{@spell killing curse|KibblesTasty:CC}, {@spell contagion}"
+							"{@spell killing curse|KT-CLL}, {@spell contagion}"
 						]
 					]
 				},
@@ -5149,7 +5149,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell binding curse|KibblesTasty:CC}, {@spell healing word}"
+							"{@spell binding curse|KT-CLL}, {@spell healing word}"
 						],
 						[
 							"3rd",
@@ -5165,7 +5165,7 @@
 						],
 						[
 							"9th",
-							"{@spell curse of impotence|KibblesTasty:CC}, {@spell summon celestial|TCE}"
+							"{@spell curse of impotence|KT-CLL}, {@spell summon celestial|TCE}"
 						]
 					]
 				},
@@ -5183,7 +5183,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell befuddling curse|KibblesTasty:CC}, {@spell entangle}"
+							"{@spell befuddling curse|KT-CLL}, {@spell entangle}"
 						],
 						[
 							"3rd",
@@ -5199,7 +5199,7 @@
 						],
 						[
 							"9th",
-							"{@spell swapping curse|KibblesTasty:CC}, {@spell wrath of nature|XGE}"
+							"{@spell swapping curse|KT-CLL}, {@spell wrath of nature|XGE}"
 						]
 					]
 				}
@@ -5986,7 +5986,7 @@
 								"choose": "level=0|class=occultist (kt:o)",
 								"count": 2
 							},
-							"rotting curse|KibblesTasty:CC",
+							"rotting curse|KT-CLL",
 							"arms of hadar"
 						],
 						"3": [
@@ -5994,7 +5994,7 @@
 							"darkness"
 						],
 						"5": [
-							"animate shadow|KibblesTasty:CC",
+							"animate shadow|KT-CLL",
 							"summon shadowspawn|tce"
 						],
 						"7": [
@@ -6002,7 +6002,7 @@
 							"evard's black tentacles"
 						],
 						"9": [
-							"killing curse|KibblesTasty:CC",
+							"killing curse|KT-CLL",
 							"contagion"
 						]
 					}
@@ -6016,7 +6016,7 @@
 								"choose": "level=0|class=occultist (kt:o)",
 								"count": 2
 							},
-							"binding curse|KibblesTasty:CC",
+							"binding curse|KT-CLL",
 							"healing word"
 						],
 						"3": [
@@ -6032,7 +6032,7 @@
 							"otiluke's resilient sphere"
 						],
 						"9": [
-							"curse of impotence|KibblesTasty:CC",
+							"curse of impotence|KT-CLL",
 							"summon celestial|tce"
 						]
 					}
@@ -6046,7 +6046,7 @@
 								"choose": "level=0|class=occultist (kt:o)",
 								"count": 2
 							},
-							"befuddling curse|KibblesTasty:CC",
+							"befuddling curse|KT-CLL",
 							"entangle"
 						],
 						"3": [
@@ -6062,7 +6062,7 @@
 							"polymorph"
 						],
 						"9": [
-							"swapping curse|KibblesTasty:CC",
+							"swapping curse|KT-CLL",
 							"wrath of nature|xge"
 						]
 					}

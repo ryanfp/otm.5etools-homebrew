@@ -45713,7 +45713,7 @@
 										"type": "entries",
 										"name": "Miniscule Fey",
 										"entries": [
-											"Dwelling in pastoral woods and rich farmland, the lymarien is one of the smallest fey in existence. Barely larger than a wasp, a lymarien is frequently mistaken for a butterfly and often ignored by larger creatures. They are sometimes preyed upon by birds like {@creature owl|mm|owls} and {@creature crow|wdmm|crows}, or attacked by evil fey like {@creature morko|ccodex|morkos} ({@loader Creature Codex|collection/Kobold Press; Creature Codex.json})."
+											"Dwelling in pastoral woods and rich farmland, the lymarien is one of the smallest fey in existence. Barely larger than a wasp, a lymarien is frequently mistaken for a butterfly and often ignored by larger creatures. They are sometimes preyed upon by birds like {@creature owl|mm|owls} and {@creature raven|XMM|crows}, or attacked by evil fey like {@creature morko|ccodex|morkos} ({@loader Creature Codex|collection/Kobold Press; Creature Codex.json})."
 										]
 									},
 									{
@@ -70239,7 +70239,7 @@
 										"type": "entries",
 										"name": "Head Collectors",
 										"entries": [
-											"The victim of a tembril attack is almost always found without its head, for the creature collects the severed cranium to devour the contents either immediately or at a later time. Tembrils store the heads in the long winter months, hiding them within the hollows of great trees or in other suitable locations and covering them in ice so they don't decompose. The decapitated bodies left behind make a meal for many forest-dwelling scavengers, and {@creature crow|wdmm|crows}, {@creature worg|mm|worgs}, and even {@creature ghoul|mm|ghouls} have been known to follow in a tembril's wake, looking for a fresh feast."
+											"The victim of a tembril attack is almost always found without its head, for the creature collects the severed cranium to devour the contents either immediately or at a later time. Tembrils store the heads in the long winter months, hiding them within the hollows of great trees or in other suitable locations and covering them in ice so they don't decompose. The decapitated bodies left behind make a meal for many forest-dwelling scavengers, and {@creature raven|XMM|crows}, {@creature worg|mm|worgs}, and even {@creature ghoul|mm|ghouls} have been known to follow in a tembril's wake, looking for a fresh feast."
 										]
 									}
 								]

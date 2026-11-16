@@ -1919,7 +1919,7 @@
 				}
 			],
 			"entries": [
-				"You gain the ability to cast a {@spell beam of annihilation|KibblesTasty:CC} for 6 psi points. If you have a specialization of Psychokinesis, you can only select the related elemental damage type, but the beam's damage ignores resistance to that damage type."
+				"You gain the ability to cast a {@spell beam of annihilation|KT-CLL} for 6 psi points. If you have a specialization of Psychokinesis, you can only select the related elemental damage type, but the beam's damage ignores resistance to that damage type."
 			],
 			"source": "ktp",
 			"page": 13,
@@ -2068,7 +2068,7 @@
 												],
 												[
 													"5",
-													"{@spell devouring darkness|KibblesTasty:CC}"
+													"{@spell devouring darkness|KT-CLL}"
 												]
 											]
 										},
@@ -2110,7 +2110,7 @@
 									"blight|phb"
 								],
 								"5": [
-									"devouring darkness|KibblesTasty:CC"
+									"devouring darkness|KT-CLL"
 								]
 							}
 						}
@@ -2221,7 +2221,7 @@
 				}
 			],
 			"entries": [
-				"You learn the {@spell divide self|KibblesTasty:CC} spell, can cast it by expending 5 psi points. When you gain access to the Innate Psionics feature, you may expend a use of Innate Psionics to cast {@spell divide self|KibblesTasty:CC} at the level of the use of Innate Psionics expended. For example, if you choose the {@spell teleport|phb} spell for your Innate Psionics feature at 13th level, you could expend a casting of {@spell teleport|phb} to instead cast {@spell divide self|KibblesTasty:CC} as a 7th-level spell, and can't cast {@spell teleport|phb} or {@spell divide self|KibblesTasty:CC} as a 7th-level spell in this way until you finish a long rest.",
+				"You learn the {@spell divide self|KT-CLL} spell, can cast it by expending 5 psi points. When you gain access to the Innate Psionics feature, you may expend a use of Innate Psionics to cast {@spell divide self|KT-CLL} at the level of the use of Innate Psionics expended. For example, if you choose the {@spell teleport|phb} spell for your Innate Psionics feature at 13th level, you could expend a casting of {@spell teleport|phb} to instead cast {@spell divide self|KT-CLL} as a 7th-level spell, and can't cast {@spell teleport|phb} or {@spell divide self|KT-CLL} as a 7th-level spell in this way until you finish a long rest.",
 				"You do not require the material components of the spell when you cast it by expending psi points or a use of Innate Psionics."
 			],
 			"source": "ktp",
@@ -3518,7 +3518,7 @@
 				}
 			],
 			"entries": [
-				"The {@spell Dancing Objects (Animate Object)|KibblesTasty:CC} spell is added to your Telekinesis Alternate Effects list, which you can cast expending 5 psi points. Additionally, as a reaction to a ranged weapon attack you can see being made against a target within 60 feet of you, you can expend 1 psi point to add or subtract 2d4 to or from that attack roll. You can do this after the attack is rolled, but before you know the outcome of the roll."
+				"The {@spell Dancing Object|KT-CLL} spell is added to your Telekinesis Alternate Effects list, which you can cast expending 5 psi points. Additionally, as a reaction to a ranged weapon attack you can see being made against a target within 60 feet of you, you can expend 1 psi point to add or subtract 2d4 to or from that attack roll. You can do this after the attack is rolled, but before you know the outcome of the roll."
 			],
 			"source": "ktp",
 			"page": 15,
@@ -4006,7 +4006,7 @@
 											"rows": [
 												[
 													"1",
-													"{@spell burning hands|phb}, {@spell lightning tendril|KibblesTasty:CC}"
+													"{@spell burning hands|phb}, {@spell lightning tendril|KT-CLL}"
 												],
 												[
 													"2",
@@ -4014,15 +4014,15 @@
 												],
 												[
 													"3",
-													"{@spell aether lance|KibblesTasty:cc}, {@spell fireball|phb}"
+													"{@spell aether lance|KT-CLL}, {@spell fireball|phb}"
 												],
 												[
 													"4",
-													"{@spell jumping jolt|KibblesTasty:CC}, {@spell wall of fire|phb}"
+													"{@spell jumping jolt|KT-CLL}, {@spell wall of fire|phb}"
 												],
 												[
 													"5",
-													"{@spell aether storm|KibblesTasty:CC}, {@spell cone of cold|phb}"
+													"{@spell aether storm|KT-CLL}, {@spell cone of cold|phb}"
 												]
 											]
 										},
@@ -4058,19 +4058,19 @@
 															"rows": [
 																[
 																	"1",
-																	"{@spell arctic breath|KibblesTasty:CC}, {@spell entomb|KibblesTasty:CC}"
+																	"{@spell arctic breath|KT-CLL}, {@spell entomb|KT-CLL}"
 																],
 																[
 																	"2",
-																	"{@spell cold snap|KibblesTasty:CC}"
+																	"{@spell cold snap|KT-CLL}"
 																],
 																[
 																	"3",
-																	"{@spell flash freeze|KibblesTasty:CC}, {@spell sleet storm|phb}"
+																	"{@spell flash freeze|KT-CLL}, {@spell sleet storm|phb}"
 																],
 																[
 																	"4",
-																	"{@spell ice storm|phb}, {@spell ice spike|KibblesTasty:CC}"
+																	"{@spell ice storm|phb}, {@spell ice spike|KT-CLL}"
 																],
 																[
 																	"5",
@@ -4099,23 +4099,23 @@
 															"rows": [
 																[
 																	"1",
-																	"{@spell lightning tendril|KibblesTasty:CC}, {@spell thunder punch|KibblesTasty:CC}"
+																	"{@spell lightning tendril|KT-CLL}, {@spell thunder punch|KT-CLL}"
 																],
 																[
 																	"2",
-																	"{@spell crackle|KibblesTasty:CC}, {@spell lightning charged|KibblesTasty:CC}"
+																	"{@spell crackle|KT-CLL}, {@spell lightning charged|KT-CLL}"
 																],
 																[
 																	"3",
-																	"{@spell electrocute|KibblesTasty:CC}, {@spell lightning bolt|phb}"
+																	"{@spell electrocute|KT-CLL}, {@spell lightning bolt|phb}"
 																],
 																[
 																	"4",
-																	"{@spell jumping jolt|KibblesTasty:CC}"
+																	"{@spell jumping jolt|KT-CLL}"
 																],
 																[
 																	"5",
-																	"{@spell sky burst|KibblesTasty:CC}"
+																	"{@spell sky burst|KT-CLL}"
 																]
 															]
 														}
@@ -4148,7 +4148,7 @@
 																],
 																[
 																	"3",
-																	"{@spell fireball|phb}, {@spell fire cyclone|KibblesTasty:CC}"
+																	"{@spell fireball|phb}, {@spell fire cyclone|KT-CLL}"
 																],
 																[
 																	"4",
@@ -4190,22 +4190,22 @@
 							"resource": {
 								"1": [
 									"burning hands|phb",
-									"lightning tendril|KibblesTasty:CC"
+									"lightning tendril|KT-CLL"
 								],
 								"2": [
 									"flaming sphere|phb",
 									"scorching ray|phb"
 								],
 								"3": [
-									"aether lance|KibblesTasty:CC",
+									"aether lance|KT-CLL",
 									"fireball|phb"
 								],
 								"4": [
-									"jumping jolt|KibblesTasty:CC",
+									"jumping jolt|KT-CLL",
 									"wall of fire|phb"
 								],
 								"5": [
-									"aether storm|KibblesTasty:CC",
+									"aether storm|KT-CLL",
 									"cone of cold|phb"
 								]
 							}
@@ -4461,15 +4461,15 @@
 												],
 												[
 													"2",
-													"{@spell fling|KibblesTasty:CC}, {@spell levitate|phb}, {@spell shatter|phb}"
+													"{@spell fling|KT-CLL}, {@spell levitate|phb}, {@spell shatter|phb}"
 												],
 												[
 													"3",
-													"{@spell fly}, {@spell vortex blast|KibblesTasty:CC}"
+													"{@spell fly}, {@spell vortex blast|KT-CLL}"
 												],
 												[
 													"4",
-													"{@spell orbital stones|KibblesTasty:CC} {@spell Otiluke's Resilient Sphere|phb|resilient sphere}"
+													"{@spell orbital stones|KT-CLL} {@spell Otiluke's Resilient Sphere|phb|resilient sphere}"
 												],
 												[
 													"5",
@@ -4511,16 +4511,16 @@
 									"thunderwave|phb"
 								],
 								"2": [
-									"fling|KibblesTasty:CC",
+									"fling|KT-CLL",
 									"levitate|phb",
 									"shatter|phb"
 								],
 								"3": [
 									"fly",
-									"vortex blast|KibblesTasty:CC"
+									"vortex blast|KT-CLL"
 								],
 								"4": [
-									"orbital stones|KibblesTasty:CC",
+									"orbital stones|KT-CLL",
 									"otiluke's resilient sphere|phb|resilient sphere"
 								],
 								"5": [
@@ -4993,11 +4993,11 @@
 												],
 												[
 													"4",
-													"{@spell banishment|phb}, {@spell dimension cutter|KibblesTasty:CC}, {@spell dimension door}"
+													"{@spell banishment|phb}, {@spell dimension cutter|KT-CLL}, {@spell dimension door}"
 												],
 												[
 													"5",
-													"{@spell flickering strikes|KibblesTasty:CC}, {@spell spatial manipulation|ktp}"
+													"{@spell flickering strikes|KT-CLL}, {@spell spatial manipulation|ktp}"
 												]
 											]
 										},
@@ -5044,11 +5044,11 @@
 								],
 								"4": [
 									"banishment|phb",
-									"dimension cutter|KibblesTasty:CC",
+									"dimension cutter|KT-CLL",
 									"dimension door|phb"
 								],
 								"5": [
-									"flickering strikes|KibblesTasty:CC",
+									"flickering strikes|KT-CLL",
 									"spatial manipulation|ktp"
 								]
 							}
@@ -5078,7 +5078,7 @@
 				}
 			],
 			"entries": [
-				"The {@spell fissure|KibblesTasty:CC} spell is added to your Telekinesis Alternate Effects list. Additionally, as a reaction to a melee attack being made against you, you can expend 1 psi point to shove the creature away. The creature must make a Strength saving throw, or be knocked 10 feet backwards. If this puts the attack out of reach, the attack automatically misses."
+				"The {@spell fissure|KT-CLL} spell is added to your Telekinesis Alternate Effects list. Additionally, as a reaction to a melee attack being made against you, you can expend 1 psi point to shove the creature away. The creature must make a Strength saving throw, or be knocked 10 feet backwards. If this puts the attack out of reach, the attack automatically misses."
 			],
 			"source": "ktp",
 			"page": 15,

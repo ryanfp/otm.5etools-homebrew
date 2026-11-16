@@ -671,7 +671,7 @@
 				}
 			],
 			"entries": [
-				"You create a mechanical device capable of producing a devastating blast. You can use this device to cast {@spell shatter} or {@spell thunderburst mine|KibblesTasty:CC} without expending a spell slot. Once used, the gadget cannot be used again until you complete a short or long rest."
+				"You create a mechanical device capable of producing a devastating blast. You can use this device to cast {@spell shatter} or {@spell thunderburst mine|KT-CLL} without expending a spell slot. Once used, the gadget cannot be used again until you complete a short or long rest."
 			]
 		},
 		{
@@ -1604,7 +1604,7 @@
 				}
 			],
 			"entries": [
-				"You create bracers that can empower you. You can use these bracers to cast {@spell martial transformation|KibblesTasty:CC} without expending a spell slot. Once used, this gadget can't be used again until you finish a long rest."
+				"You create bracers that can empower you. You can use these bracers to cast {@spell martial transformation|KT-CLL} without expending a spell slot. Once used, this gadget can't be used again until you finish a long rest."
 			]
 		},
 		{
@@ -2652,8 +2652,8 @@
 				}
 			],
 			"entries": [
-				"When you cast {@spell arcane weapon|KibblesTasty:CC}, {@spell magic weapon}, or {@spell vorpal weapon|KibblesTasty:CC}, the targeted weapon deals an extra {@dice 1d4} force damage, and when you cast {@spell prismatic weapon|KibbleInventor}, the extra damage it deals increases by {@dice 1d4}.",
-				"Additionally, you have advantage on Constitution saving throws made to maintain concentration on {@spell arcane weapon|KibblesTasty:CC}, {@spell prismatic weapon|KibbleInventor}, magic weapon, and {@spell vorpal weapon|KibblesTasty:CC}."
+				"When you cast {@spell arcane weapon|KT-CLL}, {@spell magic weapon}, or {@spell vorpal weapon|KT-CLL}, the targeted weapon deals an extra {@dice 1d4} force damage, and when you cast {@spell prismatic weapon|KibbleInventor}, the extra damage it deals increases by {@dice 1d4}.",
+				"Additionally, you have advantage on Constitution saving throws made to maintain concentration on {@spell arcane weapon|KT-CLL}, {@spell prismatic weapon|KibbleInventor}, magic weapon, and {@spell vorpal weapon|KT-CLL}."
 			]
 		},
 		{
@@ -2674,7 +2674,7 @@
 				}
 			],
 			"entries": [
-				"When you cast {@spell arcane weapon|KibblesTasty:CC}, {@spell prismatic weapon|KibbleInventor}, {@spell magic weapon}, or {@spell vorpal weapon|KibblesTasty:CC} on one of your Animated or Infused weapons, all of your Animated and Infused weapons gain the benefits of that spell. Additionally, you can target any weapon with {@spell arcane weapon|KibblesTasty:CC}, {@spell prismatic weapon|KibbleInventor}, or {@spell magic weapon}, even if the weapon is already magical."
+				"When you cast {@spell arcane weapon|KT-CLL}, {@spell prismatic weapon|KibbleInventor}, {@spell magic weapon}, or {@spell vorpal weapon|KT-CLL} on one of your Animated or Infused weapons, all of your Animated and Infused weapons gain the benefits of that spell. Additionally, you can target any weapon with {@spell arcane weapon|KT-CLL}, {@spell prismatic weapon|KibbleInventor}, or {@spell magic weapon}, even if the weapon is already magical."
 			]
 		},
 		{
@@ -3330,7 +3330,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell summon ooze|KibblesTasty:CC}"
+							"{@spell summon ooze|KT-CLL}"
 						],
 						[
 							"2nd",
@@ -3338,11 +3338,11 @@
 						],
 						[
 							"3rd",
-							"{@spell erode|KibblesTasty:CC}"
+							"{@spell erode|KT-CLL}"
 						]
 					]
 				},
-				"Additionally, you can create one infused potion of {@spell summon ooze|KibblesTasty:CC} at the end of a long rest without expending a spell slot.",
+				"Additionally, you can create one infused potion of {@spell summon ooze|KT-CLL} at the end of a long rest without expending a spell slot.",
 				"{@i Almost any set of three spells, a 1st level, 2nd level, and 3rd level spell of either short term buffs or area of effect damage spells is a valid combination of a Secrets of upgrade, so long as there is a thematic connection between the spells. Consult with your DM for other options if the spells you want aren't present here, but the spells should always be either short term buffs or area of effect damage spells, and should not be higher than 3rd level unless they are exceptionally weak for their level.}"
 			]
 		},
@@ -3382,7 +3382,7 @@
 						],
 						[
 							"2nd",
-							"{@spell unstable explosion|KibblesTasty:CC}"
+							"{@spell unstable explosion|KT-CLL}"
 						],
 						[
 							"3rd",
@@ -3474,19 +3474,19 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell freezing shell|KibblesTasty:CC}"
+							"{@spell freezing shell|KT-CLL}"
 						],
 						[
 							"2nd",
-							"{@spell cold snap|KibblesTasty:CC}"
+							"{@spell cold snap|KT-CLL}"
 						],
 						[
 							"3rd",
-							"{@spell flash freeze|KibblesTasty:CC}"
+							"{@spell flash freeze|KT-CLL}"
 						]
 					]
 				},
-				"Additionally, you can create one infused potion of {@spell freezing shell|KibblesTasty:CC} at the end of a long rest without expending a spell slot.",
+				"Additionally, you can create one infused potion of {@spell freezing shell|KT-CLL} at the end of a long rest without expending a spell slot.",
 				"{@i Almost any set of three spells, a 1st level, 2nd level, and 3rd level spell of either short term buffs or area of effect damage spells is a valid combination of a Secrets of upgrade, so long as there is a thematic connection between the spells. Consult with your DM for other options if the spells you want aren't present here, but the spells should always be either short term buffs or area of effect damage spells, and should not be higher than 3rd level unless they are exceptionally weak for their level.}"
 			]
 		},
@@ -3955,11 +3955,11 @@
 					"rows": [
 						[
 							"3",
-							"{@spell lightning tendril|KibblesTasty:CC}"
+							"{@spell lightning tendril|KT-CLL}"
 						],
 						[
 							"5",
-							"{@spell crackle|KibblesTasty:CC}"
+							"{@spell crackle|KT-CLL}"
 						],
 						[
 							"9",
@@ -3967,15 +3967,15 @@
 						],
 						[
 							"13",
-							"{@spell jumping jolt|KibblesTasty:CC}"
+							"{@spell jumping jolt|KT-CLL}"
 						],
 						[
 							"17",
-							"{@spell sky burst|KibblesTasty:CC}"
+							"{@spell sky burst|KT-CLL}"
 						]
 					]
 				},
-				"You can cast {@spell lightning tendril|KibblesTasty:CC} without expending a spell slot, after which you must finish a long rest before you can cast it without expending a spell slot again. Starting at 5th level, you can choose to cast {@spell crackle|KibblesTasty:CC} without expending a spell slot instead."
+				"You can cast {@spell lightning tendril|KT-CLL} without expending a spell slot, after which you must finish a long rest before you can cast it without expending a spell slot again. Starting at 5th level, you can choose to cast {@spell crackle|KT-CLL} without expending a spell slot instead."
 			]
 		},
 		{
@@ -4862,11 +4862,11 @@
 					"rows": [
 						[
 							"3",
-							"{@spell lightning tendril|KibblesTasty:CC}"
+							"{@spell lightning tendril|KT-CLL}"
 						],
 						[
 							"5",
-							"{@spell lightning charged|KibblesTasty:CC}"
+							"{@spell lightning charged|KT-CLL}"
 						],
 						[
 							"9",
@@ -4874,11 +4874,11 @@
 						],
 						[
 							"13",
-							"{@spell jumping jolt|KibblesTasty:CC}"
+							"{@spell jumping jolt|KT-CLL}"
 						],
 						[
 							"17",
-							"{@spell sky burst|KibblesTasty:CC}"
+							"{@spell sky burst|KT-CLL}"
 						]
 					]
 				}
@@ -7015,7 +7015,7 @@
 				}
 			],
 			"entries": [
-				"You make a twisted magical rod that can dispense curses. Select one of {@spell rotting curse|KibblesTasty:CC}, {@spell binding curse|KibblesTasty:CC}, or {@spell befuddling curse|KibblesTasty:CC} when you create this item. You can cast that curse once using it without expending a spell slot. Once you do so, you can't do so again until you finish a short or long rest."
+				"You make a twisted magical rod that can dispense curses. Select one of {@spell rotting curse|KT-CLL}, {@spell binding curse|KT-CLL}, or {@spell befuddling curse|KT-CLL} when you create this item. You can cast that curse once using it without expending a spell slot. Once you do so, you can't do so again until you finish a short or long rest."
 			]
 		},
 		{
@@ -7050,7 +7050,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell crippling agony|KibblesTasty:CC}"
+							"{@spell crippling agony|KT-CLL}"
 						],
 						[
 							"2nd",
@@ -7058,7 +7058,7 @@
 						],
 						[
 							"3rd",
-							"{@spell rain of spiders|KibblesTasty:CC}"
+							"{@spell rain of spiders|KT-CLL}"
 						],
 						[
 							"4th",
@@ -7070,7 +7070,7 @@
 						]
 					]
 				},
-				"You can cast {@spell crippling agony|KibblesTasty:CC} without expending a spell slot, after which you must finish a long rest before you can cast it without expanding a spell slot again. Starting at 5th level, you can choose to cast {@spell blindness/deafness} without expending a spell slot instead."
+				"You can cast {@spell crippling agony|KT-CLL} without expending a spell slot, after which you must finish a long rest before you can cast it without expanding a spell slot again. Starting at 5th level, you can choose to cast {@spell blindness/deafness} without expending a spell slot instead."
 			]
 		},
 		{
@@ -7411,7 +7411,7 @@
 				"(You can only wear 1 set of Gauntlets at a time.)",
 				"Attunement, Cursed.",
 				"You forge a pair of gauntlets that cause your hands to appear as skeletal appendages of dark metal. While wearing these gauntlets, if you grapple a creature, at the start of its turn it takes {@dice 1d6} necrotic damage, and can't regain hit points until the start of its next turn. Additionally, you have advantage against any check or save that would disarm you.",
-				"While wearing these gauntlets, you can cast the {@spell grip of the dead|KibblesTasty:CC} spell.",
+				"While wearing these gauntlets, you can cast the {@spell grip of the dead|KT-CLL} spell.",
 				"{@b Curse:} The death grip of these gloves make it difficult to let go of things. You have disadvantage on attacks made by throwing weapons or with weapons with the ammunition property. Additionally, you have disadvantage on any ability check to throw an item."
 			]
 		},
@@ -7455,7 +7455,7 @@
 				}
 			],
 			"entries": [
-				"You learn the {@spell cruel puppetry|KibblesTasty:CC} spell and can cast it once without expending a spell slot. Once you use this upgrade, you can't do so again until you finish a long rest."
+				"You learn the {@spell cruel puppetry|KT-CLL} spell and can cast it once without expending a spell slot. Once you use this upgrade, you can't do so again until you finish a long rest."
 			]
 		},
 		{
@@ -7533,7 +7533,7 @@
 				}
 			],
 			"entries": [
-				"You forge a ring of, well, pure evil. It can bring horrifying nightmares to life in a way that you don't quite understand, but is very effective. When you invoke a nightmare, you can cast {@spell blindness/deafness}, {@spell rain of spiders|KibblesTasty:CC}, {@spell phantasmal killer}, or {@spell black tentacles} without expending a spell slot. Once you use the ring to invoke a nightmare, you can't use it until you finish a long rest.",
+				"You forge a ring of, well, pure evil. It can bring horrifying nightmares to life in a way that you don't quite understand, but is very effective. When you invoke a nightmare, you can cast {@spell blindness/deafness}, {@spell rain of spiders|KT-CLL}, {@spell phantasmal killer}, or {@spell black tentacles} without expending a spell slot. Once you use the ring to invoke a nightmare, you can't use it until you finish a long rest.",
 				"Curse: You can't choose the nightmare invoked. When you invoke a nightmare, roll 1d4 and consult the following table:",
 				{
 					"type": "table",
@@ -7552,7 +7552,7 @@
 						],
 						[
 							"2",
-							"{@spell rain of spiders|KibblesTasty:CC}"
+							"{@spell rain of spiders|KT-CLL}"
 						],
 						[
 							"3",
@@ -8127,7 +8127,7 @@
 				}
 			],
 			"entries": [
-				"A weapon you mark with this rune is under the effect of {@spell returning weapon|KibblesTasty:CC} spell. This rune doesn't count against the runes you can mark, though you can only have it marked on one weapon at a time."
+				"A weapon you mark with this rune is under the effect of {@spell returning weapon|KT-CLL} spell. This rune doesn't count against the runes you can mark, though you can only have it marked on one weapon at a time."
 			]
 		},
 		{
@@ -8333,11 +8333,11 @@
 						],
 						[
 							"Rune of Lightning",
-							"{@spell lightning charged|KibblesTasty:CC}"
+							"{@spell lightning charged|KT-CLL}"
 						],
 						[
 							"Rune of Power",
-							"{@spell star dust|KibblesTasty:CC}"
+							"{@spell star dust|KT-CLL}"
 						],
 						[
 							"Rune of Warding",
@@ -8345,7 +8345,7 @@
 						],
 						[
 							"Rune of Gravity",
-							"{@spell fling|KibblesTasty:CC}"
+							"{@spell fling|KT-CLL}"
 						],
 						[
 							"Rune of Blood",
@@ -8374,7 +8374,7 @@
 				}
 			],
 			"entries": [
-				"You learn the {@spell thunderburst mine|KibblesTasty:CC} spell and can cast it without expending a spell slot. Once you cast it in this way, you can't cast it this way again until you finish a short or long rest."
+				"You learn the {@spell thunderburst mine|KT-CLL} spell and can cast it without expending a spell slot. Once you cast it in this way, you can't cast it this way again until you finish a short or long rest."
 			]
 		},
 		{
@@ -8416,7 +8416,7 @@
 				}
 			],
 			"entries": [
-				"You learn the {@spell fireburst mine|KibblesTasty:CC} spell and can cast it without expending a spell slot. Once you cast it in this way, you can't cast it this way again until you finish a short or long rest."
+				"You learn the {@spell fireburst mine|KT-CLL} spell and can cast it without expending a spell slot. Once you cast it in this way, you can't cast it this way again until you finish a short or long rest."
 			]
 		},
 		{
@@ -8464,7 +8464,7 @@
 						],
 						[
 							"Rune of Power",
-							"{@spell aether lance|KibblesTasty:CC}"
+							"{@spell aether lance|KT-CLL}"
 						],
 						[
 							"Rune of Warding",
@@ -8472,7 +8472,7 @@
 						],
 						[
 							"Rune of Gravity",
-							"{@spell crushing singularity|KibblesTasty:CC}"
+							"{@spell crushing singularity|KT-CLL}"
 						],
 						[
 							"Rune of Blood",
@@ -12779,7 +12779,7 @@
 								],
 								[
 									"5th",
-									"{@spell disorient|KibblesTasty:CC}"
+									"{@spell disorient|KT-CLL}"
 								],
 								[
 									"9th",
@@ -12791,7 +12791,7 @@
 								],
 								[
 									"17th",
-									"{@spell killing curse|KibblesTasty:CC}"
+									"{@spell killing curse|KT-CLL}"
 								]
 							]
 						}
@@ -12833,15 +12833,15 @@
 								],
 								[
 									"9th",
-									"{@spell mutate|KibblesTasty:CC}"
+									"{@spell mutate|KT-CLL}"
 								],
 								[
 									"13th",
-									"{@spell ichorous blood|KibblesTasty:BMS}"
+									"{@spell ichorous blood|KT-CLL}"
 								],
 								[
 									"17th",
-									"{@spell devouring darkness|KibblesTasty:CC}"
+									"{@spell devouring darkness|KT-CLL}"
 								]
 							]
 						}
@@ -13145,13 +13145,13 @@
 							"rows": [
 								[
 									"Rune of Fire",
-									"{@spell burn|KibblesTasty:CC}",
+									"{@spell burn|KT-CLL}",
 									"{@spell burning hands}"
 								],
 								[
 									"Rune of Lightning",
 									"{@spell shocking grasp}",
-									"{@spell lightning tendril|KibblesTasty:CC}"
+									"{@spell lightning tendril|KT-CLL}"
 								],
 								[
 									"Rune of Power",
@@ -13161,12 +13161,12 @@
 								[
 									"Rune of Warding",
 									"N/A",
-									"{@spell freezing shell|KibblesTasty:CC}"
+									"{@spell freezing shell|KT-CLL}"
 								],
 								[
 									"Rune of Gravity",
 									"N/A",
-									"{@spell fall|KibblesTasty:CC}"
+									"{@spell fall|KT-CLL}"
 								],
 								[
 									"Rune of Blood",

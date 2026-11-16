@@ -4831,7 +4831,7 @@
 					"type": "entries",
 					"name": "Active Effect",
 					"entries": [
-						"While attuned to an item with this rune, you can use that item to cast {@spell crackle|KibblesTasty:cc}{@sup K} as a bonus action without expending a spell slot. This uses the crafter's Rune {@action Attack} Modifier and Rune DC (set at the time of carving the rune). Once a rune's power is used, the rune's active can't be used again until the next dawn."
+						"While attuned to an item with this rune, you can use that item to cast {@spell crackle|KT-CLL}{@sup K} as a bonus action without expending a spell slot. This uses the crafter's Rune {@action Attack} Modifier and Rune DC (set at the time of carving the rune). Once a rune's power is used, the rune's active can't be used again until the next dawn."
 					]
 				}
 			]
@@ -4927,11 +4927,11 @@
 			"rarity": "uncommon",
 			"value": 37000,
 			"entries": [
-				"This diamond gives off 5 feet of bright light and 5 feet of dim light when not socketed. When socketed into a weapon, the weapon becomes magical for the purposes of overcoming resistance. When socketed into a ring or necklace, a creature wearing that piece of jewelry can use their action to cast the {@spell Force Bolt|KibblesTasty:cc} {@sup K} cantrip."
+				"This diamond gives off 5 feet of bright light and 5 feet of dim light when not socketed. When socketed into a weapon, the weapon becomes magical for the purposes of overcoming resistance. When socketed into a ring or necklace, a creature wearing that piece of jewelry can use their action to cast the {@spell Force Bolt|KT-CLL} {@sup K} cantrip."
 			],
 			"attachedSpells": {
 				"will": [
-					"Force Bolt|KibblesTasty:cc#c"
+					"Force Bolt|KT-CLL#c"
 				]
 			}
 		},
@@ -6105,7 +6105,7 @@
 					"items": [
 						"Fog Cloud. You can target a creature or a point within the normal range of your weapon with this arrow. This functions as a normal piece of ammunition, but casts {@spell fog cloud} at the point of impact. The spell lasts {@dice 1d4} rounds and doesn't require {@condition concentration}.",
 						"Entangle. You can target a creature or a point within the normal range of your weapon with this arrow. This functions as a normal piece of ammunition, but casts {@spell entangle} at the point of impact. The spell lasts {@dice 1d4} rounds and doesn't require {@condition concentration}.",
-						"Multishot. When you fire this arrow, you cast {@spell multishot|KibblesTasty:CC}."
+						"Multishot. When you fire this arrow, you cast {@spell multishot|KT-CLL}."
 					]
 				},
 				"Once the magic effect is discharged by firing it, the magic of the arrow is expended, and it becomes a mundane arrow."
@@ -16861,7 +16861,7 @@
 							"1 fine longcoat worth 100 gp",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell enhance ability|PHB}",
 							"1 {@item Cantrip Spell Scroll|KTKCG|scroll} of {@spell vicious mockery|PHB}",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell dancing wave|KibblesTasty:cc}{@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell dancing wave|KT-CLL}{@sup K}",
 							"1 {@item rare primal essence|KTKCG}",
 							"1 {@item uncommon arcane essence|KTKCG}"
 						]
@@ -17819,7 +17819,7 @@
 						"items": [
 							"1 talisman worth at least 1,000 gp",
 							"1 {@item legendary divine essence|KTKCG} from a good-aligned source",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell fissure|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell fissure|KT-CLL}{@sup K}",
 							"1 {@item 9th-Level Spell Scroll|KTKCG|scroll} of {@spell gate|PHB}"
 						]
 					},
@@ -17837,7 +17837,7 @@
 						"items": [
 							"1 talisman worth at least 1,000 gp",
 							"1 {@item legendary divine essence|KTKCG} from an evil-aligned source",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell fissure|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell fissure|KT-CLL}{@sup K}",
 							"1 {@item 9th-Level Spell Scroll|KTKCG|scroll} of {@spell gate|PHB}"
 						]
 					},
@@ -20855,7 +20855,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 ring worth at least 200 gp",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell gale bolt|kibblestasty:cc}{@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell gale bolt|KT-CLL}{@sup K}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell shatter|PHB}",
 							"1 {@item rare arcane essence|KTKCG}",
 							"1 {@item uncommon primal essence|KTKCG}"
@@ -20893,7 +20893,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 ring worth at least 400 gp",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell field of stars|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell field of stars|KT-CLL}{@sup K}",
 							"1 {@item very rare arcane essence|KTKCG}",
 							"1 {@item rare divine essence|KTKCG}"
 						]
@@ -21044,7 +21044,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 rod worth at least 100 gp",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell gravity surge|kibblestasty:cc}{@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell gravity surge|KT-CLL}{@sup K}",
 							"4 {@item uncommon arcane essence|KTKCG}"
 						]
 					},
@@ -21133,7 +21133,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 rod worth at least 3,000 gp",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell spelltrap|kibblestasty:cc}{@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell spelltrap|KT-CLL}{@sup K}",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell counterspell|PHB}",
 							"2 {@item rare arcane essence|KTKCG}"
 						]
@@ -22634,7 +22634,7 @@
 							"1 {@item very rare branch|KTKCG}",
 							"1 {@item very rare primal essence|KTKCG}",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell lightning bolt|PHB}",
-							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell thunder pulse|kibblestasty:cc}{@sup K}"
+							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell thunder pulse|KT-CLL}{@sup K}"
 						]
 					},
 					"16 hours (2 days)",
@@ -23098,7 +23098,7 @@
 							"1 {@item fancy parts|KTKCG}",
 							"(a) 1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell fog cloud|PHB}, or",
 							"(b) 1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell entangle|PHB}, or",
-							"(c) 1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell multishot|KibblesTasty:CC}{@sup K}"
+							"(c) 1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell multishot|KT-CLL}{@sup K}"
 						]
 					},
 					"2 hours",
@@ -25097,8 +25097,8 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 {@item battleaxe|PHB}",
-							"1 {@item Cantrip Spell Scroll|KTKCG|scroll} of {@spell windborne weapon|kibblestasty:cc}{@sup K}",
-							"1 {@item scroll|KTKCG} of {@spell returning weapon|kibblestasty:cc}{@sup K}",
+							"1 {@item Cantrip Spell Scroll|KTKCG|scroll} of {@spell windborne weapon|KT-CLL}{@sup K}",
+							"1 {@item scroll|KTKCG} of {@spell returning weapon|KT-CLL}{@sup K}",
 							"1 {@item uncommon primal essence|KTKCG}",
 							"1 {@item common arcane essence|KTKCG}"
 						]
@@ -25171,7 +25171,7 @@
 						"items": [
 							"1 {@item +1 weapon|DMG}",
 							"1 {@item potent injury poison|KTKCG}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell nauseating poison|kibblestasty:cc}{@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell nauseating poison|KT-CLL}{@sup K}",
 							"1 {@item rare primal essence|KTKCG}",
 							"1 {@item rare arcane essence|KTKCG}"
 						]
@@ -25264,7 +25264,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 {@item mace|PHB}",
-							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell dispel construct|kibblestasty:cc}{@sup K}",
+							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell dispel construct|KT-CLL}{@sup K}",
 							"1 {@item rare arcane essence|KTKCG}",
 							"1 {@item uncommon arcane essence|KTKCG}",
 							"1 {@item uncommon divine essence|KTKCG}"
@@ -25301,7 +25301,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 sword hilt worth 200 gp",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|KT-CLL}{@sup K}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell magic weapon|PHB}",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell daylight|PHB}",
 							"3 {@item rare divine essence|KTKCG}",
@@ -25322,7 +25322,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 weapon",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|KT-CLL}{@sup K}",
 							"3 {@item uncommon arcane essence|KTKCG}"
 						]
 					},
@@ -25357,8 +25357,8 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 sword worth at least 200 gp",
-							"1 {@item Cantrip Spell Scroll|KTKCG|scroll} of {@spell decaying touch|kibblestasty:cc}{@sup K}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell rotting curse|kibblestasty:cc}{@sup K}",
+							"1 {@item Cantrip Spell Scroll|KTKCG|scroll} of {@spell decaying touch|KT-CLL}{@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell rotting curse|KT-CLL}{@sup K}",
 							"2 {@item rare arcane essence|KTKCG}",
 							"2 {@item very rare poisonous reagent|KTKCG}",
 							"1 {@item rare poisonous reagent|KTKCG}"
@@ -25377,7 +25377,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 {@item javelin|PHB} worth at least 100 gp",
-							"1 {@item scroll|KTKCG} of {@spell returning weapon|kibblestasty:cc}{@sup K}",
+							"1 {@item scroll|KTKCG} of {@spell returning weapon|KT-CLL}{@sup K}",
 							"1 {@item rare primal essence|KTKCG}",
 							"1 {@item uncommon arcane essence|KTKCG}"
 						]
@@ -25414,7 +25414,7 @@
 							"1 weapon worth at least 1,000 gp",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell magic weapon|PHB}",
 							"1 {@item scroll|KTKCG} of {@spell prismatic weapon|KibbleInventor}{@sup K}",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|KT-CLL}{@sup K}",
 							"1 {@item very rare arcane essence|KTKCG}",
 							"1 {@item very rare divine essence|KTKCG}",
 							"1 {@item very rare primal essence|KTKCG}"
@@ -25579,7 +25579,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 sword worth at least 500 gp",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell vorpal weapon|KT-CLL}{@sup K}",
 							"1 {@item very rare arcane essence|KTKCG}",
 							"1 {@item rare arcane essence|KTKCG}"
 						]
@@ -25670,7 +25670,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 {@item lance|PHB} worth 1,000 gp",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell summon dragon|kibblestasty:cc}{@sup K}",
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell summon dragon|KT-CLL}{@sup K}",
 							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell chromatic orb|PHB}",
 							"1 {@item legendary primal essence|KTKCG}",
 							"2 {@item very rare primal essence|KTKCG}",
@@ -25904,7 +25904,7 @@
 						"items": [
 							"1 {@item boots|KTKCG}",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell protection from energy}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell arctic breath|kibblestasty:cc} {@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell arctic breath|KT-CLL} {@sup K}",
 							"2 {@item uncommon primal essence|KTKCG}"
 						]
 					},
@@ -25921,7 +25921,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 set of {@item bracers|KTKCG}",
-							"1 {@item scroll|KTKCG} of {@spell seeking shot|kibblestasty:cc} {@sup K}",
+							"1 {@item scroll|KTKCG} of seeking shot {@sup K}",
 							"1 {@item uncommon primal essence|KTKCG}",
 							"1 {@item uncommon arcane essence|KTKCG}"
 						]
@@ -25941,7 +25941,7 @@
 							"1 broom",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell levitate}",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell fly}",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell animate object|kibblestasty:cc} {@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell Dancing Object|KT-CLL} {@sup K}",
 							"2 {@item uncommon primal essence|KTKCG}"
 						]
 					},
@@ -26192,7 +26192,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 crystal {@item esoteric parts|KTKCG|lenses}",
-							"1 {@item scroll|KTKCG} of {@spell far sight|kibblestasty:cc} {@sup K}",
+							"1 {@item scroll|KTKCG} of far sight {@sup K}",
 							"1 {@item common primal essence|KTKCG}"
 						]
 					},
@@ -26376,7 +26376,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 polished agate worth 50 gp",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell imbue luck|KibblesTasty:CC} {@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell imbue luck|KT-CLL} {@sup K}",
 							"1 {@item uncommon divine essence|KTKCG}",
 							"1 {@item common primal essence|KTKCG}"
 						]
@@ -26413,7 +26413,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 pipes worth at least 25 gp",
-							"1 {@item scroll|KTKCG} of {@spell frighten|kibblestasty:cc} {@sup K}",
+							"1 {@item scroll|KTKCG} of frighten {@sup K}",
 							"1 {@item uncommon arcane essence|KTKCG}",
 							"1 {@item uncommon divine essence|KTKCG}"
 						]
@@ -26808,7 +26808,7 @@
 						"style": "list-no-bullets",
 						"items": [
 							"1 {@item cloak|KTKCG} worth at least 50 gp",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell form of familiar|kibblestasty:cc} {@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell form of familiar|KT-CLL} {@sup K}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell darkness}",
 							"1 {@item 3rd-Level Spell Scroll|KTKCG|scroll} of {@spell fly}",
 							"1 {@item rare primal essence|KTKCG}",
@@ -26849,7 +26849,7 @@
 							"1 {@item fletching|KTKCG}",
 							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell entangle}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell web}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell binding curse|kibblestasty:cc} {@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell binding curse|KT-CLL} {@sup K}",
 							"1 {@item uncommon arcane essence|KTKCG}"
 						]
 					},
@@ -26885,7 +26885,7 @@
 						"items": [
 							"1 {@item fletching|KTKCG}",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell gust of wind}",
-							"1 {@item scroll|KTKCG} of {@spell animate object|kibblestasty:cc} {@sup K}",
+							"1 {@item scroll|KTKCG} of {@spell Dancing Object|KT-CLL} {@sup K}",
 							"1 {@item uncommon arcane essence|KTKCG}",
 							"1 {@item uncommon primal essence|KTKCG}"
 						]
@@ -27155,7 +27155,7 @@
 						"items": [
 							"1 {@item horn|PHB} worth at least 100 gp",
 							"1 {@item scroll|KTKCG} of {@spell shockwave|ktp} {@sup K}",
-							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell sonic shriek|kibblestasty:cc} {@sup K}"
+							"1 {@item 5th-Level Spell Scroll|KTKCG|scroll} of {@spell sonic shriek|KT-CLL} {@sup K}"
 						]
 					},
 					"24 hours (3 days)",
@@ -27247,7 +27247,7 @@
 						"items": [
 							"30 feet of chain",
 							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell entangle}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell awaken rope|kibblestasty:cc} {@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell awaken rope|KT-CLL} {@sup K}",
 							"1 {@item rare arcane essence|KTKCG}",
 							"2 {@item uncommon divine essence|KTKCG}"
 						]
@@ -27324,7 +27324,7 @@
 						"items": [
 							"1 30-foot long rope",
 							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell entangle}",
-							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell awaken rope|kibblestasty:cc} {@sup K}",
+							"1 {@item 1st-Level Spell Scroll|KTKCG|scroll} of {@spell awaken rope|KT-CLL} {@sup K}",
 							"1 {@item rare arcane essence|KTKCG}"
 						]
 					},
@@ -27360,7 +27360,7 @@
 						"items": [
 							"1 collar worth 100 gp",
 							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell enhance ability}",
-							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell lightning charged|kibblestasty:cc} {@sup K}",
+							"1 {@item 2nd-Level Spell Scroll|KTKCG|scroll} of {@spell lightning charged|KT-CLL} {@sup K}",
 							"1 {@item rare primal essence|KTKCG}",
 							"1 {@item uncommon primal essence|KTKCG}"
 						]

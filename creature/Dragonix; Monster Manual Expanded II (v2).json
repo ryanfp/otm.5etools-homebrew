@@ -25,8 +25,7 @@
 			],
 			"monsterFluff": [
 				"MM",
-				"MPMM",
-				"WDMM"
+				"MPMM"
 			]
 		},
 		"internalCopies": [
@@ -79473,46 +79472,6 @@
 					"type": "image",
 					"width": 1569,
 					"height": 1882
-				}
-			]
-		},
-		{
-			"name": "Werebat Alpha",
-			"source": "mme2-v2",
-			"_copy": {
-				"name": "Werebat",
-				"source": "WDMM",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": {
-							"type": "entries",
-							"name": "Werebat Alpha",
-							"entries": [
-								"While most {@creature werebat|WDMM|werebats} are of {@creature goblin} stock, some Underdark humanoids ({@creature drow}, {@creature grimlock||grimlocks}, {@creature duergar}, etc.) and even {@creature orc||orcs} can become afflicted too. These tend to be more experienced and intelligent than the common {@creature werebat|WDMM}, and find themselves leading the colony."
-							]
-						}
-					}
-				}
-			},
-			"images": [
-				{
-					"href": {
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/1/Werebat Alpha.webp",
-						"type": "external"
-					},
-					"type": "image",
-					"width": 1200,
-					"height": 916
-				},
-				{
-					"href": {
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/mme2_v2/creatures/2/Werebat Alpha.webp",
-						"type": "external"
-					},
-					"type": "image",
-					"width": 2092,
-					"height": 1588
 				}
 			]
 		},

@@ -21,7 +21,7 @@
 		],
 		"dependencies": {
 			"spell": [
-				"KibblesTasty:CC"
+				"KT-CLL"
 			]
 		},
 		"dateAdded": 1683414000,
@@ -855,8 +855,8 @@
 			"page": 5,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 10
+					"source": "KT-CLL",
+					"page": 210
 				}
 			],
 			"level": 7,
@@ -932,8 +932,8 @@
 			"page": 5,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 11
+					"source": "KT-CLL",
+					"page": 210
 				}
 			],
 			"level": 1,
@@ -5577,8 +5577,8 @@
 			"page": 16,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 21
+					"source": "KT-CLL",
+					"page": 224
 				}
 			],
 			"level": 2,
@@ -8042,8 +8042,8 @@
 			"page": 20,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 24
+					"source": "KT-CLL",
+					"page": 230
 				}
 			],
 			"level": 5,
@@ -8186,8 +8186,8 @@
 			"page": 21,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 31
+					"source": "KT-CLL",
+					"page": 231
 				}
 			],
 			"level": 6,
@@ -8376,8 +8376,8 @@
 			"page": 21,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 31
+					"source": "KT-CLL",
+					"page": 231
 				}
 			],
 			"level": 6,
@@ -8460,8 +8460,8 @@
 			"page": 21,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 32
+					"source": "KT-CLL",
+					"page": 231
 				}
 			],
 			"level": 6,
@@ -8545,8 +8545,8 @@
 			"page": 21,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 32
+					"source": "KT-CLL",
+					"page": 232
 				}
 			],
 			"level": 6,
@@ -8630,8 +8630,8 @@
 			"page": 22,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 31
+					"source": "KT-CLL",
+					"page": 232
 				}
 			],
 			"level": 6,
@@ -11532,8 +11532,8 @@
 			"page": 27,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 33
+					"source": "KT-CLL",
+					"page": 241
 				}
 			],
 			"level": 1,
@@ -12040,8 +12040,8 @@
 			"page": 28,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 10
+					"source": "KT-CLL",
+					"page": 242
 				}
 			],
 			"level": 0,
@@ -12909,8 +12909,8 @@
 			"page": 29,
 			"otherSources": [
 				{
-					"source": "KibblesTasty:CC",
-					"page": 33
+					"source": "KT-CLL",
+					"page": 242
 				}
 			],
 			"level": 6,
