@@ -1,0 +1,3236 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SotSbS",
+				"abbreviation": "SotSbS",
+				"full": "Songs of the Spellbound Sea",
+				"version": "1.0",
+				"url": "https://www.somanyrobots.com/store/p/spellbound-sea",
+				"authors": [
+					"somanyrobots"
+				],
+				"convertedBy": [
+					"nega_ryan"
+				],
+				"color": "069770",
+				"colorNight": "07cb95"
+			}
+		],
+		"dateAdded": 1794730392,
+		"dateLastModified": 1794730392
+	},
+	"spell": [
+		{
+			"name": "Acid Jet",
+			"source": "SotSbS",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You blast a stream of acid outward, enveloping all creatures in a line 60 feet long and 5 feet wide. Creatures in the area must make a Dexterity saving throw, taking {@damage 12d4} acid damage on a failure or half as much on a success. A target that fails its saving throw takes an additional {@damage 6d4} acid damage at the end of its next turn, unless it or another creature within 5 feet spends an action to remove the acid."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the initial damage increases by {@dice 2d4} for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Alter Metal",
+			"source": "SotSbS",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You point at a nonmagical metal object within range and dramatically change its properties. The object must be Huge or smaller, and can't be worn or carried. You can manipulate it in any number of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"You can stretch or compact it. You can halve its size, double its size, or anything in between. Its weight does not change, nor does the actual quantity of metal.",
+						"You can turn it into another metal of similar value.",
+						"You can reshape it into another object of similar size.",
+						"You can alter its strength, reducing its hit points to onequarter or increasing them to four times the original."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Aura of Iron",
+			"source": "SotSbS",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small steel disc"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You radiate a field of metallic magic, layering a thin layer of hard iron over creatures within range. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has {@variantrule Resistance|XPHB} to the next instance of nonmagical bludgeoning, piercing, or slashing damage it takes. In addition, the next time it deals piercing or slashing damage, it can maximize one die of damage.",
+				"Both of these effects occur once, resetting at the start of each of your turns."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Auric Lance",
+			"source": "SotSbS",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a golden needle"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You fling a golden needle at a target within range, which expands into a deadly {@item spear|XPHB}. Make a ranged spell attack.",
+				"On a hit, the target takes {@damage 10d8} piercing damage and gleams with a golden aura, granting advantage on all attacks against it until the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"name": "Chaotic Vortex",
+			"source": "SotSbS",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a multicolored bead of glass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You hurl an orb of pure magic at a point you can see within range, where it explodes outward into a 20-foot radius swirl of kaleidoscopic power. When a creature starts its turn within the area or enters it for the first time on its turn, it must succeed on a Dexterity saving throw or be struck by a bolt of chaotic energy. On a failure, it rolls a {@dice d8} on the table below and suffers the resulting effects.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Damage",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1",
+							"Acid",
+							"The target takes {@damage 6d4} acid damage and {@damage 2d4} acid damage at the end of its next turn."
+						],
+						[
+							"2",
+							"Cold",
+							"The target takes {@damage 4d8} cold damage and is {@condition restrained} until the end of its next turn."
+						],
+						[
+							"3",
+							"Fire",
+							"The target takes {@damage 5d6} fire damage."
+						],
+						[
+							"4",
+							"Lightning",
+							"The target takes {@damage 3d12} lightning damage and can't take reactions until the end of its next turn."
+						],
+						[
+							"5",
+							"Poison",
+							"The target takes {@damage 3d12} poison damage and is {@condition poisoned} until the end of its next turn."
+						],
+						[
+							"6",
+							"Psychic",
+							"The target takes {@damage 3d8} psychic damage and is {@condition stunned} until the end of its next turn."
+						],
+						[
+							"7",
+							"Thunder",
+							"The target takes {@damage 4d8} thunder damage and falls {@condition prone}."
+						],
+						[
+							"8",
+							"Multiple",
+							"The target is struck by multiple bolts. Roll twice more, rerolling any 8s."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"RO",
+				"SGT"
+			]
+		},
+		{
+			"name": "Cloak of Wasps",
+			"source": "SotSbS",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a dried wasp wing"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon a milling shield of stinging insects to protect a creature you can see within range. The target has halfcover against ranged attacks. When a creature hits the target with a melee attack, the wasps swarm out to retaliate, dealing {@dice 1d4} piercing and {@damage 1d4} poison damage. The wasps will retaliate 2 times, after which the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the wasps can retaliate 1 additional time for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Conjure Weapon",
+			"source": "SotSbS",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an empty scabbard"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You conjure worked steel in the shape of a weapon for the duration. The conjured weapon has all the properties of any weapon you choose. It counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. If you select a weapon with the {@itemProperty AF|XDMG|ammunition} property, you can produce up to 5 pieces of ammunition for it. If you cast the spell again before the end of its duration, any previously-conjured weapons and ammunition disappear."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Coruscating Flash",
+			"source": "SotSbS",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a glass bead"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You produce a brilliant explosion of light at a point you can see within range, dazzling all who witness it. Each creature within 15 feet must make a Constitution saving throw. On a failure, it takes {@damage 2d6} radiant damage and is {@condition blinded|SRD} until the end of its next turn.",
+				"On a success, it takes half as much damage and has disadvantage on its next attack before the end of its next turn. A creature that cannot see or is immune to the {@condition blinded|SRD} condition automatically succeeds on its saving throw and does not suffer disadvantage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Corrosion",
+			"source": "SotSbS",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You reach out to a nonmagical object and accelerate its natural decay. The object must be Large or smaller, worth 100 gp or less. You can choose one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The object becomes vulnerable to the next instance of damage it receives within 1 minute.",
+						"The next attack against the object is made with advantage.",
+						"The DC for the next ability check to break, damage, or destroy the item is reduced by 5.",
+						"The object becomes tarnished or permanently stained, halving its value.",
+						"If the object is food, drink, or organic matter, it starts to spoil. It acquires a faintly rancid odor and it spoils or decays 1 day sooner than it normally would."
+					]
+				},
+				"Once an object has been targeted by this spell, it can't be targeted again for 24 hours. This spell's effects can be reversed by casting mending on the target within 1 hour."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Devil's Dagger",
+			"source": "SotSbS",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure a {@condition cursed|ConfC} {@item dagger|XPHB} of smoldering iron and hurl it at a creature within range. Make a ranged spell attack roll. On a hit, the target takes {@dice 2d4} fire and {@damage 1d4} piercing damage, and the {@item dagger|XPHB} embeds itself in its flesh. While the {@item dagger|XPHB} is embedded, the first time the target makes an attack roll on each of its turns, it must roll {@dice 1d4}. The target subtracts the result from the attack roll and suffers fire damage equal to the result. A creature within 5 feet of the target can remove the {@item dagger|XPHB} as an action. If the attack misses or the {@item dagger|XPHB} is removed, it disappears."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the initial fire damage dealt increases by {@dice 2d4} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"name": "Flashdaggers",
+			"source": "SotSbS",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You summon a spray of knives, hurling them at a creature you can see within range. The target must make a Dexterity saving throw, taking {@damage 5d4} piercing damage on a failure or half as much on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 2d4} per slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Molten Shard",
+			"source": "SotSbS",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You summon a white-hot piece of metal and hurl it towards a creature you can see within range. Make a ranged spell attack. On a hit, the target takes {@dice 2d8} piercing and {@damage 2d8} fire damage, and the shard embeds itself in the target's flesh.",
+				"While the shard is embedded, the target makes its attacks with disadvantage, and takes an additional {@damage 1d8} fire damage at the end of each of its turns. Any creature within 5 feet of the target can remove the shard by succeeding on a DC 10 Wisdom ({@skill Medicine|XPHB}) check."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Melt Flesh",
+			"source": "SotSbS",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point at a creature you can see within range and curse it, placing a fearsome dissolving hex. The target must make a Constitution saving throw. On a failure, its skin becomes translucent and begins to slough off, as its body starts to melt from the outside. The target takes {@damage 8d4} acid damage at the start of each of its turns, its speed is halved, and all attacks against it are made with advantage.",
+				"The target repeats the saving throw at the end of each of its turns, ending the spell on a success. On a failure, the spell's damage increases by {@dice 2d4}, as more of its body turns to acid and begins dissolving itself. As an action, the target or another creature within 5 feet can clear the acid away. If so, the next instance of the spell's damage is prevented, the spell's damage resets to {@dice 8d4}, and the target has advantage on its next saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 2d4} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"ADV",
+				"SGT"
+			]
+		},
+		{
+			"name": "Magnetic Smite",
+			"source": "SotSbS",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack before this spell ends, your weapon turns incredibly dense for the impact, dealing {@dice 4d8} additional bludgeoning damage.",
+				"Until the spell ends, the target's body pulses with a powerful magnetic field, making its movements unpredictable and difficult. At the start of each of its turns, the target must roll any die. On an odd result, all its attacks are made with disadvantage until the start of its next turn. On an even result, its movement speed is halved until the start of its next turn.",
+				"A creature impaired by this spell can make a Strength saving throw at the end of each of its turns. On a success, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the extra damage increases by {@dice 1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Liquid Armor",
+			"source": "SotSbS",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small steel plate"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a willing creature, and immediately create a flowing layer of steel over its skin. The target's AC can't be less than 16, and it has resistance to the next 3 instances of bludgeoning, piercing, or slashing damage it suffers. Once all these instances are spent, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the target is resistant to 1 more instance of damage for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"miscTags": [
+				"MAC"
+			]
+		},
+		{
+			"name": "Lightning Spike",
+			"source": "SotSbS",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a steel or iron needle"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create an iron rod, charged with electricity, and hurl it at a creature you can see within range. Make a spell attack roll. On a hit, the target takes {@damage 1d8} piercing damage and {@damage 1d12} lightning damage, and is impaled by the rod. On a miss, the target takes {@damage 1d12} lightning damage.",
+				"While a creature has a lightning rod embedded in them, you can use your bonus action on subsequent turns to send a pulse of electricity through its body. The target takes {@damage 1d12} lightning damage, and one creature of your choice within 15 feet must succeed on a Dexterity saving throw or take the same amount of damage as an arc of electricity leaps to them.",
+				"Any creature within 5 feet of an impaled target can remove the shard by succeeding on a Strength ({@skill Athletics|XPHB}) check against your spell save DC."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"lightning",
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Lead to Gold",
+			"source": "SotSbS",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a quantity of base metal worth up to 10gp",
+					"cost": 1000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You reshape a quantity of base metal, transforming it into valuable gold. You can transform up to 10 gp worth of base metal into a quantity of gold worth ten times as much. The metal's general form does not change. After the spell ends, the metal returns to its original material."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the spell's duration increases by 1 hour per level above 3rd. If cast with a 9th-level spell slot, the duration is permanent."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Latching Beetle",
+			"source": "SotSbS",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small beetle husk"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a poisonous beetle, which attaches itself to a creature you can see within range. The target makes a Constitution saving throw. On a failure, the beetle takes hold, dealing {@damage 3d4} piercing damage. At the end of each of its turns, the target must succeed on a Constitution saving throw or take {@damage 3d4} poison damage and become {@condition poisoned|SRD} until the start of its next turn."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing",
+				"poison"
+			],
+			"conditionInflict": [
+				"poisoned|srd"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Keen Weapon",
+			"source": "SotSbS",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point at a metal weapon and magically enhance its sharpness or hardness. Until the spell ends, the target weapon deals an extra {@damage 1d6} damage of its damage type on a hit."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the spell can target an additional weapon for each two slot levels above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Irresistible Melody",
+			"source": "SotSbS",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create an irresistible melody emanating from a point you can see within range. All creatures within a 30-foot radius who can hear the melody must make a Wisdom saving throw or become {@condition charmed|SRD} for the duration. While {@condition charmed|SRD} by this spell, a creature is {@condition incapacitated|SRD} and must spend its movement on its turn moving towards the target point, if possible. A target is immune to this spell if it can't be {@condition charmed|SRD}, and won't move into obviously dangerous ground, such as a fire or a pit.",
+				"An affected creature can repeat the saving throw at the end of each of its turns and each time it takes damage, ending the effect on itself on a success.",
+				"As a bonus action, you can move the source of the melody to another point within 30 feet of its current location."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"charmed|srd",
+				"incapacitated|srd"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Infectious Jig",
+			"source": "SotSbS",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A creature of your choice that you can see within range is struck by an impossible, irresistible need to dance. The target must succeed on a Wisdom saving throw or find its feet moving of their own accord. At the start of each of its turns, the target uses its movement to move up to 20 feet in a direction of your choice. A target is immune to this spell if it can't be {@condition charmed|SRD}, and won't move into obviously dangerous ground, such as a fire or a pit.",
+				"If a creature affected by the spell ends its turn within 5 feet of another creature, you can use your reaction to force that other creature to make a Wisdom saving throw. On a failure, it is also affected by the spell.",
+				"At the end of each of its turns, an affected creature can repeat the saving throw, ending the spell for itself on a success."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Incandescent Blade",
+			"source": "SotSbS",
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a nonmagical dagger or sword, which is consumed",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You take hold of a small sword and turn it into an enormous white-hot blade of glowing metal. The sword gives off dim light in a 20-foot radius and an overwhelming heat that deals {@damage 2d6} fire damage to all other creatures starting their turns within 5 feet of you.",
+				"While wielding the sword, you can use your action to make a melee spell attack against one or two adjacent creatures within 10 feet, dealing {@dice 3d8} fire and {@damage 3d8} slashing damage on a hit. Alternately, you can use your action to attempt to impale one creature within 15 feet. The target must make a Dexterity saving throw. On a failure, it takes {@dice 6d8} fire and {@damage 6d8} piercing damage. If this reduces it below 30 hit points and it is not immune to fire damage, it is incinerated, dying instantly and turning to ash. After attempting to impale a creature in this way, the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"fire",
+				"piercing",
+				"slashing"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"LGT"
+			]
+		},
+		{
+			"name": "Howl of the Moon",
+			"source": "SotSbS",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You lift your head and howl into the night sky, calling a lunar blessing down upon yourself and up to 2 other creatures that can hear you within range. Each creature gains the following benefits for the duration:",
+				{
+					"type": "list",
+					"items": [
+						"Its speed increases by 10 feet.",
+						"The first time on its turn it hits with a melee attack, the target takes an additional {@damage 2d4} radiant damage."
+					]
+				},
+				"If it is night and the moon is visible when you cast this spell, the added speed increases by 5 feet, and the bonus damage increases by {@dice 1d4}."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell with a spell slot of 5th level or higher, the number of creatures affected increases by 1."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"radiant"
+			]
+		},
+		{
+			"name": "Glacial Axe",
+			"source": "SotSbS",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure slivers of ice which form into a fearsome battle axe. It counts as a martial melee weapon with which only you are proficient, and lasts until the spell ends. It deals {@dice 1d8} slashing and {@damage 2d4} cold damage on a hit, and has the {@itemProperty T|XPHB|thrown} property (range 20/60). Once per turn when you damage a creature with the axe, its speed is reduced by 10 feet until the end of its next turn.",
+				"When you hit with a thrown attack with the axe, you can choose for the axe to explode. Each creature within 10 feet of the target must make a Dexterity saving throw. On a failure, a creature suffers the attack's cold damage and speed reduction. On a success, it takes half as much damage and its speed is not reduced. After the axe explodes, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the cold damage increases by {@dice 1d4} for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Prismatic Shield",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You cloak yourself in swirling, chaotic energies. At the start of each of your turns, roll {@dice 1d6} to determine the shield's dominant energy.",
+				"You gain resistance to all five damage types, and immunity to damage of the shield's dominant energy type. When a creature damages you with a melee attack, it is subject to the following effect, determined by the shield's dominant type:",
+				{
+					"type": "table",
+					"colLabels": [
+						"d6",
+						"Energy Type",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Acid",
+							"It takes {@damage 2d4} acid damage, and the next attack against it is made with advantage."
+						],
+						[
+							"2",
+							"Cold",
+							"It must make a Constitution saving throw or become {@condition restrained} until the start of its next turn."
+						],
+						[
+							"3",
+							"Fire",
+							"It takes {@damage 1d6} fire damage."
+						],
+						[
+							"4",
+							"Lightning",
+							"It takes {@damage 1d12} lightning damage and becomes {@condition shocked|KT-CLL} until the end of its next turn, halving its speed and taking away its reaction."
+						],
+						[
+							"5",
+							"Poison",
+							"It must succeed on a Constitution saving throw or become {@condition poisoned} until the end of its next turn."
+						],
+						[
+							"6",
+							"Choose one of 1-5",
+							"-"
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"acid",
+				"fire",
+				"lightning"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"RO"
+			]
+		},
+		{
+			"name": "Quicksand",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point at a 15-foot square patch of ground and cause it to liquefy. The area is difficult terrain for the duration.",
+				"When a creature enters the spell's area or starts its turn there, it must make a Strength saving throw. On a failure, the creature's speed is reduced to 0 until the start of its next turn. If a creature fails a saving throw for this spell three times in a row, it becomes {@condition restrained} until it succeeds."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the square's dimensions increase by 5 feet for each 2 slot levels above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"DFT"
+			]
+		},
+		{
+			"name": "Quicksilver Lash",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "several droplets of quicksilver"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You transform a few drops of quicksilver into a massive {@item whip|XPHB}, striking out at your enemies. Make a melee spell attack against a creature within range. If the attack hits, the target takes {@damage 6d8} slashing damage, and a Large or smaller target must make a Strength saving throw. If it fails the saving throw, you can pull it horizontally toward you up to 30 feet and knock it {@condition prone}."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"slashing"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Reanimating Smite",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon black flames, wreathing your weapon. The next time you hit a creature with a melee weapon attack during this spell's duration, the attack deals an extra {@damage 4d8} necrotic damage, and the target must make a Charisma saving throw. On a failed save, its soul begins to rot. If the target dies during this spell's duration, it immediately reanimates as a zombie under your control, taking its turns immediately after yours. After 1 hour, it becomes a lifeless corpse again."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"AAD",
+				"SMN"
+			]
+		},
+		{
+			"name": "Scintillating Spray",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You send a blast of wild, random magic outward, affecting one or two adjacent creatures of your choice within 5 feet of You. Each target must succeed on a Dexterity saving throw or take {@damage 1d6} damage and suffer an additional effect. Roll {@dice 1d6} for each target to determine the spell's damage type and added effects.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d6",
+						"Damage Type",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Acid",
+							"The target takes {@damage 2d4} acid damage at the end of its next turn."
+						],
+						[
+							"2",
+							"Cold",
+							"The target takes {@damage 1d4} cold damage and has its speed reduced by 10 feet until the end of its next turn."
+						],
+						[
+							"3",
+							"Fire",
+							"It takes {@damage 2d4} fire damage."
+						],
+						[
+							"4",
+							"Lightning",
+							"The target takes {@dice 1d4} lightning {@variantrule Damage|XPHB} and can't take reactions until the start of its next turn."
+						],
+						[
+							"5",
+							"Poison",
+							"The target is {@condition poisoned} until the end of its next turn."
+						],
+						[
+							"6",
+							"Wild",
+							"Choose the damage type and effect."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Shackle of Flame",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an iron manacle"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon a ring of fire, which snaps shut on the target's limb and attempts to pin it in place. The target must make a Dexterity saving throw. On a failure, it is shackled. While Shackled, the target takes {@damage 6d6} fire damage at the start of each of its turns. The first time it attempts to move on its turn, it must make a Strength saving throw. On a failure, it takes {@damage 4d6} additional damage and its speed is reduced to 0 until the start of its next turn. On a success, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell with a spell slot of 4th level or higher, both instances of damage are Increased by {@dice 1d6} for every two slot levels above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity",
+				"strength"
+			],
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"name": "Shape Metal",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You rest your hand on a Tiny or Small metal object and alter its properties. You can manipulate it in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"You alter its weight, reducing or increasing it by up to half.",
+						"You alter its appearance. You can make it look like any other metal, adjust how reflective it is, and make minor changes to its texture.",
+						"You alter its form, bending or stretching it up to half Its length.",
+						"You enhance its malleability, granting advantage to attempts to craft or sculpt it while you maintain this effect.",
+						"If it is a blade, you sharpen or dull its edge, increasing or reducing its next damage roll by 1 point.",
+						"You can harden an object, increasing its hit points by your level."
+					]
+				},
+				"You can't target items worn or wielded by an unwilling creature. After 1 minute, or as soon as you cast the spell again, the object returns to normal."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"miscTags": [
+				"OBJ"
+			]
+		},
+		{
+			"name": "Shard Rain",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of gold slivers"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a terrible storm of jagged metal, raining down in a 100-foot high column with a 30-foot radius. Every creature within the area of effect must make a Dexterity saving throw, taking {@damage 9d8} piercing damage on a failure or half as much on a success. If a Large or smaller creature fails by 5 or more, it is pinned to the ground, becoming {@condition restrained}. Any creature within 5 feet can use its action to pull the shard free, attempting a Strength ({@skill Athletics|XPHB}) check against your spell save DC and freeing the target on a success."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Shifting Blade",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a nonmagical Weapon worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a weapon and imbue it with wild, unpredictable magical power. Choose a damage type from the table below. When the wielder hits a creature with it, the attack deals {@damage 1d6} bonus damage of that type. Add the number rolled for the bonus damage to the result on the damage types table, subtracting 8 if the result is 9 or higher. The new result determines the bonus damage type on the next attack.",
+				{
+					"type": "entries",
+					"name": "D8  Damage Type",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "1  Acid",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "2  Cold",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "3  Fire",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "4  Force",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "5  Lightning",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "6  Poison",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "7  Psychic",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "8  Thunder",
+					"entries": []
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Silver Wind",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small silver mirror"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You summon a hail of silver needles at a point within range, flinging them in a direction of your choice. The needles form a line 5 feet wide and 30 feet long. All creatures within their path must make a Dexterity saving throw, suffering {@damage 6d8} Piercing damage on a failure or half as much on a success. A shapechanger or creature otherwise susceptible to silver has {@variantrule Disadvantage|XPHB} on this saving throw, and, on a failure, cannot change its form until the end of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the spell's damage increases by {@dice 1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"name": "Sonic Blast",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You produce a concentrated blast of sound, hammering a single enemy with its force. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} thunder damage and is {@condition deafened} until the end of its next turn.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "NO_LABEL",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"thunder"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Sonorous Toll",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a haunting melody, captivating all creatures within a 20-foot radius sphere of a point you choose within range. Any creature in the area when the spell is cast or ending its turn in the area must make a Wisdom saving throw. On a failed save, it is {@condition charmed} by you, cannot willingly leave the spell's area of effect, and has disadvantage on attack rolls against creatures outside the area. An affected creature can repeat the save at the end of each of its subsequent turns to end the effect.",
+				"As a bonus action, you can direct the melody to a terrifying and mesmerizing crescendo. All creatures {@condition charmed} through this spell must make a Wisdom saving throw, taking {@damage 3d6} psychic damage on a failed save, or half as much on a successful one. After you cause this crescendo, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"UBA"
+			]
+		},
+		{
+			"name": "Steelskin",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 6,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of steel shavings"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a creature and transmute its skin into a fine layer of worked steel. Until the spell ends, the target's armor class can't be lower than 19, and it has resistance to bludgeoning, piercing, and slashing damage. At the start of each of the target's turns, it gains 10 temporary hit points."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageResist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"miscTags": [
+				"THP"
+			]
+		},
+		{
+			"name": "Storm of Spirits",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You conjure a horde of restless specters, sending them charging forward to torment a creature you can see within range. The target must make a Wisdom saving throw. On a failure, it takes {@damage 10d8} necrotic damage and is {@condition frightened} until the end of your next turn. On a success, it takes half as much damage and is not {@condition frightened}.",
+				"Every other creature in a 15-foot radius around the target must succeed on a Wisdom saving throw or take {@damage 3d8} necrotic damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the damage taken by both the primary and secondary targets increases by {@dice 1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Stormwall",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a raging thunderstorm and sculpt it into a wall of lightning and lashing rain. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. You can make the wall up to 80 feet long, 40 feet high, and 5 feet thick, or a ringed wall up to 25 feet in diameter, 40 feet high, and 5 feet thick. The wall is opaque and lasts for the duration.",
+				"When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 4d12} lightning damage, or half as much damage on a successful save.",
+				"No sound can pass through the wall, and creatures within 10 feet of it are {@condition deafened}. Creatures moving through the wall are buffeted by winds and lashed by lightning. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters the wall on a turn or ends its turn there, the creature must make a Dexterity saving throw. It takes {@damage 4d12} lightning damage on a failed save, or half as much damage on a successful one.",
+				"As a bonus action on each turn after the first, you may select one creature you can see within 30 feet of the wall or one creature at random within 10 feet of the wall. A lightning bolt leaps out, dealing {@damage 2d12} lightning damage, or half as much if the target succeeds on a Dexterity saving throw."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Surf Skip",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a smooth flat stone"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You touch a creature and grant it the ability to move over liquid surfaces as if they were solid ground. The target must move at least 30 feet on each of its turns to stay above the liquid—otherwise, it sinks below the surface. While the target is moving over a liquid surface, it can move 10 feet for every 5 feet of movement it spends. It also gains advantage on saving throws to avoid being {@condition restrained} or knocked {@condition prone}."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Thorn Lance",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a rose petal"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You summon a mighty {@item spear|XPHB} of thorns and flowers, hurling it at a creature you can see within range. Make a ranged spell attack against the target. If the attack hits, the target takes {@damage 6d8} piercing damage and is {@condition restrained} for 1 minute as the {@item lance|XPHB} explodes into a cluster of vines, enveloping its form. At the end of each of its turns, the target takes {@damage 2d8} piercing damage and can attempt a Strength saving throw to break free. Any other creature within 5 feet of the target can clear the vines as an action. Once the target is no longer {@condition restrained}, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the spell's damage increases by {@dice 1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Thunderous Chords",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a musical instrument"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You begin performing a song of crashing power, sending waves of devastating sound outwards from your instrument. A wave of sound rolls out from you in a 30-foot cone. Each creature in the area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d8} thunder damage, is {@condition deafened}, and has disadvantage on its next attack roll until the start of your next turn. On a failed save, it takes half as much damage and suffers no other effects.",
+				"You can create such a sound wave as your action on any turn until the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"thunder"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Tieleman's Cannon",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small lead ball and a pinch of gunpowder"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon a spectral cannon in a space you can see within range, its fuse already lit and {@condition burning|HA:GS} down. At the start of your next turn, the cannon fires in a direction of your choice. All creatures in a line 120 feet long and 5 feet wide must make a Dexterity saving throw. A target takes {@damage 7d10} bludgeoning damage on a failure or half as much on a success.",
+				"If your {@status Concentration|XPHB} ends early, the cannon fires immediately, dealing {@damage 4d10} bludgeoning damage, or half as much on a successful save.",
+				"This spell does full damage against fortified structures and ships, and double damage against smaller objects."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d10} per slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Titan's Might",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You invest yourself with mighty power, increasing your strength enormously. For the duration, you receive the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on attack rolls and ability checks using Strength.",
+						"Your attacks using Strength do {@damage 1d8} extra damage.",
+						"Your carrying capacity is doubled."
+					]
+				}
+			],
+			"miscTags": [
+				"ADV"
+			]
+		},
+		{
+			"name": "Venomous Maw",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an adder's fang"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You morph one of your arms into a venomous snake, which shoots out to bite an enemy. Make a melee spell attack against one creature you can see within 30 feet. On a hit, the target takes {@damage 1d12} piercing damage and {@damage 5d12} poison damage, and is {@condition poisoned} for the duration. It can make a Constitution saving throw at the end of each of its turns to end the effect."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing",
+				"poison"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Wall of Blood",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a splash of your blood worth at least 4 hit points, which the spell consumes",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You manifest some of your blood into a barrier on a solid surface you can see within range. You can make the wall up to 60 feet long, 20 feet high, and 5 feet thick, or in a ring up to 20 feet in diameter, 20 feet high, and 5 feet thick. The wall is opaque and lasts for the duration. Moving through the wall costs 3 feet of movement for each foot traveled.",
+				"Any creature entering the wall must make a Constitution saving throw, suffering {@damage 3d8} necrotic damage on a failure or half as much on a success. When a creature enters the wall, you can expend 2 hit points to increase the necrotic damage it would take by {@dice 2d8}."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Wall of Insects",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A wall of churning bugs appears on a solid surface you can see within range. You can make the wall up to 60 feet long, 20 feet high, and 10 feet thick, or in a ring up to 20 feet in diameter, 20 feet high, and 10 feet thick. The wall is opaque and lasts for the duration. Moving through the wall costs 3 feet of movement for each foot.",
+				"A creature that starts its turn in the wall or enters the wall on its turn must make a Constitution saving throw. On a failure, it takes {@damage 2d8} poison damage and {@damage 2d8} piercing damage, and is {@condition poisoned} until the end of its next turn. On a success, it takes half as much damage and is not {@condition poisoned}.",
+				"If a creature ends its turn in the wall, some insects cling to it, and it continues to be affected as if in the wall until it or another creature within 5 feet spends an action to brush the insects off."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"piercing",
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Wall of Misery",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of black sand"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a plane of roiling shadow, standing as a wall at a point you can see within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. It can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight for other creatures, but is transparent to you. If the wall is in darkness, a creature unaware of it must succeed on a {@skill Perception|XPHB} check with a DC equal to your spell save DC in order to see it.",
+				"When the wall appears, each creature in its area must make a Charisma saving throw. On a failure, it takes {@damage 4d8} necrotic damage and is cursed for 1 minute. While cursed in this way, a creature can't recover hit points, and it must roll {@dice 1d6} whenever it makes an attack roll, saving throw, or ability check, and subtract the result from the roll. A cursed creature can repeat the Charisma save at the end of each of its turns, ending the effect on itself on a success.",
+				"A creature that ends its turn in the wall's area takes {@damage 4d8} necrotic damage.",
+				"As a bonus action, you can move the wall up to 15 feet in any direction. You can either shift the entire wall, or move one of its end points."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Wall of Snow",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small piece of snow or crystal"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A magical wall of snow springs into existence on a solid surface you can see within range. The wall is 12 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel.",
+				"If the wall cuts through a creature's space when it appears, The creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it is pushed outside of the wall to a space of its choice.",
+				"The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall must be vertical and rest on the ground. It is an object made of packed snow that can be damaged and thus breached. Each panel has AC 10 and 100 hit points, and is vulnerable to fire damage. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the GM's discretion.",
+				"The wall radiates intense cold, and blasts of snow explode outwards when it is damaged. A creature within 5 feet of a wall panel when it is damaged takes {@damage 1d6} cold damage, and must succeed on a Constitution saving throw or become {@condition Restrained|XPHB} until the start of its next turn.",
+				"If you maintain your {@status Concentration|XPHB} on this spell for its whole duration, the wall becomes permanent, nonmagical, and can't be dispelled. Otherwise, the wall disappears when the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"cold"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"constitution",
+				"dexterity"
+			],
+			"miscTags": [
+				"OBJ",
+				"PRM",
+				"SGT"
+			]
+		},
+		{
+			"name": "Wind of Ruin",
+			"source": "SotSbS",
+			"page": 262,
+			"level": 6,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a crow's wing"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon a dreadful wind, which begins at a point you can see within range and sweeps through a line 10 feet wide and 60 feet long. All creatures the wind passes through must make a Charisma saving throw or become cursed for the duration. While cursed in this way, a creature suffers from the following penalties:",
+				{
+					"type": "list",
+					"items": [
+						"It has disadvantage on all Strength, Dexterity, and Constitution ability checks.",
+						"Anytime it makes an attack roll, it must roll {@dice 1d6} and subtract the result from the {@dice d20} roll.",
+						"At the start of each of its turns, its current and maximum hit points are reduced by {@dice 2d10}. Its maximum hit points can't go below 1 this way, and the reduction ends after a long rest."
+					]
+				},
+				"A target can repeat the saving throw at the end of each of its turns, ending the effect for itself on a success."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		}
+	]
+}
