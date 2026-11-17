@@ -116,7 +116,7 @@
 				}
 			],
 			"entries": [
-				"Druids are additionally proficient with the {@item ankus|CompEquipMan}, {@item bo|CompEquipMan}, {@item crook|CompEquipMan}, {@item fustibalus|CompEquipMan}, {@item hanbo|CompEquipMan}, {@item jisho|CompEquipMan}, {@item kaiken|CompEquipMan}, {@item kama|CompEquipMan}, {@item kunai|CompEquipMan}, {@item knobkerrie|CompEquipMan}, {@item liturgical mace|CompEquipMan}, {@item maca|CompEquipMan}, {@item poison dagger|CompEquipMan}, {@item ritiik|CompEquipMan}, {@item short spear|CompEquipMan}, {@item short hooked spear|CompEquipMan}, {@item shotel|CompEquipMan}, {@item scythe|CompEquipMan}, {@item shuriken|CompEquipMan}, {@item throwing dagger|CompEquipMan}, {@item trombash|CompEquipMan}, {@item weighted spear|CompEquipMan}, {@item uchine|CompEquipMan}, {@item wooden stake|CompEquipMan}, {@item yari|CompEquipMan}, and {@item yklwa|CompEquipMan}."
+				"Druids are additionally proficient with the {@item ankus|CompEquipMan}, {@item bo|CompEquipMan}, {@item crook|CompEquipMan}, {@item fustibalus|CompEquipMan}, {@item hanbo|CompEquipMan}, {@item jisho|CompEquipMan}, {@item kaiken|CompEquipMan}, {@item kama|CompEquipMan}, {@item kunai|CompEquipMan}, {@item knobkerrie|CompEquipMan}, {@item liturgical mace|CompEquipMan}, {@item maca|CompEquipMan}, {@item poison dagger|CompEquipMan}, {@item ritiik|CompEquipMan}, {@item short spear|CompEquipMan}, {@item shotel|CompEquipMan}, {@item scythe|CompEquipMan}, {@item shuriken|CompEquipMan}, {@item throwing dagger|CompEquipMan}, {@item trombash|CompEquipMan}, {@item weighted spear|CompEquipMan}, {@item uchine|CompEquipMan}, {@item wooden stake|CompEquipMan}, {@item yari|CompEquipMan}, and {@item yklwa|CompEquipMan}."
 			]
 		},
 		{
@@ -24219,7 +24219,6 @@
 					"Sap",
 					"Scissor",
 					"Scourge",
-					"Short Hooked Spear",
 					"Short Spear",
 					"Sickle",
 					"Slungshot",
@@ -30571,13 +30570,6 @@
 					"{@damage 1d4} bludgeoning",
 					"2 lb.",
 					"Disarming, finesse, special, tripping"
-				],
-				[
-					"{@item short hooked Spear|CompEquipMan|Spear, short hooked}",
-					"2 gp",
-					"{@damage 1d4} piercing",
-					"2 lb.",
-					"[Finesse,] light, natatorial, [tripping]"
 				],
 				[
 					"{@item weighted Spear|CompEquipMan|Spear, weighted}",
@@ -40231,13 +40223,6 @@
 											"Disarming, finesse, special, tripping"
 										],
 										[
-											"{@item short hooked Spear|CompEquipMan|Spear, short hooked}",
-											"2 gp",
-											"{@damage 1d4} piercing",
-											"2 lb.",
-											"[Finesse,] light, natatorial, [tripping]"
-										],
-										[
 											"{@item weighted Spear|CompEquipMan|Spear, weighted}",
 											"7 gp",
 											"{@damage 1d6} piercing",
@@ -41437,15 +41422,6 @@
 												},
 												{
 													"type": "entries",
-													"name": "{@item Short Hooked Spear|CompEquipMan|Spear, Short Hooked}",
-													"entries": [
-														"{@i The backward-facing hook on this short-hafted spear is designed for tripping opponents. Some versions have a smaller opposite hook on the butt end.}",
-														"{@u System Change}: The weapon on the table is modified from its original form as a monster weapon to include the finesse and tripping weapon properties. This is done to bring the weapon in line with the capabilities available to player characters.",
-														"{@creature Derro|MPMM} are particularly skilled with this weapon and can use it to exceptional effect."
-													]
-												},
-												{
-													"type": "entries",
 													"name": "{@item Weighted Spear|CompEquipMan|Spear, Weighted}",
 													"entries": [
 														"{@i This spear has a heavy weight at the butt, making it suitable for use as a spear or a longhandled club.}"
@@ -42133,7 +42109,7 @@
 															"type": "entries",
 															"name": "{@optfeature Additional Druid Weapon Proficiencies|CompEquipMan|Druid}",
 															"entries": [
-																"Druids are additionally proficient with the {@item ankus|CompEquipMan}, {@item bo|CompEquipMan}, {@item crook|CompEquipMan}, {@item fustibalus|CompEquipMan}, {@item hanbo|CompEquipMan}, {@item jisho|CompEquipMan}, {@item kaiken|CompEquipMan}, {@item kama|CompEquipMan}, {@item kunai|CompEquipMan}, {@item knobkerrie|CompEquipMan}, {@item liturgical mace|CompEquipMan}, {@item maca|CompEquipMan}, {@item poison dagger|CompEquipMan}, {@item ritiik|CompEquipMan}, {@item short spear|CompEquipMan}, {@item short hooked spear|CompEquipMan}, {@item shotel|CompEquipMan}, {@item scythe|CompEquipMan}, {@item shuriken|CompEquipMan}, {@item throwing dagger|CompEquipMan}, {@item trombash|CompEquipMan}, {@item weighted spear|CompEquipMan}, {@item uchine|CompEquipMan}, {@item wooden stake|CompEquipMan}, {@item yari|CompEquipMan}, and {@item yklwa|CompEquipMan}."
+																"Druids are additionally proficient with the {@item ankus|CompEquipMan}, {@item bo|CompEquipMan}, {@item crook|CompEquipMan}, {@item fustibalus|CompEquipMan}, {@item hanbo|CompEquipMan}, {@item jisho|CompEquipMan}, {@item kaiken|CompEquipMan}, {@item kama|CompEquipMan}, {@item kunai|CompEquipMan}, {@item knobkerrie|CompEquipMan}, {@item liturgical mace|CompEquipMan}, {@item maca|CompEquipMan}, {@item poison dagger|CompEquipMan}, {@item ritiik|CompEquipMan}, {@item short spear|CompEquipMan}, {@item shotel|CompEquipMan}, {@item scythe|CompEquipMan}, {@item shuriken|CompEquipMan}, {@item throwing dagger|CompEquipMan}, {@item trombash|CompEquipMan}, {@item weighted spear|CompEquipMan}, {@item uchine|CompEquipMan}, {@item wooden stake|CompEquipMan}, {@item yari|CompEquipMan}, and {@item yklwa|CompEquipMan}."
 															]
 														},
 														{
