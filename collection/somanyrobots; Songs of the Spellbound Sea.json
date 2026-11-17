@@ -615,7 +615,8 @@
 				}
 			],
 			"entries": [
-				"You conjure a {@condition cursed|ConfC} {@item dagger|XPHB} of smoldering iron and hurl it at a creature within range. Make a ranged spell attack roll. On a hit, the target takes {@dice 2d4} fire and {@damage 1d4} piercing damage, and the {@item dagger|XPHB} embeds itself in its flesh. While the {@item dagger|XPHB} is embedded, the first time the target makes an attack roll on each of its turns, it must roll {@dice 1d4}. The target subtracts the result from the attack roll and suffers fire damage equal to the result. A creature within 5 feet of the target can remove the {@item dagger|XPHB} as an action. If the attack misses or the {@item dagger|XPHB} is removed, it disappears."
+				"You conjure a {@condition cursed|ConfC} {@item dagger|XPHB} of smoldering iron and hurl it at a creature within range. Make a ranged spell attack roll. On a hit, the target takes {@dice 2d4} fire and {@damage 1d4} piercing damage, and the {@item dagger|XPHB} embeds itself in its flesh.",
+				"While the {@item dagger|XPHB} is embedded, the first time the target makes an attack roll on each of its turns, it must roll {@dice 1d4}. The target subtracts the result from the attack roll and suffers fire damage equal to the result. A creature within 5 feet of the target can remove the {@item dagger|XPHB} as an action. If the attack misses or the {@item dagger|XPHB} is removed, it disappears."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3231,6 +3232,539 @@
 			"miscTags": [
 				"SGT",
 				"SMN"
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Bloodrager",
+			"source": "SotSbS",
+			"page": 58,
+			"edition": "classic",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "half",
+			"spellsKnownProgression": [
+				0,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12
+			],
+			"optionalFeatureProgression": [
+				{
+					"name": "Blood Trances"
+				}
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Blood Trances|SotSbS} Damage"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 11,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 11,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							}
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Spells Known|spells|class=sorcerer}"
+					],
+					"rows": [
+						[
+							4,
+							2
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							4
+						],
+						[
+							5,
+							5
+						],
+						[
+							5,
+							6
+						],
+						[
+							5,
+							7
+						],
+						[
+							5,
+							8
+						],
+						[
+							5,
+							9
+						],
+						[
+							5,
+							10
+						],
+						[
+							6,
+							11
+						],
+						[
+							6,
+							12
+						],
+						[
+							6,
+							12
+						],
+						[
+							6,
+							13
+						],
+						[
+							6,
+							13
+						],
+						[
+							6,
+							14
+						],
+						[
+							6,
+							14
+						],
+						[
+							6,
+							15
+						],
+						[
+							6,
+							15
+						],
+						[
+							6,
+							15
+						],
+						[
+							6,
+							15
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Spells Known|spells|class=sorcerer}"
+					],
+					"rows": [
+						[
+							4,
+							2
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							4
+						],
+						[
+							5,
+							5
+						],
+						[
+							5,
+							6
+						],
+						[
+							5,
+							7
+						],
+						[
+							5,
+							8
+						],
+						[
+							5,
+							9
+						],
+						[
+							5,
+							10
+						],
+						[
+							6,
+							11
+						],
+						[
+							6,
+							12
+						],
+						[
+							6,
+							12
+						],
+						[
+							6,
+							13
+						],
+						[
+							6,
+							13
+						],
+						[
+							6,
+							14
+						],
+						[
+							6,
+							14
+						],
+						[
+							6,
+							15
+						],
+						[
+							6,
+							15
+						],
+						[
+							6,
+							15
+						],
+						[
+							6,
+							15
+						]
+					]
+				},
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"None."
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"animal handling",
+								"arcana",
+								"athletics",
+								"deception",
+								"insight",
+								"intimidation",
+								"nature",
+								"perception",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"default": [
+					"Each string will appear as a list entry"
+				],
+				"additionalFromBackground": true,
+				"goldAlternative": "{@dice xdy}"
+			},
+			"multiclassing": {
+				"requirements": {
+						"str": 0
+					},
+				"proficienciesGained": {
+					"armor": [
+						""
+					],
+					"weapons": [
+						""
+					],
+					"tools": [
+						""
+					],
+					"skills": [
+						""
+					]
+				}
+			},
+			"casterProgression": "full",
+			"spellcastingAbility": "str",
+			"classSpells": [
+				""
+			],
+			"fluff": [
+				
 			]
 		}
 	]
