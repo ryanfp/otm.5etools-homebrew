@@ -1,0 +1,1984 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "OTMDnD5e",
+				"abbreviation": "OTM5e",
+				"full": "OverTheMoon D&D 5e",
+				"authors": [
+					"nega_ryan"
+				],
+				"convertedBy": [
+					"nega_ryan"
+				],
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1793951982,
+		"dateLastModified": 1794889996,
+		"edition": "one",
+		"spellSchools": {
+			"BM": {
+				"full": "Biomancy",
+				"short": "Bio.",
+				"color": "199a84"
+			},
+			"DM": {
+				"full": "Dunamancy",
+				"short": "Duna.",
+				"color": "7b70ae"
+			}
+		},
+		"_dateLastModifiedHash": "33516ce2e1"
+	},
+	"itemProperty": [
+		{
+			"name": "Aerodynamic",
+			"abbreviation": "AER",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Aerodynamic",
+					"entries": [
+						"When you throw this weapon, it deals the damage shown in parentheses instead of its normal damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Agile",
+			"abbreviation": "AGI",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Agile",
+					"entries": [
+						"This weapon can be drawn or stowed as a {@variantrule Reaction|XPHB} or part of the {@action Attack|XPHB} action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cumbersome",
+			"abbreviation": "CUM",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Cumbersome",
+					"entries": [
+						"This weapon is much bulkier than normal, and creatures who wield can only equip or stow it as an {@action |XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor Piercing",
+			"abbreviation": "AP",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Armor Piercing",
+					"entries": [
+						"This weapon ignores {@variantrule Resistance|XPHB} to piercing damage and treats {@variantrule Immunity|XPHB} to piercing damage as Resistance. It also ignores instances of nonmagical Damage Reduction granted by armor."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brutal",
+			"abbreviation": "BRU",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brutal",
+					"entries": [
+						"When you score a {@variantrule Critical Hit|XPHB} with this weapon, roll one additional weapon damage die when determining the extra damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Concussive",
+			"abbreviation": "CON",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Concussive",
+					"entries": [
+						"Damage from this weapon counts as both bludgeoning and piercing; the target applies whichever of its {@variantrule Resistance|XPHB|resistances}, {@variantrule Immunity|XPHB|immunities}, or {@variantrule Vulnerability|XPHB|vulnerabilities} to those types is least favorable to it. {@variantrule Resistance|XPHB} to all physical damage applies as normal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Defensive",
+			"abbreviation": "DEF",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Defensive",
+					"entries": [
+						"While you wield one or more weapons with this property, you gain a +1 bonus to your {@variantrule AC|XPHB} if you are Proficient in the weapon and not using a shield."
+					]
+				}
+			]
+		},
+		{
+			"name": "Heavy",
+			"abbreviation": "H",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"You have {@variantrule Disadvantage|XPHB} on Attack Rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13. This weapon always requires a full {@variantrule Action|XPHB} to draw, stow, or reload, unless otherwise noted."
+					]
+				}
+			]
+		},
+		{
+			"name": "Indirect",
+			"abbreviation": "IND",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Indirect",
+					"entries": [
+						"This weapon ignores the AC bonus granted by shields."
+					]
+				}
+			]
+		},
+		{
+			"name": "Parry",
+			"abbreviation": "PAR",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Parry",
+					"entries": [
+						"This weapon has been designed to help you parry blows. While wielding this weapon, you can use your {@variantrule Reaction|XPHB} when you are hit by a melee attack to gain a +2 bonus to AC against the triggering attack, potentially causing it to miss."
+					]
+				}
+			]
+		},
+		{
+			"name": "Precise",
+			"abbreviation": "PRC",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Precise",
+					"entries": [
+						"This weapon can fire within its Long Range without suffering {@variantrule Disadvantage|XPHB} on its {@variantrule Attack Roll|XPHB}, and treats {@variantrule Cover|XPHB} as one step less (3/4ths Cover treated as ½ Cover, ½ Cover treated as none)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reach",
+			"abbreviation": "R",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds the number of feet shown in parentheses to your reach when you attack with it, as well as when determining your reach for {@action Opportunity Attack|XPHB|Opportunity Attacks} with it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reload",
+			"abbreviation": "RLD",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired a number of times equal to its reload score before it must be reloaded before it can be fired again. Reloading takes an {@variantrule Action|XPHB|action} or {@variantrule Bonus Action|XPHB}. You must have a free hand to reload a firearm."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scatter",
+			"abbreviation": "SCT",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Scatter",
+					"entries": [
+						"This weapon instead fires a spread of bullets in a cone equal in distance to its Short Range. Targets within the area must succeed on a Reflex Saving Throw equal to your Exploit DC. On a success, the targets receive half damage, while on a failure they receive full damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Special",
+			"abbreviation": "S",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This weapon has a custom property that is detailed in this description."
+					]
+				}
+			]
+		},
+		{
+			"name": "Subtle",
+			"abbreviation": "SUB",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Subtle",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on {@skill Stealth|XPHB} (Dexterity) or {@skill Sleight of Hand|XPHB} (Dexterity) checks made to hide or conceal this weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unsportsmanlike",
+			"abbreviation": "UNS",
+			"source": "OTMDnD5e",
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unsportsmanlike",
+					"entries": [
+						"Deal an extra die of damage when this weapon hits a creature that is {@condition Prone|XPHB}, {@condition Restrained|XPHB}, or Exposed."
+					]
+				}
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Club",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"BRU|OTMDnD5e",
+				"L|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Club.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 107,
+						"height": 561
+					}
+				]
+			}
+		},
+		{
+			"name": "Dagger",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Dagger.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 114,
+						"height": 452
+					}
+				]
+			}
+		},
+		{
+			"name": "Greatclub",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 10,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"H|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Greatclub.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 686,
+						"height": 492
+					}
+				]
+			}
+		},
+		{
+			"name": "Handaxe",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Handaxe.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 184,
+						"height": 449
+					}
+				]
+			}
+		},
+		{
+			"name": "Javelin",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 50,
+			"weaponCategory": "simple",
+			"property": [
+				{
+					"uid": "AER|OTMDnD5e",
+					"note": "1d8"
+				},
+				"T|XPHB"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"spear": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Javelin.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 28,
+						"height": 1203
+					}
+				]
+			}
+		},
+		{
+			"name": "Light Hammer",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Light Hammer.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 198,
+						"height": 537
+					}
+				]
+			}
+		},
+		{
+			"name": "Mace",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"BRU|OTMDnD5e"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Mace.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 135,
+						"height": 556
+					}
+				]
+			}
+		},
+		{
+			"name": "Quarterstaff",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"DEF|OTMDnD5e",
+				"V|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Quarterstaff.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 58,
+						"height": 1067
+					}
+				]
+			}
+		},
+		{
+			"name": "Sickle",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"IND|OTMDnD5e",
+				"L|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Sickle.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 234,
+						"height": 431
+					}
+				]
+			}
+		},
+		{
+			"name": "Spear",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+5 ft."
+				},
+				"S|OTMDnD5e",
+				"T|XPHB",
+				"V|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Only when this weapon is wielded with two hands, does it benefit from the {@itemProperty R|OTMDnD5e|Reach} (+5 ft.) property."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Spear.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 114,
+						"height": 1339
+					}
+				]
+			}
+		},
+		{
+			"name": "Dart",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"F|XPHB",
+				"T|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Dart.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 322,
+						"height": 192
+					}
+				]
+			}
+		},
+		{
+			"name": "Light Crossbow",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A|XPHB",
+				"LD|XPHB",
+				"2H|XPHB"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Light Crossbow.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 600,
+						"height": 330
+					}
+				]
+			}
+		},
+		{
+			"name": "Shortbow",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A|XPHB",
+				"2H|XPHB"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Shortbow.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 492,
+						"height": 848
+					}
+				]
+			}
+		},
+		{
+			"name": "Sling",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"A|XPHB"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Sling.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 361,
+						"height": 496
+					}
+				]
+			}
+		},
+		{
+			"name": "Battleaxe",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"BRU|OTMDnD5e",
+				"V|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"axe": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Battleaxe.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 237,
+						"height": 437
+					}
+				]
+			}
+		},
+		{
+			"name": "Chakram",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				{
+					"uid": "AER|OTMDnD5e",
+					"note": "1d6"
+				},
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-chakram.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			},
+			"entries": [
+				"Chakrams consist of a circular blade with a sharp outer edge. They count as monk weapons."
+			]
+		},
+		{
+			"name": "Falchion",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"H|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-falchion.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			}
+		},
+		{
+			"name": "Flail",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"IND|OTMDnD5e"
+			],
+			"dmg1": "2d4",
+			"dmgType": "B",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Flail.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 323,
+						"height": 284
+					}
+				]
+			}
+		},
+		{
+			"name": "Glaive",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"BRU|OTMDnD5e",
+				"H|OTMDnD5e",
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+5 ft."
+				},
+				"2H|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"polearm": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Glaive.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 98,
+						"height": 1002
+					}
+				]
+			}
+		},
+		{
+			"name": "Greataxe",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 7,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"H|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Greataxe.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 242,
+						"height": 628
+					}
+				]
+			}
+		},
+		{
+			"name": "Greathammer",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weaponCategory": "martial",
+			"property": [
+				"CON|OTMDnD5e",
+				"H|OTMDnD5e",
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+5 ft."
+				},
+				"2H|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "B",
+			"polearm": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-greathammer.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			}
+		},
+		{
+			"name": "Greatsword",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"H|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Greatsword.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 169,
+						"height": 899
+					}
+				]
+			}
+		},
+		{
+			"name": "Halberd",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"H|OTMDnD5e",
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+5 ft."
+				},
+				"S|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"polearm": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Targets you attempt to Disarm have {@variantrule Disadvantage|XPHB} on their saving throw."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Halberd.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 199,
+						"height": 980
+					}
+				]
+			}
+		},
+		{
+			"name": "Katana",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"PAR|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-katana.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			}
+		},
+		{
+			"name": "Kusarigama",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"S|OTMDnD5e",
+				"V|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-kusarigama.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			},
+			"entries": [
+				"Kusarigama consist of a sickle attached to a heavy counterweight by a metal chain. They count as monk weapons.",
+				{
+					"type": "entries",
+					"name": "Counterweight",
+					"entries": [
+						"While wielding a kusarigama with two hands, you can use a {@variantrule Bonus Action|XPHB|bonus action} to attack with its counterweight. This attack has a reach of 10 feet and deals {@damage 1d4} bludgeoning damage on a hit. You don't add your ability modifier to the damage of this attack, unless that modifier is negative."
+					]
+				}
+			]
+		},
+		{
+			"name": "Longsword",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"PAR|OTMDnD5e",
+				"V|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Longsword.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 665,
+						"height": 135
+					}
+				]
+			}
+		},
+		{
+			"name": "Maul",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 10,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"H|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Maul.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 651,
+						"height": 184
+					}
+				]
+			}
+		},
+		{
+			"name": "Dai Chui",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 300,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+5 ft."
+				},
+				"2H|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-meteor_hammer.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			},
+			"entries": [
+				"Cai Chui consist of a length of chain or rope attached to a weight at one or both ends. They count as monk weapons."
+			]
+		},
+		{
+			"name": "Morningstar",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"BRU|OTMDnD5e",
+				"CON|OTMDnD5e"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"mace": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Morningstar.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 136,
+						"height": 449
+					}
+				]
+			}
+		},
+		{
+			"name": "Nunchaku",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"S|OTMDnD5e",
+				"V|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-nunchaku.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			},
+			"entries": [
+				"Nunchaku are composed of two hard batons connected to one another by a short chain or tether. They count as monk weapons.",
+				{
+					"type": "entries",
+					"name": "Flourish",
+					"entries": [
+						"When you are wielding the nunchaku in two hands and take the {@action Attack|XPHB} action on your turn, you can attempt to flourish with the weapon immediately before you make your first attack. To flourish, make a {@dc 13} Dexterity check, adding your proficiency bonus if you are proficient with nunchaku. On a success, you gain a +2 bonus to the first attack roll you make this turn. On a failure, you deal bludgeoning damage to yourself equal to your proficiency bonus and gain no bonus from your flourishes this turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pike",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 18,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"H|OTMDnD5e",
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+10 ft."
+				},
+				"2H|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Pike.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 114,
+						"height": 1090
+					}
+				]
+			}
+		},
+		{
+			"name": "Rapier",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"PAR|OTMDnD5e"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"rapier": true,
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Rapier.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 598,
+						"height": 126
+					}
+				]
+			}
+		},
+		{
+			"name": "Sai",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"PAR|OTMDnD5e"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"Sai consist of three sharp, metal prongs, with the longer one at the centre and a smaller one on each side. They count as monk weapons."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-sai.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			}
+		},
+		{
+			"name": "Scimitar",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Scimitar.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 482,
+						"height": 204
+					}
+				]
+			}
+		},
+		{
+			"name": "Scythe",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weaponCategory": "martial",
+			"property": [
+				"H|OTMDnD5e",
+				"IND|OTMDnD5e",
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+5 ft."
+				},
+				"2H|XPHB"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"polearm": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-scythe.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			}
+		},
+		{
+			"name": "Shortsword",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Shortsword.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 461,
+						"height": 118
+					}
+				]
+			}
+		},
+		{
+			"name": "Tonfa",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "martial",
+			"property": [
+				"L|XPHB",
+				"PAR|OTMDnD5e"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-tonfa.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			},
+			"entries": [
+				"Tonfa consist of a wooden or metallic baton with a perpendicular handle. They count as monk weapons."
+			]
+		},
+		{
+			"name": "Trident",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"S|OTMDnD5e",
+				"T|XPHB",
+				"UNS|OTMDnD5e",
+				"V|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d10",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While you hold a {@item Net|OTMDnD5e} in your other hand, both weapons gain the {@itemProperty L|XPHB|Light} property."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Trident.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 126,
+						"height": 912
+					}
+				]
+			}
+		},
+		{
+			"name": "Wakizashi",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"V|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"sword": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5emelee-martial-wakizashi.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			}
+		},
+		{
+			"name": "Warhammer",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"CON|OTMDnD5e",
+				"V|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"hammer": true,
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Warhammer.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 192,
+						"height": 434
+					}
+				]
+			}
+		},
+		{
+			"name": "War Pick",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"IND|OTMDnD5e",
+				"V|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d10",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/War Pick.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 207,
+						"height": 450
+					}
+				]
+			}
+		},
+		{
+			"name": "Whip",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"IND|OTMDnD5e",
+				{
+					"uid": "R|OTMDnD5e",
+					"note": "+10 ft."
+				}
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Whip.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 481,
+						"height": 303
+					}
+				]
+			}
+		},
+		{
+			"name": "Blowgun",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"LD|XPHB"
+			],
+			"range": "25/100",
+			"dmg1": "1",
+			"dmgType": "P",
+			"weapon": true,
+			"ammoType": "needle|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Blowgun.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 591,
+						"height": 234
+					}
+				]
+			}
+		},
+		{
+			"name": "Bola",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 300,
+			"weaponCategory": "martial",
+			"property": [
+				"S|OTMDnD5e",
+				"T|XPHB"
+			],
+			"range": "10/30",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you hit a Large or smaller creature with a bola, it is knocked {@condition Prone|XPHB}. The creature can't rise from prone until it or another creature uses an action to free the prone creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greatbow",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"H|OTMDnD5e",
+				"LD|XPHB",
+				"S|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"range": "300/1200",
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5eranged-martial-greatbow.webp"
+						},
+						"width": 715,
+						"height": 911
+					}
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"You must brace this weapon to fire it. On a turn you make an attack with it, you can move no more than half your Speed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hand Crossbow",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 7500,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"L|XPHB",
+				"LD|XPHB"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Hand Crossbow.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 393,
+						"height": 180
+					}
+				]
+			}
+		},
+		{
+			"name": "Heavy Crossbow",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 18,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"BRU|OTMDnD5e",
+				"H|OTMDnD5e",
+				"LD|XPHB",
+				"2H|XPHB"
+			],
+			"range": "100/400",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Heavy Crossbow.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 550,
+						"height": 354
+					}
+				]
+			}
+		},
+		{
+			"name": "Longbow",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"H|OTMDnD5e",
+				"2H|XPHB"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|xphb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Longbow.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 136,
+						"height": 956
+					}
+				]
+			}
+		},
+		{
+			"name": "Net",
+			"source": "OTMDnD5e",
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "martial",
+			"property": [
+				"S|OTMDnD5e",
+				"T|XPHB"
+			],
+			"range": "10/30",
+			"net": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"A Large or smaller creature hit by a net is {@condition Restrained|XPHB} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a {@dc 10} Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "items/XPHB/Net.webp"
+						},
+						"credit": "Polar Engine",
+						"width": 850,
+						"height": 809
+					}
+				]
+			}
+		}
+	]
+}
