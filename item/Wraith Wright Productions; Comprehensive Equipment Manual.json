@@ -10314,37 +10314,6 @@
 			}
 		},
 		{
-			"name": "Short Hooked Spear",
-			"source": "CompEquipMan",
-			"page": 65,
-			"otherSources": [
-				{
-					"source": "OotA",
-					"page": 224
-				}
-			],
-			"_copy": {
-				"name": "Hooked Shortspear",
-				"source": "OotA",
-				"_mod": {
-					"property": {
-						"mode": "appendArr",
-						"items": [
-							"F",
-							"NTT",
-							"TRP"
-						]
-					}
-				}
-			},
-			"rarity": "none",
-			"value": 200,
-			"spear": true,
-			"entries": [
-				"{@i The backward-facing hook on this short-hafted spear is designed for tripping opponents. Some versions have a smaller opposite hook on the butt end.}"
-			]
-		},
-		{
 			"name": "Short Repeater",
 			"source": "CompEquipMan",
 			"page": 204,
