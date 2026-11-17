@@ -4431,23 +4431,6 @@
 			}
 		},
 		{
-			"name": "Catoblepas Musk",
-			"source": "CompEquipMan",
-			"page": 132,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 129
-				}
-			],
-			"type": "C:V:H",
-			"rarity": "none",
-			"value": 22500,
-			"entries": [
-				"This is a far-reaching inhalant; a creature is also subjected to this poison if it enters within 10 feet of the poison's primary 5-foot area or starts its turn within 10 feet of that primary area. An affected creature must succeed on a {@dc 16} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to this stench and the stench of any {@creature catoblepas|VGM} for 1 hour."
-			]
-		},
-		{
 			"name": "Cestus",
 			"source": "CompEquipMan",
 			"page": 50,
@@ -4557,23 +4540,6 @@
 			"weapon": true,
 			"entries": [
 				"{@i Not to be confused with the blunt-handled \"chigiriki\" (flail), this weapon has a slightly longer shaft with a spear tip at one end. A chain connects the other end to a blunt or spiked weight.}"
-			]
-		},
-		{
-			"name": "Choldrith Poison",
-			"source": "CompEquipMan",
-			"page": 132,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 132
-				}
-			],
-			"type": "C:V:J",
-			"rarity": "none",
-			"value": 22000,
-			"entries": [
-				"A creature subjected to this poison takes 10 ({@damage 3d6}) poison damage."
 			]
 		},
 		{
@@ -6478,23 +6444,6 @@
 			"value": 10000,
 			"entries": [
 				"A creature subjected to this poison must succeed on a {@dc 11} Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned}, the target is {@condition paralyzed}. It can repeat the saving throw at the end of each of its turns, ending the effect on itself with a success."
-			]
-		},
-		{
-			"name": "Grung Sweat",
-			"source": "CompEquipMan",
-			"page": 135,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 156
-				}
-			],
-			"type": "C:V:C",
-			"rarity": "none",
-			"value": 5000,
-			"entries": [
-				"A creature subjected to this poison must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a success."
 			]
 		},
 		{
@@ -8579,40 +8528,6 @@
 			]
 		},
 		{
-			"name": "Neogi Hatchling Venom",
-			"source": "CompEquipMan",
-			"page": 136,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 179
-				}
-			],
-			"type": "C:V:J",
-			"rarity": "none",
-			"value": 14500,
-			"entries": [
-				"A creature subjected to this poison takes 7 ({@damage 2d6}) poison damage and must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-			]
-		},
-		{
-			"name": "Neogi Venom",
-			"source": "CompEquipMan",
-			"page": 136,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 180
-				}
-			],
-			"type": "C:V:J",
-			"rarity": "none",
-			"value": 17000,
-			"entries": [
-				"A creature subjected to this poison takes 14 ({@damage 4d6}) poison damage and must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-			]
-		},
-		{
 			"name": "Nerigawa Kozane",
 			"source": "CompEquipMan",
 			"page": 220,
@@ -10090,23 +10005,6 @@
 			]
 		},
 		{
-			"name": "Sea Spawn Quills",
-			"source": "CompEquipMan",
-			"page": 138,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 189
-				}
-			],
-			"type": "C:V:J",
-			"rarity": "none",
-			"value": 15500,
-			"entries": [
-				"A creature subjected to this poison suffers 3 ({@damage 1d6}) poison damage and must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-			]
-		},
-		{
 			"name": "Sekkin",
 			"source": "CompEquipMan",
 			"page": 223,
@@ -10266,23 +10164,6 @@
 			"value": 4000,
 			"entries": [
 				"{@i A set of over a dozen slender reed pipes set in a metal base. This intricate instrument is said to imitate the call of the phoenix. The reeds sound on the player's inhaling breath as well as exhaling.}"
-			]
-		},
-		{
-			"name": "Shoosuva Poison",
-			"source": "CompEquipMan",
-			"page": 138,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 137
-				}
-			],
-			"type": "C:V:J",
-			"rarity": "none",
-			"value": 12500,
-			"entries": [
-				"A creature subjected to this poison must succeed on a {@dc 14} Constitution saving throw or become {@condition poisoned}. While {@condition poisoned}, the target is also {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself with a success."
 			]
 		},
 		{
@@ -10963,23 +10844,6 @@
 			]
 		},
 		{
-			"name": "Stench Kow Breath",
-			"source": "CompEquipMan",
-			"page": 138,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 208
-				}
-			],
-			"type": "C:V:H",
-			"rarity": "none",
-			"value": 25000,
-			"entries": [
-				"This is a far-reaching inhalant; a creature is also subjected to this poison if it enters within 10 feet of the poison's primary 5-foot area or starts its turn within 10 feet of that primary area. A creature subjected to this poison must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} until the start of the its next turn. On a successful saving throw, the creature is immune to this scent and the scent of all {@creature stench kow|VGM|stench kows} for 1 hour."
-			]
-		},
-		{
 			"name": "Stiletto",
 			"source": "CompEquipMan",
 			"page": 65,
@@ -11456,40 +11320,6 @@
 			}
 		},
 		{
-			"name": "Timmask",
-			"source": "CompEquipMan",
-			"page": 139,
-			"otherSources": [
-				{
-					"source": "OotA",
-					"page": 23
-				}
-			],
-			"type": "C:P:H",
-			"rarity": "none",
-			"value": 37500,
-			"entries": [
-				"A creature subjected to this toxin is automatically {@condition poisoned} for 1 minute and is \"confused\" while {@condition poisoned}. The {@condition poisoned} creature must make a {@dc 14} Constitution saving throw at the start of each of its turns. If successful, the effect on the creature ends. Otherwise, roll a {@dice d20}. On a 1-2, the creature loses its action for the turn and uses all its movement to move in a random direction. (To determine the direction, roll a {@dice d8} and assign a direction to each die face.) On a 3-14, the creature doesn't move or take actions that turn. On a 15-20, the creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing during that turn."
-			]
-		},
-		{
-			"name": "Tlincalli Sting",
-			"source": "CompEquipMan",
-			"page": 139,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 193
-				}
-			],
-			"type": "C:V:J",
-			"rarity": "none",
-			"value": 74500,
-			"entries": [
-				"A creature subjected to this poison suffers 14 ({@damage 4d6}) poison damage and must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 minute. If it fails the saving throw by 5 or more, the target is also {@condition paralyzed} while {@condition poisoned}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-			]
-		},
-		{
 			"name": "Tonfa",
 			"source": "CompEquipMan",
 			"page": 224,
@@ -11899,23 +11729,6 @@
 			]
 		},
 		{
-			"name": "Vegepygmy Chief Spores",
-			"source": "CompEquipMan",
-			"page": 140,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 197
-				}
-			],
-			"type": "C:V:H",
-			"rarity": "none",
-			"value": 45000,
-			"entries": [
-				"This poison is collected as a spore, not stored in a glass vial. When burst by an impact, the spore fills a 15-feet cube. A non-plant creature subjected to this poison must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, a target takes 9 ({@damage 2d8}) poison damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-			]
-		},
-		{
 			"name": "Verminous Antidote",
 			"source": "CompEquipMan",
 			"page": 140,
@@ -12273,23 +12086,6 @@
 			"value": 14500,
 			"entries": [
 				"A creature subjected to this poison suffers 10 ({@damage 3d6}) poison damage."
-			]
-		},
-		{
-			"name": "Yuan-ti Anathema Venom",
-			"source": "CompEquipMan",
-			"page": 142,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 202
-				}
-			],
-			"type": "C:V:J",
-			"rarity": "none",
-			"value": 16500,
-			"entries": [
-				"A creature subjected to this poison suffers 14 ({@damage 4d6}) poison damage."
 			]
 		},
 		{
@@ -15001,10 +14797,10 @@
 		{
 			"name": "Aurochs",
 			"source": "CompEquipMan",
-			"page": 158,
+			"page": 71,
 			"otherSources": [
 				{
-					"source": "VGM",
+					"source": "MPMM",
 					"page": 207
 				}
 			],
@@ -16604,8 +16400,8 @@
 			"page": 158,
 			"otherSources": [
 				{
-					"source": "VGM",
-					"page": 208
+					"source": "MPMM",
+					"page": 97
 				}
 			],
 			"type": "MNT",
@@ -16899,7 +16695,7 @@
 			"page": 158,
 			"otherSources": [
 				{
-					"source": "MTF",
+					"source": "MPMM",
 					"page": 238
 				}
 			],
@@ -18833,7 +18629,7 @@
 			"page": 158,
 			"otherSources": [
 				{
-					"source": "MTF",
+					"source": "MPMM",
 					"page": 238
 				}
 			],
@@ -19473,22 +19269,6 @@
 			]
 		},
 		{
-			"name": "Nightlight",
-			"source": "CompEquipMan",
-			"page": 124,
-			"otherSources": [
-				{
-					"source": "OotA",
-					"page": 23
-				}
-			],
-			"type": "C:H",
-			"rarity": "none",
-			"entries": [
-				"A nightlight is a tall and tube-shaped bioluminescent mushroom that grows to a height of {@dice 1d6 + 4} feet and emits bright light in a 15-foot radius and dim light for an additional 15 feet. A nightlight that is uprooted or destroyed goes dark after 1 round. If a living nightlight is touched, either by a creature or an object, its light goes out until it is touched again."
-			]
-		},
-		{
 			"name": "Nightlight (Vial)",
 			"source": "CompEquipMan",
 			"page": 124,
@@ -19499,22 +19279,6 @@
 				"{@i A dose of this dark liquid is typically prepared in a thick glass vial.}",
 				"The substance is activated by shaking it vigorously as an action or bonus action. Thereafter, the substance emits light for a period of one round, then goes out for a round, then emits light for a round, continuing this strobing pattern until it has emitted {@dice 1d6+2} total rounds of light. The interval of light and darkness switches at the start of your turn each round. When lit, the nightlight produces bright light in a 30-foot radius and dim light for an additional 30 feet.",
 				"Nightlight is made from a tall, tubular bioluminescent mushroom of the {@item Nightlight|CompEquipMan|same name} that grows in the Underdark."
-			]
-		},
-		{
-			"name": "Nilhogg's Nose",
-			"source": "CompEquipMan",
-			"page": 124,
-			"otherSources": [
-				{
-					"source": "OotA",
-					"page": 23
-				}
-			],
-			"type": "C:H",
-			"rarity": "none",
-			"entries": [
-				"A Nilhogg's nose is a small mushroom that grants any creature that eats it advantage on Wisdom ({@skill Perception}) checks based on smell for {@dice 1d4} hours. However, the creature suffers disadvantage on saving throws against effects based on smell for the same amount of time."
 			]
 		},
 		{
@@ -21491,25 +21255,6 @@
 			]
 		},
 		{
-			"name": "Tongue of Madness",
-			"source": "CompEquipMan",
-			"page": 125,
-			"otherSources": [
-				{
-					"source": "OotA",
-					"page": 23
-				}
-			],
-			"type": "C:H",
-			"rarity": "none",
-			"value": 1500,
-			"entries": [
-				"{@i This concoction has a delightfully-earthy scent and is designed to be administered orally.}",
-				"Drinking this requires you to make a {@dc 12} Constitution saving throw or compulsively speak aloud your every thought for the next hour. The effect can be ended with a {@spell lesser restoration} spell or similar magic.",
-				"Unprocessed tongue of madness is an edible fungus that looks like a large human tongue. It has the same effect if used within 72 hours of being picked."
-			]
-		},
-		{
 			"name": "Topaz",
 			"source": "CompEquipMan",
 			"page": 13,
@@ -21531,26 +21276,6 @@
 					"source": "CompEquipMan"
 				}
 			}
-		},
-		{
-			"name": "Torchstalk",
-			"source": "CompEquipMan",
-			"page": 125,
-			"otherSources": [
-				{
-					"source": "OotA",
-					"page": 23
-				}
-			],
-			"type": "C:H",
-			"rarity": "none",
-			"weight": 1,
-			"value": 1200,
-			"entries": [
-				"{@i A torchstalk is a mass of thin fungal fronds, about the size of a torch, bound together around a flint striker.}",
-				"The device can be thrown as an improvised missile weapon, targeting a foe up to 20 feet away as an action. On impact, or if lit, the torchstalk bursts in a cloud of fiery spores. Creatures within 10 feet of the target (or the square where it lands in the case of a miss) take {@damage 1d6} fire damage.",
-				"Unprocessed torch stalks have a {@dice 1d6|1-in-6} chance to explode when lit. The head of an unexploding frond otherwise burns like a {@item torch|CompEquipMan}, lasting up to 24 hours."
-			]
 		},
 		{
 			"name": "Tourmaline",
@@ -41212,7 +40937,7 @@
 													"entries": [
 														"{@i This light crossbow has a built-on magazine that holds multiple crossbow bolts, facilitating quick loading of the weapon.}",
 														"The light repeating crossbow's built-on magazine holds up to 6 crossbow bolts. While the magazine contains any bolts, the weapon is not affected by the loading property. Reloading up to 6 bolts into the magazine requires an action.",
-														"This weapon is favored by {@creature derro|OotA}."
+														"This weapon is favored by {@creature derro|MPMM}."
 													]
 												},
 												{
@@ -41716,7 +41441,7 @@
 													"entries": [
 														"{@i The backward-facing hook on this short-hafted spear is designed for tripping opponents. Some versions have a smaller opposite hook on the butt end.}",
 														"{@u System Change}: The weapon on the table is modified from its original form as a monster weapon to include the finesse and tripping weapon properties. This is done to bring the weapon in line with the capabilities available to player characters.",
-														"{@creature Derro|OotA} are particularly skilled with this weapon and can use it to exceptional effect."
+														"{@creature Derro|MPMM} are particularly skilled with this weapon and can use it to exceptional effect."
 													]
 												},
 												{
@@ -41732,7 +41457,7 @@
 													"entries": [
 														"{@i This chain has various weights and sharp protrusions at strategic points along its length. It is designed to entangle foes.}",
 														"{@u System Change}: The weapon on the table is modified from its original form as a monster weapon to include the disarming, heavy, reach, and tripping weapon properties. This is done to bring the weapon in line with the capabilities available to player characters.",
-														"{@creature Tlincalli|VGM} are particularly skilled with this weapon and can use it to exceptional effect."
+														"{@creature Tlincalli|MPMM} are particularly skilled with this weapon and can use it to exceptional effect."
 													]
 												},
 												{
@@ -48053,7 +47778,7 @@
 													"type": "entries",
 													"name": "{@item Catoblepas Musk|CompEquipMan} (Inhaled)",
 													"entries": [
-														"This is a far-reaching inhalant; a creature is also subjected to this poison if it enters within 10 feet of the poison's primary 5-foot area or starts its turn within 10 feet of that primary area. An affected creature must succeed on a {@dc 16} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to this stench and the stench of any {@creature catoblepas|VGM} for 1 hour."
+														"This is a far-reaching inhalant; a creature is also subjected to this poison if it enters within 10 feet of the poison's primary 5-foot area or starts its turn within 10 feet of that primary area. An affected creature must succeed on a {@dc 16} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to this stench and the stench of any {@creature catoblepas|MPMM} for 1 hour."
 													]
 												},
 												{
@@ -48558,7 +48283,7 @@
 													"type": "entries",
 													"name": "{@item Stench Kow Breath|CompEquipMan} (Inhaled)",
 													"entries": [
-														"This is a far-reaching inhalant; a creature is also subjected to this poison if it enters within 10 feet of the poison's primary 5-foot area or starts its turn within 10 feet of that primary area. A creature subjected to this poison must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} until the start of the its next turn. On a successful saving throw, the creature is immune to this scent and the scent of all {@creature stench kow|VGM|stench kows} for 1 hour."
+														"This is a far-reaching inhalant; a creature is also subjected to this poison if it enters within 10 feet of the poison's primary 5-foot area or starts its turn within 10 feet of that primary area. A creature subjected to this poison must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} until the start of the its next turn. On a successful saving throw, the creature is immune to this scent and the scent of all {@creature stench kow|MPMM|stench kows} for 1 hour."
 													]
 												},
 												{
@@ -50281,7 +50006,7 @@
 											"type": "entries",
 											"name": "Descriptions",
 											"entries": [
-												"Only one mount, the {@creature fragile horse|CompEquipMan}, is described here. Other creatures use the descriptions and statistics given in official publications. Most are in Appendix A of the {@book Monster Manual|MM}, but some belong to {@i Mordenkainen's Tome of Foes} [{@book MTF|MTF}], {@i Out of the Abyss} [{@book OotA|OotA}], and {@i Volo's Guide to Monsters} [{@book VGM|VGM}].",
+												"Only one mount, the {@creature fragile horse|CompEquipMan}, is described here. Other creatures use the descriptions and statistics given in official publications. Most are in Appendix A of the {@book Monster Manual|MM}, but some belong to {@i Mordenkainen's Tome of Foes}, {@i Out of the Abyss}, and {@i Volo's Guide to Monsters}.",
 												{
 													"type": "statblock",
 													"tag": "creature",
@@ -50936,7 +50661,7 @@
 											"name": "Beasts of Burden",
 											"entries": [
 												"Horses are the most common beasts of burden for pulling vehicles, particularly {@item draft horse|CompEquipMan|draft horses}. Small-size races instead prefer {@item mastiff|CompEquipMan|mastiffs}. These creatures are described in the {@i Player's Handbook} and the {@i Monster Manual}.",
-												"Aside from these animals, yaks, water buffalo, and similar cattle are often used as vehicle-pulling beasts of burden, particularly in rural areas. These use the {@creature cow|VGM} ({@creature ox|VGM}) stat block from Volo's Guide to Monsters."
+												"Aside from these animals, yaks, water buffalo, and similar cattle are often used as vehicle-pulling beasts of burden, particularly in rural areas. These use the {@creature cow|MPMM} ({@creature ox|MPMM}) stat block from Volo's Guide to Monsters."
 											]
 										},
 										{
