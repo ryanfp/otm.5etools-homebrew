@@ -824,7 +824,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-chakram.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-chakram.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -857,7 +857,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-falchion.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-falchion.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -990,7 +990,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-greathammer.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-greathammer.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1098,7 +1098,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-katana.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-katana.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1130,7 +1130,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-kusarigama.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-kusarigama.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1239,7 +1239,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-meteor_hammer.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-meteor_hammer.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1306,7 +1306,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-nunchaku.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-nunchaku.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1418,7 +1418,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-sai.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-sai.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1484,7 +1484,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-scythe.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-scythe.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1546,7 +1546,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-tonfa.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-tonfa.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1624,7 +1624,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/melee-martial-wakizashi.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/melee-martial-wakizashi.webp"
 						},
 						"width": 715,
 						"height": 911
@@ -1816,7 +1816,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/OTM5e/ranged-martial-greatbow.webp"
+							"url": "https://raw.githubusercontent.com/ryanfp/otm.5etools-homebrew/refs/heads/main/_img/OTM5e/ranged-martial-greatbow.webp"
 						},
 						"width": 715,
 						"height": 911
