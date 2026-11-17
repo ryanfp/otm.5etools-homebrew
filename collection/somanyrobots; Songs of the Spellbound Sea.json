@@ -3249,8 +3249,8 @@
 				"con",
 				"cha"
 			],
-			"spellcastingAbility": "cha",
-			"casterProgression": "half",
+			"spellcastingAbility": "str",
+			"casterProgression": "full",
 			"spellsKnownProgression": [
 				0,
 				3,
@@ -3699,7 +3699,7 @@
 							15
 						]
 					]
-				},
+				}
 			],
 			"startingProficiencies": {
 				"armor": [
@@ -3741,8 +3741,8 @@
 			},
 			"multiclassing": {
 				"requirements": {
-						"str": 0
-					},
+					"str": 0
+				},
 				"proficienciesGained": {
 					"armor": [
 						""
@@ -3758,14 +3758,10 @@
 					]
 				}
 			},
-			"casterProgression": "full",
-			"spellcastingAbility": "str",
 			"classSpells": [
 				""
 			],
-			"fluff": [
-				
-			]
+			"fluff": []
 		}
 	]
 }
